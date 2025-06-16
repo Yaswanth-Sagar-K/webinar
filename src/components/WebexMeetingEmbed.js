@@ -4,8 +4,8 @@ import { WebexMeetingsWidget } from "@webex/widgets";
 import "@webex/widgets/dist/css/webex-widgets.css";
 
 const WebexMeeting = () => {
-  const accessToken = "ZmQ3MTY0ZWMtMmY2OS00NDAyLTljNmUtODE0NjYzODA2OGFkYjVjY2VhYTYtODg5_P0A1_ff5a73e5-7bfa-4755-baa7-dccc81871204"; // Replace with your real OAuth access token
-  const meetingDestination = "https://meet1574.webex.com/meet1574/j.php?MTID=me9486a56404d9e35b06562cb80beee8f"; // Can be room ID, SIP, or email
+  const accessToken = "ODIzNWU5YWEtMWZlOC00Zjk1LWE4NGUtOGU4ZjMxZDY3NDQ3YWM4YmZlY2MtZDli_P0A1_ff5a73e5-7bfa-4755-baa7-dccc81871204"; // Replace with your real OAuth access token
+  const meetingDestination = "https://meet1574.webex.com/meet1574/j.php?MTID=m208e2b9f404b84aa5fb905906a189c67"; // Can be room ID, SIP, or email
 
   return (
     <div style={{ padding: "40px", textAlign: "center" }}>
