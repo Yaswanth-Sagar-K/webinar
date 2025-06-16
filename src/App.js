@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import GoogleMeet from "./components/GoogleMeet";
 import JitsiMeet from "./components/JitsiMeet";
 import WebexMeeting from "./components/WebexMeetingEmbed";
-import ZoomMeeting from "./components/ZoomMeeting";
 
 function App() {
   return (
@@ -22,8 +21,6 @@ function App() {
         <Route path="/google" element={<GoogleMeet />} />
         <Route path="/jitsi" element={<JitsiMeet />} />
         <Route path="/webex" element={<WebexMeeting />} />
-        <Route path="/zoom" element={<ZoomMeeting />} />
-
       </Routes>
     </Router>
   );
