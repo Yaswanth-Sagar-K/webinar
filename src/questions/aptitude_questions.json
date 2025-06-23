@@ -1,0 +1,188 @@
+{
+  "testName": "General Aptitude Test",
+  "duration": "1 hr",
+  "numberOfQuestions": 30,
+  "topicsCovered": ["Arithmetic", "Logical Reasoning", "Comprehension"],
+  "questions": [
+    {
+      "id": 1,
+      "question": "A sells a watch to B at a profit of 20% and B sells it to C at a profit of 25%. If C pays Rs. 1500, what did A pay?",
+      "options": ["Rs. 900", "Rs. 1000", "Rs. 1200", "Rs. 960"],
+      "answer": "Rs. 960"
+    },
+    {
+      "id": 2,
+      "question": "The average of 9 numbers is 50. If one number is excluded, the average becomes 48. What is the excluded number?",
+      "options": ["66", "70", "62", "60"],
+      "answer": "66"
+    },
+    {
+      "id": 3,
+      "question": "An item is marked at Rs. 8000 and sold at Rs. 6840 after two successive discounts. If the first discount is 10%, what is the second?",
+      "options": ["5%", "8%", "12%", "15%"],
+      "answer": "5%"
+    },
+    {
+      "id": 4,
+      "question": "A can complete a job in 18 days, and B in 24 days. If they work together for 4 days, what fraction of the work remains?",
+      "options": ["1/4", "1/3", "5/9", "7/12"],
+      "answer": "5/9"
+    },
+    {
+      "id": 5,
+      "question": "A person borrows Rs. 5000 at 12% p.a. compound interest. What amount will he repay after 3 years?",
+      "options": ["Rs. 6780.48", "Rs. 7024", "Rs. 6500", "Rs. 7200"],
+      "answer": "Rs. 7024"
+    },
+    {
+      "id": 6,
+      "question": "The population of a town increased by 10%, then decreased by 10%. What is the net percentage change?",
+      "options": ["0%", "1%", "–1%", "–0.5%"],
+      "answer": "–1%"
+    },
+    {
+      "id": 7,
+      "question": "A boat goes 30 km downstream in 2 hours and comes back in 3 hours. What is the speed of the boat in still water?",
+      "options": ["10 km/h", "11 km/h", "12 km/h", "13 km/h"],
+      "answer": "12 km/h"
+    },
+    {
+      "id": 8,
+      "question": "If 12 men or 18 women can do a job in 20 days, how long will 8 men and 12 women take to finish it?",
+      "options": ["15 days", "16 days", "20 days", "18 days"],
+      "answer": "15 days"
+    },
+    {
+      "id": 9,
+      "question": "The ratio of incomes of A and B is 5:3 and their expenditures are in the ratio 9:5. If both save Rs. 1000, what is A's income?",
+      "options": ["Rs. 9000", "Rs. 7500", "Rs. 10000", "Rs. 8500"],
+      "answer": "Rs. 9000"
+    },
+    {
+      "id": 10,
+      "question": "The marked price of an article is Rs. 2500. It is sold at Rs. 2125. Find the discount percentage.",
+      "options": ["12%", "15%", "18%", "20%"],
+      "answer": "15%"
+    },
+    {
+      "id": 11,
+      "question": "The simple interest on Rs. 4000 at 5% per annum for x years is Rs. 1000. Find x.",
+      "options": ["4", "5", "6", "7"],
+      "answer": "5"
+    },
+    {
+      "id": 12,
+      "question": "A can do a piece of work in 12 days, B in 15 days. If they work on alternate days starting with A, how long will the work take?",
+      "options": ["13 days", "13.5 days", "12.5 days", "12 days"],
+      "answer": "13.5 days"
+    },
+    {
+      "id": 13,
+      "question": "What is the compound interest on Rs. 16000 in 2 years at 10% per annum compounded annually?",
+      "options": ["Rs. 3200", "Rs. 3360", "Rs. 3500", "Rs. 3100"],
+      "answer": "Rs. 3360"
+    },
+    {
+      "id": 14,
+      "question": "Find the least number which when divided by 5, 6, and 8 leaves a remainder of 3 in each case.",
+      "options": ["123", "243", "143", "223"],
+      "answer": "123"
+    },
+    {
+      "id": 15,
+      "question": "A mixture contains milk and water in the ratio 5:1. How much water must be added to 30 liters to make the ratio 5:2?",
+      "options": ["5 liters", "6 liters", "4 liters", "3 liters"],
+      "answer": "6 liters"
+    },
+    {
+      "id": 16,
+      "question": "A pipe can fill a tank in 12 hours, and another can empty it in 20 hours. If both are open, how long will it take to fill the tank?",
+      "options": ["30 hours", "32 hours", "33 hours", "34 hours"],
+      "answer": "30 hours"
+    },
+    {
+      "id": 17,
+      "question": "Find the next number: 2, 5, 10, 17, 26, ?",
+      "options": ["35", "37", "38", "36"],
+      "answer": "37"
+    },
+    {
+      "id": 18,
+      "question": "In a family of six persons A, B, C, D, E, and F, there are two married couples. A is a doctor and father of E. F is the grandfather of E. What is B’s relation to F?",
+      "options": ["Wife", "Son", "Daughter-in-law", "Daughter"],
+      "answer": "Daughter-in-law"
+    },
+    {
+      "id": 19,
+      "question": "Pointing to a girl, Raj said, ‘She is the only daughter of my father’s only daughter.’ How is the girl related to Raj?",
+      "options": ["Sister", "Cousin", "Niece", "Daughter"],
+      "answer": "Daughter"
+    },
+    {
+      "id": 20,
+      "question": "If MEAT is coded as 135120, then TEAM is coded as?",
+      "options": ["201135", "201531", "201315", "203115"],
+      "answer": "201531"
+    },
+    {
+      "id": 21,
+      "question": "Which number replaces the question mark? 13, 17, 19, 23, 29, ?, 37",
+      "options": ["31", "33", "35", "27"],
+      "answer": "31"
+    },
+    {
+      "id": 22,
+      "question": "Select the odd one out: 441, 361, 324, 289, 225, 196, 164",
+      "options": ["441", "324", "225", "164"],
+      "answer": "164"
+    },
+    {
+      "id": 23,
+      "question": "What comes next: BDF, CFI, DHL, ?",
+      "options": ["EIM", "EJO", "EIL", "EJL"],
+      "answer": "EJO"
+    },
+    {
+      "id": 24,
+      "question": "If MANGO is coded as NZOHQ, how is PEACH coded?",
+      "options": ["QFBDI", "QGBDI", "QFBDJ", "QFBCH"],
+      "answer": "QFBDI"
+    },
+    {
+      "id": 25,
+      "question": "Syllogism: \nAll poets are writers. \nSome writers are critics. \n\nConclusion: \nI. Some poets are critics. \nII. All critics are writers.",
+      "options": ["Only I follows", "Only II follows", "Neither follows", "Both follow"],
+      "answer": "Only II follows"
+    },
+    {
+      "id": 26,
+      "question": "Reading Comprehension:\n\t ‘Electric cars are seen as a green solution to transport, reducing reliance on fossil fuels.’\n What is a likely reason for their promotion?",
+      "options": ["Less maintenance", "Higher profit", "Environmental concerns", "Cheap batteries"],
+      "answer": "Environmental concerns"
+    },
+    {
+      "id": 27,
+      "question": "Passage:\n\t ‘Remote working has changed the way companies operate, providing flexibility and reducing commute stress.\n What is a downside?",
+      "options": ["Higher pay", "Loss of team bonding", "Increased travel", "Fewer breaks"],
+      "answer": "Loss of team bonding"
+    },
+    {
+      "id": 28,
+      "question": "Comprehension:\n\t ‘Nutrition labels help consumers make informed food choices.’\n What is the author’s likely intent?",
+      "options": ["Promote label reading", "Discourage packaged food", "Support fast food", "Ignore sugar intake"],
+      "answer": "Promote label reading"
+    },
+    {
+      "id": 29,
+      "question": "Reading Comprehension:\n\t ‘Space exploration inspires innovation and expands human knowledge.’\n What is NOT an implication?",
+      "options": ["Technological growth", "Wasted resources", "Scientific advancement", "Global prestige"],
+      "answer": "Wasted resources"
+    },
+    {
+      "id": 30,
+      "question": "Find the missing number in the pattern: 8, 27, 64, 125, ?, 343",
+      "options": ["216", "144", "225", "200"],
+      "answer": "216"
+    }
+  ]
+}

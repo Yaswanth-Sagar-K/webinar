@@ -1,0 +1,370 @@
+{
+  "testName": "Servlets MCQ Test - Set 2",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "Servlets"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which method is called once in the lifecycle of a servlet?",
+      "options": [
+        "doGet()",
+        "init()",
+        "service()",
+        "destroy()"
+      ],
+      "answer": "init()",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 2,
+      "question": "Which object provides information about the servlet's environment?",
+      "options": [
+        "ServletConfig",
+        "ServletRequest",
+        "ServletContext",
+        "HttpServletRequest"
+      ],
+      "answer": "ServletContext",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 3,
+      "question": "Which method is used to set the HTTP status code in the response?",
+      "options": [
+        "setStatusCode()",
+        "setStatus()",
+        "sendError()",
+        "writeStatus()"
+      ],
+      "answer": "setStatus()",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 4,
+      "question": "Which method retrieves an attribute from the request object?",
+      "options": [
+        "getAttribute(String name)",
+        "getParameter(String name)",
+        "getInitParameter(String name)",
+        "getRequestParameter(String name)"
+      ],
+      "answer": "getAttribute(String name)",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 5,
+      "question": "Which class should a servlet extend to handle HTTP-specific requests?",
+      "options": [
+        "Servlet",
+        "GenericServlet",
+        "HttpServlet",
+        "ServletRequest"
+      ],
+      "answer": "HttpServlet",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 6,
+      "question": "What is the default behavior of the service() method in HttpServlet?",
+      "options": [
+        "Delegates request to doGet() or doPost() based on request type",
+        "Processes all types of HTTP requests",
+        "Executes destroy() method",
+        "Redirects request to JSP"
+      ],
+      "answer": "Delegates request to doGet() or doPost() based on request type",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is true about the service() method?",
+      "options": [
+        "It is called only once during the servlet lifecycle",
+        "It handles all incoming requests in HttpServlet",
+        "It destroys the servlet",
+        "It initializes the servlet"
+      ],
+      "answer": "It handles all incoming requests in HttpServlet",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 8,
+      "question": "Which method in HttpServletResponse is used to redirect a client to a different URL?",
+      "options": [
+        "sendRedirect(String location)",
+        "setLocation(String url)",
+        "redirect(String url)",
+        "forward(String path)"
+      ],
+      "answer": "sendRedirect(String location)",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 9,
+      "question": "What is the main difference between forward() and sendRedirect()?",
+      "options": [
+        "sendRedirect() is faster than forward()",
+        "forward() involves a client-side redirect",
+        "sendRedirect() sends a new request from the client",
+        "forward() sends a new request from the client"
+      ],
+      "answer": "sendRedirect() sends a new request from the client",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 10,
+      "question": "What is the correct method to retrieve multiple values from a multi-select HTML input?",
+      "options": [
+        "request.getValue()",
+        "request.getAttributes()",
+        "request.getParameterValues()",
+        "request.getParameterList()"
+      ],
+      "answer": "request.getParameterValues()",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 11,
+      "question": "Which HTTP method is idempotent and safe to retry?",
+      "options": [
+        "POST",
+        "PUT",
+        "GET",
+        "DELETE"
+      ],
+      "answer": "GET",
+      "difficulty": "hard"
+    },
+    {
+      "id": 12,
+      "question": "When is the destroy() method of a servlet called?",
+      "options": [
+        "Before init()",
+        "After every request",
+        "Only once when the servlet is taken out of service",
+        "After every call to service()"
+      ],
+      "answer": "Only once when the servlet is taken out of service",
+      "difficulty": "hard"
+    },
+    {
+  "id": 13,
+  "question": "Which configuration is correct to map a servlet to a URL pattern in web.xml?",
+  "options": [
+    "&lt;servlet-name&gt;MyServlet&lt;/servlet-name&gt; &lt;url-mapping&gt;/home&lt;/url-mapping&gt;",
+    "&lt;servlet-mapping&gt; &lt;url-pattern&gt;/home&lt;/url-pattern&gt; &lt;servlet-name&gt;MyServlet&lt;/servlet-name&gt; &lt;/servlet-mapping&gt;",
+    "&lt;url-pattern&gt;/home&lt;/url-pattern&gt; &lt;servlet-class&gt;MyServlet&lt;/servlet-class&gt;",
+    "&lt;mapping&gt;MyServlet -&gt; /home&lt;/mapping&gt;"
+  ],
+  "answer": "&lt;servlet-mapping&gt; &lt;url-pattern&gt;/home&lt;/url-pattern&gt; &lt;servlet-name&gt;MyServlet&lt;/servlet-name&gt; &lt;/servlet-mapping&gt;",
+  "difficulty": "hard"
+},
+    {
+      "id": 14,
+      "question": "What does HttpServletRequest.getSession(false) return if no session exists?",
+      "options": [
+        "A new session",
+        "null",
+        "An exception",
+        "An expired session"
+      ],
+      "answer": "null",
+      "difficulty": "hard"
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is thread-safe in servlets?",
+      "options": [
+        "ServletConfig",
+        "HttpSession",
+        "ServletContext",
+        "None of the above"
+      ],
+      "answer": "None of the above",
+      "difficulty": "hard"
+    },
+    {
+      "id": 16,
+      "question": "Which annotation is used to define a servlet without web.xml?",
+      "options": [
+        "@Servlet",
+        "@WebServlet",
+        "@ServletMapping",
+        "@RequestHandler"
+      ],
+      "answer": "@WebServlet",
+      "difficulty": "hard"
+    },
+    {
+      "id": 17,
+      "question": "Which method retrieves all parameter names sent in the request?",
+      "options": [
+        "getParameterNames()",
+        "getAllParameters()",
+        "getRequestParameters()",
+        "getAttributes()"
+      ],
+      "answer": "getParameterNames()",
+      "difficulty": "hard"
+    },
+    {
+      "id": 18,
+      "question": "Which object can be used to read binary data in a servlet?",
+      "options": [
+        "HttpServletRequest.getReader()",
+        "HttpServletRequest.getBinaryStream()",
+        "HttpServletRequest.getInputStream()",
+        "HttpServletRequest.getStream()"
+      ],
+      "answer": "HttpServletRequest.getInputStream()",
+      "difficulty": "hard"
+    },
+   {
+  "id": 19,
+  "question": "How can you set a session timeout in web.xml?",
+  "options": [
+    "&lt;session-timeout&gt;20&lt;/session-timeout&gt;",
+    "&lt;session-config&gt;&lt;timeout&gt;20&lt;/timeout&gt;&lt;/session-config&gt;",
+    "&lt;session-config&gt;&lt;session-timeout&gt;20&lt;/session-timeout&gt;&lt;/session-config&gt;",
+    "&lt;timeout&gt;20&lt;/timeout&gt;"
+  ],
+  "answer": "&lt;session-config&gt;&lt;session-timeout&gt;20&lt;/session-timeout&gt;&lt;/session-config&gt;",
+  "difficulty": "hard"
+},
+    {
+      "id": 20,
+      "question": "What is the scope of request attributes in a servlet?",
+      "options": [
+        "Application scope",
+        "Session scope",
+        "Request scope",
+        "Global scope"
+      ],
+      "answer": "Request scope",
+      "difficulty": "hard"
+    },
+    {
+      "id": 21,
+      "question": "Which object allows sharing data between servlets in an application?",
+      "options": [
+        "ServletRequest",
+        "HttpSession",
+        "ServletConfig",
+        "ServletContext"
+      ],
+      "answer": "ServletContext",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "Which method of HttpServletResponse sends an error response to the client?",
+      "options": [
+        "sendRedirect()",
+        "sendError(int sc)",
+        "setStatus()",
+        "writeError()"
+      ],
+      "answer": "sendError(int sc)",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "How do you write output to the client in a servlet?",
+      "options": [
+        "response.getOutputStream().write()",
+        "response.getWriter().write()",
+        "response.send()",
+        "response.write()"
+      ],
+      "answer": "response.getWriter().write()",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "Which of the following statements about servlet threading is true?",
+      "options": [
+        "Each request is handled by a new servlet instance",
+        "Servlets are always single-threaded",
+        "Servlets use a single instance with multiple threads",
+        "Servlets never handle concurrent requests"
+      ],
+      "answer": "Servlets use a single instance with multiple threads",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "How can you detect the HTTP method used in a request?",
+      "options": [
+        "request.getType()",
+        "request.getHttpMethod()",
+        "request.getMethod()",
+        "request.getAction()"
+      ],
+      "answer": "request.getMethod()",
+      "difficulty": "hard"
+    },
+    {
+  "id": 26,
+  "question": "What is the return type of getAttributeNames() in ServletRequest?",
+  "options": [
+    "List&lt;String&gt;",
+    "String[]",
+    "Enumeration&lt;String&gt;",
+    "Set&lt;String&gt;"
+  ],
+  "answer": "Enumeration&lt;String&gt;",
+  "difficulty": "hard"
+},
+    {
+      "id": 27,
+      "question": "How do you make a servlet respond to both GET and POST methods?",
+      "options": [
+        "Override service() method",
+        "Use a filter",
+        "Chain both doGet() and doPost() in init()",
+        "Use JSP forwarding"
+      ],
+      "answer": "Override service() method",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "What will happen if doGet() is not overridden in HttpServlet?",
+      "options": [
+        "It will return 405 Method Not Allowed",
+        "It will default to service() method",
+        "It will throw ServletException",
+        "It will return 200 OK"
+      ],
+      "answer": "It will return 405 Method Not Allowed",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "Which class represents client-side cookies in servlets?",
+      "options": [
+        "HttpCookie",
+        "ClientCookie",
+        "javax.servlet.http.Cookie",
+        "ServletCookie"
+      ],
+      "answer": "javax.servlet.http.Cookie",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "What happens if a servlet throws an uncaught exception?",
+      "options": [
+        "The exception is ignored",
+        "The client receives an HTTP 500 error",
+        "The servlet is restarted",
+        "The servlet container crashes"
+      ],
+      "answer": "The client receives an HTTP 500 error",
+      "difficulty": "hard"
+    }
+  ]
+}

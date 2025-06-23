@@ -1,0 +1,340 @@
+{
+  "testName": "Java",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "Java"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is not a Java primitive type?",
+      "options": [
+        "int",
+        "boolean",
+        "char",
+        "String"
+      ],
+      "answer": "String"
+    },
+    {
+      "id": 2,
+      "question": "What is the result of 10 / 3 in Java?",
+      "options": [
+        "3.33",
+        "3",
+        "3.0",
+        "Compile error"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 3,
+      "question": "Which keyword is used to inherit a class in Java?",
+      "options": [
+        "implement",
+        "extends",
+        "inherits",
+        "derive"
+      ],
+      "answer": "extends"
+    },
+    {
+      "id": 4,
+      "question": "Which interface provides a blueprint for a key-value data structure?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "answer": "Map"
+    },
+    {
+      "id": 5,
+      "question": "Which method is used to start a thread in Java?",
+      "options": [
+        "execute()",
+        "start()",
+        "run()",
+        "init()"
+      ],
+      "answer": "start()"
+    },
+    {
+      "id": 6,
+      "question": "What is the size of int in Java?",
+      "options": [
+        "16 bits",
+        "32 bits",
+        "64 bits",
+        "Depends on OS"
+      ],
+      "answer": "32 bits"
+    },
+  {
+  "id": 7,
+  "question": "What is the output of this snippet?\n\n``` int[] arr = {1, 2, 3};\nfor (int i = 0; i < arr.length; i++) {\n  arr[i] = arr[i] * i;\n}\nSystem.out.println(Arrays.toString(arr));\n```",
+  "options": [
+    "[0, 2, 6]",
+    "[1, 2, 6]",
+    "[0, 0, 0]",
+    "[1, 0, 3]"
+  ],
+  "answer": "[0, 2, 6]"
+},
+    {
+      "id": 8,
+      "question": "Which of the following allows duplicate keys?",
+      "options": [
+        "HashSet",
+        "TreeSet",
+        "HashMap",
+        "LinkedHashSet"
+      ],
+      "answer": "HashMap"
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of the transient keyword?",
+      "options": [
+        "Used for volatile variables",
+        "To avoid serialization of a field",
+        "Used in method overriding",
+        "Marks a variable as constant"
+      ],
+      "answer": "To avoid serialization of a field"
+    },
+    {
+      "id": 10,
+      "question": "Which statement is true about interfaces in Java?",
+      "options": [
+        "Interfaces can contain constructors",
+        "Interfaces can have private fields",
+        "Interfaces support multiple inheritance",
+        "Interfaces are abstract classes"
+      ],
+      "answer": "Interfaces support multiple inheritance"
+    },
+    {
+      "id": 11,
+      "question": "What will this print?\n\n``` String s = \"Java\";\nString t = s.concat(\"Java\");\nSystem.out.println(s == t + \"Java\");\n```",
+      "options": [
+        "true",
+        "false",
+        "Compilation error",
+        "NullPointerException"
+      ],
+      "answer": "false"
+    },
+    {
+      "id": 12,
+      "question": "Which class is used for mutable strings in Java?",
+      "options": [
+        "String",
+        "StringBuffer",
+        "CharSequence",
+        "Character"
+      ],
+      "answer": "StringBuffer"
+    },
+    {
+      "id": 13,
+      "question": "Output of this code?\n\n``` int x = 2;\nint y = x++ + ++x + x;\nSystem.out.println(y);\n```",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": 14,
+      "question": "What is the output?\n\n``` List<String> list = Arrays.asList(\"A\",\"B\",\"C\");\nlist.set(1, \"X\");\nSystem.out.println(list);\n```",
+      "options": [
+        "[A, B, C]",
+        "[A, X, C]",
+        "UnsupportedOperationException",
+        "[X, B, C]"
+      ],
+      "answer": "[A, X, C]"
+    },
+    {
+      "id": 15,
+      "question": "Which one is not a feature of Java?",
+      "options": [
+        "Platform-independent",
+        "Pointer support",
+        "Object-oriented",
+        "Secure"
+      ],
+      "answer": "Pointer support"
+    },
+    {
+      "id": 16,
+      "question": "Output:\n\n``` String a = null;\nif (\"\".equals(a)) System.out.println(\"Empty\");\nelse System.out.println(\"Not Empty\");\n```",
+      "options": [
+        "Empty",
+        "Not Empty",
+        "NullPointerException",
+        "No output"
+      ],
+      "answer": "Not Empty"
+    },
+    {
+      "id": 17,
+      "question": "Which Stream operation is terminal?",
+      "options": [
+        "map()",
+        "filter()",
+        "collect()",
+        "sorted()"
+      ],
+      "answer": "collect()"
+    },
+    {
+      "id": 18,
+      "question": "Result of:\n\n``` Integer i1 = 1000;\nInteger i2 = 1000;\nSystem.out.println(i1 == i2);\n```",
+      "options": [
+        "true",
+        "false",
+        "Compilation error",
+        "Depends on JVM"
+      ],
+      "answer": "false"
+    },
+    {
+      "id": 19,
+      "question": "Why are enums in Java final?",
+      "options": [
+        "To improve performance",
+        "To prevent inheritance",
+        "To reduce memory",
+        "Because enum is not a class"
+      ],
+      "answer": "To prevent inheritance"
+    },
+    {
+      "id": 20,
+      "question": "Which of the following does not cause ClassCastException?",
+      "options": [
+        "(String) new Object()",
+        "Integer.valueOf(\"123\")",
+        "(List<String>) new ArrayList<Integer>()",
+        "(Double) (Object) Integer.valueOf(5)"
+      ],
+      "answer": "Integer.valueOf(\"123\")"
+    },
+    {
+      "id": 21,
+      "question": "What does this return: Optional.ofNullable(null).orElse(\"Default\")?",
+      "options": [
+        "null",
+        "Default",
+        "Exception",
+        "Optional.empty"
+      ],
+      "answer": "Default"
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is thread-safe?",
+      "options": [
+        "ArrayList",
+        "HashMap",
+        "StringBuffer",
+        "StringBuilder"
+      ],
+      "answer": "StringBuffer"
+    },
+    {
+      "id": 23,
+      "question": "Why must wait() be called inside synchronized block?",
+      "options": [
+        "To avoid deadlock",
+        "To hold monitor lock before waiting",
+        "To release the object",
+        "To prevent context switch"
+      ],
+      "answer": "To hold monitor lock before waiting"
+    },
+    {
+      "id": 24,
+      "question": "Which keyword prevents subclassing in Java?",
+      "options": [
+        "static",
+        "private",
+        "final",
+        "abstract"
+      ],
+      "answer": "final"
+    },
+    {
+      "id": 25,
+      "question": "Output:\n\n``` try (AutoCloseable ac = () -> System.out.println(\"closed\")) {\n  System.out.println(\"running\");\n}\ncaught: done\n```",
+      "options": [
+        "running",
+        "running closed",
+        "running closed caught: done",
+        "Compile error"
+      ],
+      "answer": "running closed"
+    },
+    {
+      "id": 26,
+      "question": "Which API supports reactive programming in Java?",
+      "options": [
+        "Stream API",
+        "CompletableFuture",
+        "Project Reactor",
+        "ExecutorService"
+      ],
+      "answer": "Project Reactor"
+    },
+    {
+      "id": 27,
+      "question": "What is the default access modifier for class members?",
+      "options": [
+        "private",
+        "protected",
+        "package-private",
+        "public"
+      ],
+      "answer": "package-private"
+    },
+    {
+      "id": 28,
+      "question": "What is the time complexity of HashMap get() (best case)?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(1)"
+    },
+    {
+      "id": 29,
+      "question": "What will this print?\n\n``` StringBuilder sb = new StringBuilder(\"AB\");\nsb.insert(1, sb);\nSystem.out.println(sb);\n```",
+      "options": [
+        "ABAB",
+        "ABA",
+        "StackOverflowError",
+        "Compile error"
+      ],
+      "answer": "ABA"
+    },
+    {
+      "id": 30,
+      "question": "How to make a class immutable?",
+      "options": [
+        "Make class final, private fields, no setters",
+        "Make class abstract",
+        "Avoid constructors",
+        "Use static fields only"
+      ],
+      "answer": "Make class final, private fields, no setters"
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "testName": "Manual Testing",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "Manual Testing",
+    "Software Testing"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of manual testing?",
+      "options": [
+        "To write test scripts for automation tools",
+        "To execute test cases without automation tools",
+        "To verify hardware components",
+        "To deploy the software to production"
+      ],
+      "answer": "To execute test cases without automation tools"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is not a type of manual testing?",
+      "options": [
+        "Black-box testing",
+        "Exploratory testing",
+        "Regression testing",
+        "Performance testing"
+      ],
+      "answer": "Performance testing"
+    },
+    {
+      "id": 3,
+      "question": "What is a test case in manual testing?",
+      "options": [
+        "A tool used to automate testing",
+        "A document describing how the system should behave for a specific scenario",
+        "A code snippet for testing",
+        "A deployment pipeline step"
+      ],
+      "answer": "A document describing how the system should behave for a specific scenario"
+    },
+    {
+      "id": 4,
+      "question": "A tester is given a module with no documentation and asked to test it freely. What type of testing is this?",
+      "options": [
+        "Unit testing",
+        "Integration testing",
+        "Exploratory testing",
+        "Load testing"
+      ],
+      "answer": "Exploratory testing"
+    },
+    {
+      "id": 5,
+      "question": "You found a bug, but the developer says it's not reproducible. What's the best next step?",
+      "options": [
+        "Close the bug",
+        "Raise a conflict",
+        "Provide detailed steps and environment info to reproduce it",
+        "Escalate it to the client directly"
+      ],
+      "answer": "Provide detailed steps and environment info to reproduce it"
+    },
+    {
+      "id": 6,
+      "question": "While manually testing a login page, you enter invalid credentials and get a clear error message. What kind of testing are you doing?",
+      "options": [
+        "Load testing",
+        "Usability testing",
+        "Negative testing",
+        "Smoke testing"
+      ],
+      "answer": "Negative testing"
+    },
+    {
+      "id": 7,
+      "question": "What is the primary benefit of using a Requirement Traceability Matrix (RTM) in manual testing?",
+      "options": [
+        "To track defects",
+        "To identify team workload",
+        "To ensure all requirements are covered by test cases",
+        "To estimate test execution time"
+      ],
+      "answer": "To ensure all requirements are covered by test cases"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following best describes \"Ad-hoc Testing\"?",
+      "options": [
+        "Structured testing based on test cases",
+        "Automated test execution",
+        "Informal testing without planning or documentation",
+        "Testing that requires access to the source code"
+      ],
+      "answer": "Informal testing without planning or documentation"
+    },
+    {
+      "id": 9,
+      "question": "In which phase is exit criteria evaluated during the manual testing lifecycle?",
+      "options": [
+        "Test planning",
+        "Test execution",
+        "Test closure",
+        "Test design"
+      ],
+      "answer": "Test closure"
+    },
+    {
+      "id": 10,
+      "question": "What is the main difference between Smoke Testing and Sanity Testing?",
+      "options": [
+        "Smoke tests are deeper than sanity",
+        "Sanity is done before deployment, smoke after",
+        "Smoke tests validate build stability; sanity tests validate specific changes",
+        "There is no difference"
+      ],
+      "answer": "Smoke tests validate build stability; sanity tests validate specific changes"
+    },
+    {
+      "id": 11,
+      "question": "What type of testing ensures new code changes don't affect existing features?",
+      "options": [
+        "Usability Testing",
+        "Regression Testing",
+        "Integration Testing",
+        "Acceptance Testing"
+      ],
+      "answer": "Regression Testing"
+    },
+    {
+      "id": 12,
+      "question": "Which of the following best defines Severity in bug tracking?",
+      "options": [
+        "Impact of the defect on the business",
+        "Who reported the defect",
+        "Likelihood of the defect occurring",
+        "Urgency to fix the defect"
+      ],
+      "answer": "Impact of the defect on the business"
+    },
+    {
+      "id": 13,
+      "question": "You find a defect during exploratory testing that wasn't covered in the test cases. What should you do?",
+      "options": [
+        "Ignore it since it's not in scope",
+        "Report it and update the test case document later",
+        "Report only if the client approves",
+        "Fix it yourself"
+      ],
+      "answer": "Report it and update the test case document later"
+    },
+    {
+      "id": 14,
+      "question": "During testing, a high-severity bug is found, but the developer marks it as \"not reproducible\". What is the best next step?",
+      "options": [
+        "Escalate immediately to the manager",
+        "Provide detailed steps, environment info, and screenshots",
+        "Close the defect",
+        "Argue with the developer"
+      ],
+      "answer": "Provide detailed steps, environment info, and screenshots"
+    },
+    {
+      "id": 15,
+      "question": "A tester receives a build where the login feature has been updated. Which tests should they prioritize?",
+      "options": [
+        "UI tests only",
+        "Regression tests for login + smoke test for rest",
+        "Only retesting the login bug",
+        "Load testing"
+      ],
+      "answer": "Regression tests for login + smoke test for rest"
+    },
+    {
+      "id": 16,
+      "question": "You are testing a banking app where the \"Transfer\" feature is new. Which types of test cases would be most critical?",
+      "options": [
+        "UI test cases only",
+        "Only happy path scenarios",
+        "Positive and negative test cases including boundary conditions",
+        "Only integration test cases"
+      ],
+      "answer": "Positive and negative test cases including boundary conditions"
+    },
+    {
+      "id": 17,
+      "question": "After fixing a bug in the payment module, the tester finds that a previously working checkout feature is now failing. What type of issue is this?",
+      "options": [
+        "Sanity defect",
+        "Cosmetic bug",
+        "Regression issue",
+        "Non-functional bug"
+      ],
+      "answer": "Regression issue"
+    },
+    {
+      "id": 18,
+      "question": "While executing test cases, the tester notices that the requirement document is outdated and doesn't match actual functionality. What should be done?",
+      "options": [
+        "Ignore and test based on the UI",
+        "Immediately stop testing",
+        "Report the gap and get clarification from the BA or PO",
+        "Continue based on assumptions"
+      ],
+      "answer": "Report the gap and get clarification from the BA or PO"
+    },
+    {
+      "id": 19,
+      "question": "What is the key difference between exploratory testing and ad-hoc testing in manual testing?",
+      "options": [
+        "Exploratory testing is unstructured; ad-hoc follows a formal plan",
+        "Exploratory testing requires no documentation; ad-hoc requires detailed logs",
+        "Exploratory testing is simultaneous learning and test design; ad-hoc is purely random and undocumented",
+        "They are exactly the same"
+      ],
+      "answer": "Exploratory testing is simultaneous learning and test design; ad-hoc is purely random and undocumented"
+    },
+    {
+      "id": 20,
+      "question": "What is orthogonal array testing, and where is it best applied?",
+      "options": [
+        "A technique for testing performance bottlenecks",
+        "A test coverage method for UI regression",
+        "A combinatorial technique used to reduce test cases while maximizing coverage of pairwise combinations",
+        "A method for testing sequential workflows"
+      ],
+      "answer": "A combinatorial technique used to reduce test cases while maximizing coverage of pairwise combinations"
+    },
+    {
+      "id": 21,
+      "question": "Why is boundary value analysis more effective than equivalence partitioning in finding edge-case bugs?",
+      "options": [
+        "It covers more business rules",
+        "It focuses on testing data values just inside and outside limits where failures commonly occur",
+        "It doesn't need any documentation",
+        "It reduces test cases more than equivalence partitioning"
+      ],
+      "answer": "It focuses on testing data values just inside and outside limits where failures commonly occur"
+    },
+    {
+      "id": 22,
+      "question": "Which of the following statements about negative testing is most accurate?",
+      "options": [
+        "It's not required for stable systems",
+        "It ensures the system handles invalid input or conditions gracefully",
+        "It only applies to non-functional testing",
+        "It duplicates the effort of regression testing"
+      ],
+      "answer": "It ensures the system handles invalid input or conditions gracefully"
+    },
+    {
+      "id": 23,
+      "question": "In risk-based testing, how are test cases prioritized?",
+      "options": [
+        "Based on how many times they fail",
+        "Based on tester experience",
+        "Based on the potential impact and likelihood of failure",
+        "Based on execution time"
+      ],
+      "answer": "Based on the potential impact and likelihood of failure"
+    },
+    {
+      "id": 24,
+      "question": "In which situation is a traceability matrix most critical?",
+      "options": [
+        "When performance testing needs to be repeated",
+        "When defect tracking tools fail",
+        "When ensuring complete coverage of requirements by test cases",
+        "When evaluating developer productivity"
+      ],
+      "answer": "When ensuring complete coverage of requirements by test cases"
+    },
+    {
+      "id": 25,
+      "question": "You're testing a banking application where data is synced across microservices. A defect appears only after 15 minutes of inactivity. What test type and technique would be most effective?",
+      "options": [
+        "Functional testing with boundary value analysis",
+        "Load testing with assertions",
+        "End-to-end scenario testing with session timeout validation",
+        "White-box unit testing"
+      ],
+      "answer": "End-to-end scenario testing with session timeout validation"
+    },
+    {
+      "id": 26,
+      "question": "A developer claims a bug cannot be reproduced in their environment. What's the best tester action?",
+      "options": [
+        "Insist it must be fixed anyway",
+        "Close the bug",
+        "Provide exact test data, environment setup, steps, and logs to replicate",
+        "Forward the bug to another tester"
+      ],
+      "answer": "Provide exact test data, environment setup, steps, and logs to replicate"
+    },
+    {
+      "id": 27,
+      "question": "During manual testing, a feature passes all test cases but fails in real-world usage. What does this indicate?",
+      "options": [
+        "Poor code quality",
+        "Missed regression",
+        "Lack of real-user scenario coverage in test design",
+        "Wrong test automation framework"
+      ],
+      "answer": "Lack of real-user scenario coverage in test design"
+    },
+    {
+      "id": 28,
+      "question": "You are manually testing a responsive web app and encounter rendering issues only in portrait mode on tablets. What type of testing is this?",
+      "options": [
+        "Compatibility testing",
+        "Accessibility testing",
+        "Usability testing",
+        "UI regression testing"
+      ],
+      "answer": "Compatibility testing"
+    },
+    {
+      "id": 29,
+      "question": "A bug was found in production that was missed during testing. What is the first step in root cause analysis (RCA)?",
+      "options": [
+        "Blame the developer",
+        "Update the test case status to \"missed\"",
+        "Analyze why the test case didn't catch the issue or whether the test case even existed",
+        "Retest all modules"
+      ],
+      "answer": "Analyze why the test case didn't catch the issue or whether the test case even existed"
+    },
+    {
+      "id": 30,
+      "question": "You find a critical bug but the release is in 2 hours. The manager says it can be fixed later. What is your best course of action as a tester?",
+      "options": [
+        "Escalate the issue with proper risk documentation",
+        "Ignore it since it's a manager's call",
+        "Fix the bug yourself",
+        "Delay the release until the bug is fixed"
+      ],
+      "answer": "Escalate the issue with proper risk documentation"
+    }
+  ]
+}

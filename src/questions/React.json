@@ -1,0 +1,346 @@
+{
+  "testName": "React",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "React JS",
+    "Components",
+    "State Management",
+    "Hooks",
+    "Lifecycle",
+    "Performance",
+    "Error Handling"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which statement best describes React components?",
+      "options": [
+        "They are standalone JavaScript functions or classes that return UI.",
+        "They are global variables representing HTML elements.",
+        "They manage backend logic only.",
+        "They must be written as ES6 classes."
+      ],
+      "answer": "They are standalone JavaScript functions or classes that return UI."
+    },
+    {
+      "id": 2,
+      "question": "What does React’s reconciliation algorithm do?",
+      "options": [
+        "Directly modify the DOM without diffing",
+        "Compare virtual DOM trees and update minimal actual DOM changes",
+        "Reload the entire UI on any state change",
+        "Manage server-side rendering automatically"
+      ],
+      "answer": "Compare virtual DOM trees and update minimal actual DOM changes"
+    },
+    {
+      "id": 3,
+      "question": "What is the correct way to update nested state in React without mutation?",
+      "options": [
+        "state.nested.value = newValue",
+        "setState(prev => ({ nested: { ...prev.nested, value: newValue } }))",
+        "Mutate and then forceUpdate()",
+        "Use refs to bypass state"
+      ],
+      "answer": "setState(prev => ({ nested: { ...prev.nested, value: newValue } }))"
+    },
+    {
+      "id": 4,
+      "question": "How should side effects in functional components be handled?",
+      "options": [
+        "Use useEffect hook",
+        "Call side effects directly in the function body",
+        "Wrap them inside setTimeout() always",
+        "Use shouldComponentUpdate"
+      ],
+      "answer": "Use useEffect hook"
+    },
+    {
+      "id": 5,
+      "question": "What is returned by useState() hook?",
+      "options": [
+        "An object with current and set methods",
+        "An array [currentValue, setterFunction]",
+        "Only the setter function",
+        "Two separate variables for value and setter"
+      ],
+      "answer": "An array [currentValue, setterFunction]"
+    },
+    {
+      "id": 6,
+      "question": "Which hook allows sharing stateful logic between components without inheritance?",
+      "options": [
+        "useShared",
+        "useEffect",
+        "useContext (with custom hooks)",
+        "useState"
+      ],
+      "answer": "useContext (with custom hooks)"
+    },
+    {
+      "id": 7,
+      "question": "What will be the console output of this code?\n\n```const [count, setCount] = useState(0);\nsetCount(prev => prev + 1);\nsetCount(prev => prev + 1);\n```",
+      "options": [
+        "2",
+        "1",
+        "0",
+        "Error"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": 8,
+      "question": "How would you memoize a child component to prevent unnecessary re-render?",
+      "options": [
+        "Wrap with React.memo()",
+        "Use useCallback() for parent only",
+        "Always pass new props to re-render",
+        "Wrap child in useEffect()"
+      ],
+      "answer": "Wrap with React.memo()"
+    },
+    {
+      "id": 9,
+      "question": "Which is the correct sequence when a component updates?",
+      "options": [
+        "render → getDerivedStateFromProps → componentDidUpdate",
+        "getDerivedStateFromProps → render → componentDidUpdate",
+        "componentDidUpdate → render → getDerivedStateFromProps",
+        "render → componentWillUnmount → componentDidUpdate"
+      ],
+      "answer": "getDerivedStateFromProps → render → componentDidUpdate"
+    },
+    {
+      "id": 10,
+      "question": "How do you capture errors during rendering in React?",
+      "options": [
+        "Use try/catch in render()",
+        "Wrap with Error Boundary that implements componentDidCatch",
+        "Use useError hook",
+        "Use window.onerror handler"
+      ],
+      "answer": "Wrap with Error Boundary that implements componentDidCatch"
+    },
+    {
+      "id": 11,
+      "question": "When should you use useCallback() hook?",
+      "options": [
+        "To memoize expensive values",
+        "To memoize functions so their reference doesn’t change",
+        "To replace setState() setter",
+        "To optimize console.log calls"
+      ],
+      "answer": "To memoize functions so their reference doesn’t change"
+    },
+    {
+      "id": 12,
+      "question": "Which hook is suited for complex state logic like reducers?",
+      "options": [
+        "useEffect",
+        "useReducer",
+        "useContext",
+        "useRef"
+      ],
+      "answer": "useReducer"
+    },
+    {
+      "id": 13,
+      "question": "What does useRef() hook return?",
+      "options": [
+        "A number that persists",
+        "A mutable object with a .current property",
+        "A function to mutate state",
+        "A boolean flag"
+      ],
+      "answer": "A mutable object with a .current property"
+    },
+    {
+      "id": 14,
+      "question": "What is a Fragment (`<>…</>`) used for?",
+      "options": [
+        "Group elements without extra DOM node",
+        "Delay rendering children",
+        "Share state between siblings",
+        "Style nested elements"
+      ],
+      "answer": "Group elements without extra DOM node"
+    },
+    {
+      "id": 15,
+      "question": "How do you conditionally run a useEffect only when `userId` changes?",
+      "options": [
+        "useEffect(fn, [])",
+        "useEffect(fn, [userId])",
+        "useEffect(fn)",
+        "useEffect(fn, null)"
+      ],
+      "answer": "useEffect(fn, [userId])"
+    },
+    {
+      "id": 16,
+      "question": "How to avoid stale closure issues when using setTimeout inside a functional component?",
+      "options": [
+        "Use stale variables directly",
+        "Wrap callback in useCallback with dependencies",
+        "Use setTimeout in global scope",
+        "Never use setTimeout"
+      ],
+      "answer": "Wrap callback in useCallback with dependencies"
+    },
+    {
+      "id": 17,
+      "question": "Which is correct about prop drilling?",
+      "options": [
+        "Passing data through deeply nested components",
+        "Using context to avoid nested props",
+        "Drilling holes in components",
+        "Always recommended"
+      ],
+      "answer": "Passing data through deeply nested components"
+    },
+    {
+      "id": 18,
+      "question": "What is the benefit of lazy loading a component with React.lazy()?",
+      "options": [
+        "It avoids bundlers",
+        "Improves initial load by splitting code into chunks",
+        "It pre-renders UI",
+        "Blocks rendering until loaded"
+      ],
+      "answer": "Improves initial load by splitting code into chunks"
+    },
+    {
+      "id": 19,
+      "question": "Which context usage prevents unnecessary re-renders?",
+      "options": [
+        "Wrap only consumer in provider",
+        "Memoize context value with useMemo or useState",
+        "Always recreate provider value",
+        "Use multiple providers everywhere"
+      ],
+      "answer": "Memoize context value with useMemo or useState"
+    },
+    {
+      "id": 20,
+      "question": "When using useLayoutEffect instead of useEffect, code runs…?",
+      "options": [
+        "After paint",
+        "Before DOM mutation",
+        "Synchronously after DOM mutations but before paint",
+        "Never"
+      ],
+      "answer": "Synchronously after DOM mutations but before paint"
+    },
+    {
+      "id": 21,
+      "question": "To forward a ref through a component, which API do you use?",
+      "options": [
+        "forwardRef()",
+        "useForwardRef()",
+        "forward()",
+        "useRef()"
+      ],
+      "answer": "forwardRef()"
+    },
+    {
+      "id": 22,
+      "question": "Which lifecycle phase cannot be mimicked with a hook?",
+      "options": [
+        "componentDidMount",
+        "componentDidUpdate",
+        "componentWillUnmount",
+        "componentWillReceiveProps"
+      ],
+      "answer": "componentWillReceiveProps"
+    },
+    {
+      "id": 23,
+      "question": "What’s the correct code to fetch data on mount using async in useEffect?",
+      "options": [
+        "useEffect(async () => {...}, [])",
+        "useEffect(() => { async function fn(){...} fn(); },[])",
+        "useEffect(()=>{fetch()},[]).catch()",
+        "useEffect(()=> asyncFn(),[])"
+      ],
+      "answer": "useEffect(() => { async function fn(){...} fn(); },[])"
+    },
+    {
+      "id": 24,
+      "question": "Which pattern helps avoid passing props manually at every level?",
+      "options": [
+        "Prop drilling",
+        "Context API",
+        "Refs",
+        "Redux only"
+      ],
+      "answer": "Context API"
+    },
+    {
+      "id": 25,
+      "question": "What does React.PureComponent do differently?",
+      "options": [
+        "Always shallow compares props/state",
+        "Deep compares props",
+        "Prevents re-render always",
+        "Is same as Component"
+      ],
+      "answer": "Always shallow compares props/state"
+    },
+    {
+      "id": 26,
+      "question": "Which hook returns a memoized value?",
+      "options": [
+        "useCallback",
+        "useMemo",
+        "useEffect",
+        "useRef"
+      ],
+      "answer": "useMemo"
+    },
+    {
+      "id": 27,
+      "question": "How do you catch errors inside async inside useEffect?",
+      "options": [
+        "Wrap async call in try/catch inside the called function",
+        "Add error handler on effect return",
+        "Wrap useEffect itself in try/catch",
+        "Use window.onerror"
+      ],
+      "answer": "Wrap async call in try/catch inside the called function"
+    },
+    {
+      "id": 28,
+      "question": "What does strict mode (React.StrictMode) do in development?",
+      "options": [
+        "Enables extra checks and twice-calls certain lifecycle methods",
+        "Blocks rendering in production",
+        "Prevents state updates",
+        "Wraps component in error boundary"
+      ],
+      "answer": "Enables extra checks and twice-calls certain lifecycle methods"
+    },
+    {
+      "id": 29,
+      "question": "How do you implement server-side rendering in a React app?",
+      "options": [
+        "Use ReactDOM.render() on server",
+        "Use frameworks like Next.js or ReactDOMServer.renderToString",
+        "Wrap all components in <SSRProvider>",
+        "Use useSSR hook"
+      ],
+      "answer": "Use frameworks like Next.js or ReactDOMServer.renderToString"
+    },
+    {
+      "id": 30,
+      "question": "What happens when you call setState() and immediately read state afterward?",
+      "options": [
+        "You read the updated state synchronously",
+        "You might get stale state, as updates are batched asynchronously",
+        "It throws error",
+        "It blocks further rendering"
+      ],
+      "answer": "You might get stale state, as updates are batched asynchronously"
+    }
+  ]
+}

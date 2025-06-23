@@ -1,0 +1,340 @@
+{
+  "testName": "CSS",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "CSS"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does the \"C\" in CSS stand for?",
+      "options": [
+        "Creative",
+        "Cascading",
+        "Complex",
+        "Component"
+      ],
+      "answer": "Cascading"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following selectors has the highest specificity?",
+      "options": [
+        "Class selector (.btn)",
+        "ID selector (#header)",
+        "Type selector (div)",
+        "Universal selector (*)"
+      ],
+      "answer": "ID selector (#header)"
+    },
+    {
+      "id": 3,
+      "question": "What is the default position value of an HTML element in CSS?",
+      "options": [
+        "relative",
+        "absolute",
+        "static",
+        "fixed"
+      ],
+      "answer": "static"
+    },
+    {
+  "id": 4,
+  "question": "You want all &lt;p&gt; elements inside a &lt;div&gt; with class content to have blue text. Which CSS selector should you use?",
+  "options": [
+    "p.content",
+    "div p.content",
+    ".content p",
+    "p > .content"
+  ],
+  "answer": ".content p"
+},
+    {
+      "id": 5,
+      "question": "You applied margin: 20px; to a div, but it's not spacing away from the next div as expected. What is a likely cause?",
+      "options": [
+        "You should use padding instead of margin",
+        "The parent has display: flex",
+        "Margin collapsing between adjacent block elements",
+        "The text inside the div is too short"
+      ],
+      "answer": "Margin collapsing between adjacent block elements"
+    },
+    {
+      "id": 6,
+      "question": "You want an element to stay fixed at the top of the screen while scrolling. Which property and value should you use?",
+      "options": [
+        "position: relative;",
+        "position: static;",
+        "position: absolute;",
+        "position: fixed;"
+      ],
+      "answer": "position: fixed;"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following units is relative to the font size of the parent element?",
+      "options": [
+        "px",
+        "em",
+        "%",
+        "rem"
+      ],
+      "answer": "em"
+    },
+    {
+      "id": 8,
+      "question": "What is the main purpose of the z-index property?",
+      "options": [
+        "To control opacity",
+        "To set element rotation",
+        "To stack elements on top of each other",
+        "To align elements horizontally"
+      ],
+      "answer": "To stack elements on top of each other"
+    },
+    {
+      "id": 9,
+      "question": "Which CSS property controls the space between lines of text?",
+      "options": [
+        "letter-spacing",
+        "text-spacing",
+        "line-height",
+        "text-height"
+      ],
+      "answer": "line-height"
+    },
+    {
+      "id": 10,
+      "question": "What does the inherit keyword do in CSS?",
+      "options": [
+        "Applies a default style",
+        "Resets the property",
+        "Applies the parent's computed value",
+        "Ignores the property completely"
+      ],
+      "answer": "Applies the parent's computed value"
+    },
+    {
+      "id": 11,
+      "question": "You want to apply the same margin and padding to all four sides of an element. Which is the most concise way?",
+      "options": [
+        "margin: 10px, 10px, 10px, 10px;",
+        "margin: 10px 10px 10px;",
+        "margin: 10px;",
+        "margin-all: 10px;"
+      ],
+      "answer": "margin: 10px;"
+    },
+    {
+      "id": 12,
+      "question": "You need to change the background color of a button when the user hovers over it. What selector should you use?",
+      "options": [
+        "button.clicked",
+        "button.hover",
+        "button:mouseover",
+        "button:hover"
+      ],
+      "answer": "button:hover"
+    },
+    {
+  "id": 13,
+  "question": "You want a &lt;div&gt; to always stay at the top of the page, even when scrolling. What CSS should you use?",
+  "options": [
+    "position: absolute; top: 0;",
+    "position: relative; top: 0;",
+    "position: sticky; top: 0;",
+    "position: fixed; top: 0;"
+  ],
+  "answer": "position: fixed; top: 0;"
+},
+    {
+      "id": 14,
+      "question": "You applied a width of 50% to a child div, but it doesn't behave as expected. What parent property might be missing?",
+      "options": [
+        "padding: auto;",
+        "display: flex;",
+        "position: relative;",
+        "width set explicitly on the parent"
+      ],
+      "answer": "width set explicitly on the parent"
+    },
+    {
+      "id": 15,
+      "question": "You want to center a block element horizontally inside its parent. Which CSS approach will work best?",
+      "options": [
+        "margin: 0 auto;",
+        "text-align: center;",
+        "float: center;",
+        "align: center;"
+      ],
+      "answer": "margin: 0 auto;"
+    },
+    {
+      "id": 16,
+      "question": "A div is overflowing its container. You want to clip the overflow and add scrollbars. Which CSS should you apply?",
+      "options": [
+        "overflow: visible;",
+        "overflow: hidden;",
+        "overflow: scroll;",
+        "overflow: auto;"
+      ],
+      "answer": "overflow: auto;"
+    },
+    {
+      "id": 17,
+      "question": "What is the difference between em and rem units in CSS?",
+      "options": [
+        "em is relative to the root element; rem is relative to the parent element",
+        "em is relative to the parent element; rem is relative to the root element",
+        "Both are relative to the parent element",
+        "Both are relative to the viewport width"
+      ],
+      "answer": "em is relative to the parent element; rem is relative to the root element"
+    },
+    {
+      "id": 18,
+      "question": "What is the specificity of the selector div#main .content > p?",
+      "options": [
+        "1-1-1",
+        "0-1-2",
+        "1-1-2",
+        "0-2-2"
+      ],
+      "answer": "1-1-2"
+    },
+    {
+      "id": 19,
+      "question": "What happens if you apply both position: absolute and display: flex to the same element?",
+      "options": [
+        "The element becomes both absolutely positioned and a flex container",
+        "Flexbox overrides absolute positioning",
+        "Absolute positioning disables flex behavior",
+        "It's invalid CSS and causes a syntax error"
+      ],
+      "answer": "The element becomes both absolutely positioned and a flex container"
+    },
+    {
+      "id": 20,
+      "question": "Which CSS property is used to create a stacking context besides z-index?",
+      "options": [
+        "display: block",
+        "transform",
+        "visibility: hidden",
+        "border: 0"
+      ],
+      "answer": "transform"
+    },
+    {
+      "id": 21,
+      "question": "What does the will-change property do in CSS?",
+      "options": [
+        "Specifies properties that will change on hover",
+        "Helps browsers optimize for expected changes in a property",
+        "Makes the element invisible",
+        "Resets inherited styles"
+      ],
+      "answer": "Helps browsers optimize for expected changes in a property"
+    },
+    {
+      "id": 22,
+      "question": "What is the effect of min-height: 100vh on a container element?",
+      "options": [
+        "Sets height to 100% of its parent",
+        "Forces the element to have no scroll",
+        "Makes it fill at least the full viewport height",
+        "Sets a fixed height of 100px"
+      ],
+      "answer": "Makes it fill at least the full viewport height"
+    },
+    {
+      "id": 23,
+      "question": "You want a sticky header that stays at the top of the viewport while scrolling. Which CSS rule should you use?",
+      "options": [
+        "position: fixed; top: 0;",
+        "position: sticky; top: 0;",
+        "position: relative; top: 0;",
+        "position: absolute; top: 0;"
+      ],
+      "answer": "position: sticky; top: 0;"
+    },
+    {
+      "id": 24,
+      "question": "A flex container has flex-direction: column; and its items are not wrapping. Which property should be used to center items horizontally?",
+      "options": [
+        "align-items: center;",
+        "justify-content: center;",
+        "text-align: center;",
+        "margin: auto;"
+      ],
+      "answer": "align-items: center;"
+    },
+    {
+      "id": 25,
+      "question": "You want to animate the background color of a button on hover. Which setup is best?",
+      "options": [
+        "transition: all 0.3s;",
+        "animation: fade 3s;",
+        "hover-color: transition 0.3s;",
+        "transition: background-color 0.3s;"
+      ],
+      "answer": "transition: background-color 0.3s;"
+    },
+    {
+      "id": 26,
+      "question": "You have overlapping elements and want the one with position: relative to appear above position: absolute. What should you do?",
+      "options": [
+        "Set display: inline on the relative element",
+        "Use float: left",
+        "Increase the z-index of the relative element",
+        "Use visibility: visible"
+      ],
+      "answer": "Increase the z-index of the relative element"
+    },
+    {
+      "id": 27,
+      "question": "A container with overflow: hidden is cutting off child elements with position: absolute. How can you make them visible again?",
+      "options": [
+        "Add z-index: 9999 to children",
+        "Use overflow: visible on the container",
+        "Remove position: absolute",
+        "Set display: inline-block on the container"
+      ],
+      "answer": "Use overflow: visible on the container"
+    },
+    {
+      "id": 28,
+      "question": "You want a responsive image that scales with its container but never exceeds its original size. Which CSS rules are correct?",
+      "options": [
+        "width: auto; height: auto;",
+        "max-width: 100%; height: auto;",
+        "width: 100%; height: 100%;",
+        "object-fit: contain; width: 100%;"
+      ],
+      "answer": "max-width: 100%; height: auto;"
+    },
+    {
+      "id": 29,
+      "question": "Which CSS property allows you to apply a style based on whether an element matches a complex condition, such as attribute presence or value?",
+      "options": [
+        "@supports",
+        ":has() pseudo-class",
+        "@media",
+        ":is() pseudo-class"
+      ],
+      "answer": ":has() pseudo-class"
+    },
+    {
+      "id": 30,
+      "question": "Which of the following techniques enables a CSS-only toggle switch functionality without JavaScript?",
+      "options": [
+        "Using z-index and opacity with animation",
+        "Using the :checked pseudo-class with hidden input and labels",
+        "Using display: grid and grid-template-areas",
+        "Using :hover and :active together"
+      ],
+      "answer": "@media"
+    }
+  ]
+}
