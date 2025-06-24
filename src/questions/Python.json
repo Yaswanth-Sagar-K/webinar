@@ -154,9 +154,9 @@
       "id": 14,
       "question": "Output of:\n\n``` def extendList(val, lst=[]):\n    lst.append(val)\n    return lst\nprint(extendList(10))\nprint(extendList(20))\n```",
       "options": [
-        "[10] [20]",
-        "[10] [10, 20]",
-        "[10, 20] [10, 20]",
+        "[10] [20]",
+        "[10] [10, 20]",
+        "[10, 20] [10, 20]",
         "Error"
       ],
       "answer": "[10] [10, 20]"
@@ -187,8 +187,8 @@
       "id": 17,
       "question": "What prints?\n\n``` for i in range(3):\n    def inner(): return i\n    print(inner(), end=' ')\n```",
       "options": [
-        "0 1 2",
-        "2 2 2",
+        "0 1 2",
+        "2 2 2",
         "None",
         "Error"
       ],

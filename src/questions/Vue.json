@@ -1,0 +1,340 @@
+{
+  "testName": "Vue",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "Vue"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of the `v-model` directive?",
+      "options": [
+        "To apply styles conditionally",
+        "To define a computed property",
+        "To enable two-way data binding",
+        "To manage routing"
+      ],
+      "answer": "To enable two-way data binding"
+    },
+    {
+      "id": 2,
+      "question": "What is a computed property in Vue used for?",
+      "options": [
+        "Fetching async data",
+        "Changing the component's template",
+        "Caching a derived value based on reactive data",
+        "Watching route changes"
+      ],
+      "answer": "Caching a derived value based on reactive data"
+    },
+    {
+      "id": 3,
+      "question": "Which lifecycle hook is called right after a component is mounted to the DOM?",
+      "options": [
+        "created()",
+        "beforeMount()",
+        "mounted()",
+        "updated()"
+      ],
+      "answer": "mounted()"
+    },
+    {
+      "id": 4,
+      "question": "What does the `v-if` directive do?",
+      "options": [
+        "Applies inline styles",
+        "Iterates over an array",
+        "Conditionally renders a block in the DOM",
+        "Listens for an event"
+      ],
+      "answer": "Conditionally renders a block in the DOM"
+    },
+    {
+      "id": 5,
+      "question": "In Vue 3 Composition API, which function is used to declare reactive variables?",
+      "options": [
+        "data()",
+        "reactive() or ref()",
+        "computed()",
+        "emit()"
+      ],
+      "answer": "reactive() or ref()"
+    },
+    {
+      "id": 6,
+      "question": "What is the role of the `key` attribute in `v-for`?",
+      "options": [
+        "It triggers reactivity manually",
+        "It gives each item a unique identity to optimize rendering",
+        "It defines the loop variable",
+        "It binds an input to data"
+      ],
+      "answer": "It gives each item a unique identity to optimize rendering"
+    },
+    {
+      "id": 7,
+      "question": "You're trying to share state across multiple components. What should you use?",
+      "options": [
+        "Props",
+        "ref()",
+        "Global methods",
+        "Vuex or a composable state store"
+      ],
+      "answer": "Vuex or a composable state store"
+    },
+    {
+      "id": 8,
+      "question": "You want to pass data from a parent component to a child. How do you do that?",
+      "options": [
+        "With $emit",
+        "Using a global variable",
+        "With props",
+        "With ref()"
+      ],
+      "answer": "With props"
+    },
+    {
+      "id": 9,
+      "question": "A child component emits an event. How should the parent handle it?",
+      "options": [
+        "By using v-bind",
+        "With @eventName in the parent template",
+        "With ref",
+        "It's not possible"
+      ],
+      "answer": "With @eventName in the parent template"
+    },
+    {
+      "id": 10,
+      "question": "You have a dynamic list rendered with `v-for`. What issue might occur without a `key`?",
+      "options": [
+        "Extra API calls",
+        "DOM elements might be reused incorrectly",
+        "Routing fails",
+        "Nothing—it's optional"
+      ],
+      "answer": "DOM elements might be reused incorrectly"
+    },
+    {
+      "id": 11,
+      "question": "You need to reactively respond to changes in a specific data property. What should you use?",
+      "options": [
+        "A computed property",
+        "A prop",
+        "A watcher (watch)",
+        "v-if"
+      ],
+      "answer": "A watcher (watch)"
+    },
+    {
+      "id": 12,
+      "question": "You want to delay the visibility of an element when a boolean value changes. What's the best solution?",
+      "options": [
+        "Use v-model",
+        "Use v-show with CSS transition",
+        "Use v-bind",
+        "Use ref"
+      ],
+      "answer": "Use v-show with CSS transition"
+    },
+    {
+  "id": 13,
+  "question": "What is the output of this template: &lt;p&gt;{{ '{{ message }}' }}&lt;/p&gt; with message = 'Hello Vue!'?",
+  "options": [
+    "{{ message }}",
+    "Hello Vue!",
+    "message",
+    "Error"
+  ],
+  "answer": "Hello Vue!"
+},
+    {
+  "id": 14,
+  "question": "What will this render: \n\n&lt;p v-if=\"false\"&gt;Hidden&lt;/p&gt;\n&lt;p v-else&gt;Shown&lt;/p&gt;\n",
+  "options": [
+    "Hidden",
+    "Shown",
+    "false",
+    "Nothing"
+  ],
+  "answer": "Shown"
+},
+    {
+      "id": 15,
+      "question": "What is `shallowRef()` used for in Vue 3?",
+      "options": [
+        "To create deep reactive objects",
+        "To optimize performance by not making nested properties reactive",
+        "To allow mutations inside templates",
+        "To remove reactivity"
+      ],
+      "answer": "To optimize performance by not making nested properties reactive"
+    },
+    {
+  "id": 16,
+  "question": "What will happen with &lt;input v-model=\"name\" /&gt;&lt;p&gt;{{ '{{ name.toUpperCase() }}' }}&lt;/p&gt; and name = null?",
+  "options": [
+    "Renders input and blank paragraph",
+    "Runtime error",
+    "Converts null to \"NULL\"",
+    "undefined"
+  ],
+  "answer": "Runtime error"
+},
+    {
+      "id": 17,
+      "question": "What is the output when watching state.count change from 1 to 2?",
+      "options": [
+        "Count is now 1",
+        "Count is now 2",
+        "Nothing happens",
+        "Error: reactive not defined"
+      ],
+      "answer": "Count is now 2"
+    },
+    {
+  "id": 18,
+  "question": "What happens with &lt;div&gt;{{ '{{ items.length }}' }}&lt;/div&gt; and items = undefined?",
+  "options": [
+    "0",
+    "Error",
+    "undefined",
+    "items.length"
+  ],
+  "answer": "Error"
+},
+    {
+      "id": 19,
+      "question": "What is the core idea behind Vue's reactivity system?",
+      "options": [
+        "Manually tracking state changes in components",
+        "Binding DOM events to methods",
+        "Observing and tracking data changes using proxies or getters/setters",
+        "Using Redux-style state management"
+      ],
+      "answer": "Observing and tracking data changes using proxies or getters/setters"
+    },
+    {
+      "id": 20,
+      "question": "What common hydration error can happen in SSR Vue apps?",
+      "options": [
+        "State mismatch between server and client",
+        "Missing ref value",
+        "Incorrect template binding",
+        "Failure to emit props"
+      ],
+      "answer": "State mismatch between server and client"
+    },
+    {
+      "id": 21,
+      "question": "What does Vue's Composition API primarily solve?",
+      "options": [
+        "Problems with performance in Vue 2",
+        "Global state sharing",
+        "Logic reuse and better code organization in large components",
+        "Removing the need for Vuex"
+      ],
+      "answer": "Logic reuse and better code organization in large components"
+    },
+    {
+      "id": 22,
+      "question": "How does Vue's dependency injection system (provide/inject) differ from props?",
+      "options": [
+        "It allows injection only from parent to immediate child",
+        "It provides deep injection across any ancestor/descendant",
+        "It overrides reactivity",
+        "It enables scoped slots"
+      ],
+      "answer": "It provides deep injection across any ancestor/descendant"
+    },
+    {
+      "id": 23,
+      "question": "Which is more performant for simple derived values: computed or watcher?",
+      "options": [
+        "Watcher",
+        "Computed",
+        "They're the same",
+        "Depends on component size"
+      ],
+      "answer": "Computed"
+    },
+    {
+      "id": 24,
+      "question": "You have a large list with performance issues on re-render. What can help?",
+      "options": [
+        "Use v-for directly on the DOM",
+        "Replace v-if with v-show",
+        "Add :key to v-for and use v-once or computed for optimization",
+        "Increase the debounce time of the event handler"
+      ],
+      "answer": "Add :key to v-for and use v-once or computed for optimization"
+    },
+    {
+      "id": 25,
+      "question": "In Vue, how can you ensure child components don’t mutate parent state passed as props?",
+      "options": [
+        "Emit updates back to parent using events",
+        "Directly modify props inside child",
+        "Use `ref` to link prop",
+        "Set `deep: true` in watch"
+      ],
+      "answer": "Emit updates back to parent using events"
+    },
+    {
+      "id": 26,
+      "question": "A user clicks a button multiple times, causing multiple API calls. What's the best way to prevent this in Vue?",
+      "options": [
+        "Use v-if to hide button",
+        "Use .once modifier",
+        "Use a disabled state with v-bind:disabled and a flag",
+        "Use setTimeout inside the handler"
+      ],
+      "answer": "Use a disabled state with v-bind:disabled and a flag"
+    },
+    {
+  "id": 27,
+  "question": "What will the following template render: &lt;div&gt;{{ 1 + '2' + 3 }}&lt;/div&gt;?",
+  "options": [
+    "6",
+    "123",
+    "33",
+    "Error"
+  ],
+  "answer": "123"
+},
+    {
+      "id": 28,
+      "question": "What issue might occur if you destructure a reactive object outside setup?",
+      "options": [
+        "Reactivity is lost",
+        "The component crashes",
+        "Destructured props are globally reactive",
+        "It behaves like `ref()`"
+      ],
+      "answer": "Reactivity is lost"
+    },
+    {
+      "id": 29,
+      "question": "What's the result of {{ undefined ?? 'Fallback' }}?",
+      "options": [
+        "undefined",
+        "Fallback",
+        "Error",
+        "null"
+      ],
+      "answer": "Fallback"
+    },
+    {
+      "id": 30,
+      "question": "In Vue 3 setup(), why is `message = 'Hello'` not reactive by default?",
+      "options": [
+        "You must use `ref()` or `reactive()` to make it reactive",
+        "Setup disables reactivity",
+        "Only `props` are reactive",
+        "Template compiler blocks primitive values"
+      ],
+      "answer": "You must use `ref()` or `reactive()` to make it reactive"
+    }
+  ]
+}

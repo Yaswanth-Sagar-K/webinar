@@ -8,7 +8,7 @@
       "id": 1,
       "question": "Which file tells Django that a directory is a Python package?",
       "options": [
-        "__init__.py",
+        "__init__.py",  
         "settings.py",
         "apps.py",
         "urls.py"

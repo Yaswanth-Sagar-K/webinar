@@ -198,7 +198,7 @@
     },
     {
       "id": 18,
-      "question": "What is the output?\n```List<int> l = new List<int>(){1,2,3};\nConsole.WriteLine(l.Find(x => x > 1));```",
+      "question": "What is the output?\n```List&lt;int&gt; l = new List&lt;int&gt;(){1,2,3};\nConsole.WriteLine(l.Find(x => x > 1));```",
       "options": [
         "1",
         "2",
@@ -247,9 +247,9 @@
         "int",
         "enum",
         "bool",
-        "Span<int>"
+        "Span&lt;int&gt;"
       ],
-      "answer": "Span<int>"
+      "answer": "Span&lt;int&gt;"
     },
     {
       "id": 23,
@@ -275,7 +275,7 @@
     },
     {
       "id": 25,
-      "question": "What does this print?\n```var list = new List<int> { 10, 20 };\nConsole.WriteLine(list.Contains(10));```",
+      "question": "What does this print?\n```var list = new List&lt;int&gt; { 10, 20 };\nConsole.WriteLine(list.Contains(10));```",
       "options": [
         "true",
         "false",

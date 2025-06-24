@@ -157,7 +157,7 @@
     },
     {
       "id": 14,
-      "question": "What is a Fragment (`<>…</>`) used for?",
+      "question": "What is a Fragment (`<>…&lt;/&gt;`) used for?",
       "options": [
         "Group elements without extra DOM node",
         "Delay rendering children",
@@ -326,7 +326,7 @@
       "options": [
         "Use ReactDOM.render() on server",
         "Use frameworks like Next.js or ReactDOMServer.renderToString",
-        "Wrap all components in <SSRProvider>",
+        "Wrap all components in &lt;SSRProvider&gt;",
         "Use useSSR hook"
       ],
       "answer": "Use frameworks like Next.js or ReactDOMServer.renderToString"

@@ -72,17 +72,17 @@
       ],
       "answer": "32 bits"
     },
-  {
-  "id": 7,
-  "question": "What is the output of this snippet?\n\n``` int[] arr = {1, 2, 3};\nfor (int i = 0; i < arr.length; i++) {\n  arr[i] = arr[i] * i;\n}\nSystem.out.println(Arrays.toString(arr));\n```",
-  "options": [
-    "[0, 2, 6]",
-    "[1, 2, 6]",
-    "[0, 0, 0]",
-    "[1, 0, 3]"
-  ],
-  "answer": "[0, 2, 6]"
-},
+    {
+      "id": 7,
+      "question": "What is the output of this snippet?\n\n``` int[] arr = {1, 2, 3};\nfor (int i = 0; i < arr.length; i++) {\n  arr[i] = arr[i] * i;\n}\nSystem.out.println(Arrays.toString(arr));\n```",
+      "options": [
+        "[0, 2, 6]",
+        "[1, 2, 6]",
+        "[0, 0, 0]",
+        "[1, 0, 3]"
+      ],
+      "answer": "[0, 2, 6]"
+    },
     {
       "id": 8,
       "question": "Which of the following allows duplicate keys?",
@@ -151,7 +151,7 @@
     },
     {
       "id": 14,
-      "question": "What is the output?\n\n``` List<String> list = Arrays.asList(\"A\",\"B\",\"C\");\nlist.set(1, \"X\");\nSystem.out.println(list);\n```",
+      "question": "What is the output?\n\n``` List&ltString&gt; list = Arrays.asList(\"A\",\"B\",\"C\");\nlist.set(1, \"X\");\nSystem.out.println(list);\n```",
       "options": [
         "[A, B, C]",
         "[A, X, C]",
@@ -221,7 +221,7 @@
       "options": [
         "(String) new Object()",
         "Integer.valueOf(\"123\")",
-        "(List<String>) new ArrayList<Integer>()",
+        "(List&lt;String&gt;) new ArrayList&lt;Integer&gt;()",
         "(Double) (Object) Integer.valueOf(5)"
       ],
       "answer": "Integer.valueOf(\"123\")"

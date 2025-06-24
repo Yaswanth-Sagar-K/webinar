@@ -334,7 +334,7 @@
         "Using display: grid and grid-template-areas",
         "Using :hover and :active together"
       ],
-      "answer": "@media"
+      "answer": "Using the :checked pseudo-class with hidden input and labels"
     }
   ]
 }

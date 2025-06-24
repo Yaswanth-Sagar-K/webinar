@@ -8,7 +8,7 @@
   "questions": [
     {
       "id": 1,
-      "question": "What is the purpose of the <meta charset=\"UTF-8\"> tag in an HTML document?",
+      "question": "What is the purpose of the &lt;meta charset=\"UTF-8\"&gt; tag in an HTML document?",
       "options": [
         "To define the layout of the webpage",
         "To include external metadata",
@@ -69,7 +69,7 @@
     },
     {
       "id": 7,
-      "question": "What is the purpose of the <!DOCTYPE html> declaration in an HTML document?",
+      "question": "What is the purpose of the &lt;!DOCTYPE html&gt; declaration in an HTML document?",
       "options": [
         "To define the CSS version used",
         "To specify the JavaScript engine",
@@ -91,7 +91,7 @@
 },
     {
       "id": 9,
-      "question": "Which attribute is required in an <img> tag for accessibility?",
+      "question": "Which attribute is required in an &lt;img&gt; tag for accessibility?",
       "options": [
         "src",
         "href",
@@ -113,7 +113,7 @@
 },
     {
       "id": 11,
-      "question": "What does the defer attribute do in the <script> tag?",
+      "question": "What does the defer attribute do in the &lt;script&gt; tag?",
       "options": [
         "Prevents the script from executing",
         "Loads the script synchronously",
@@ -322,7 +322,7 @@
 },
     {
       "id": 30,
-      "question": "What attribute should be used on an <a> tag to open the linked page in a new browser tab while ensuring security best practices?",
+      "question": "What attribute should be used on an &lt;a&gt; tag to open the linked page in a new browser tab while ensuring security best practices?",
       "options": [
         "target=\"_blank\"",
         "rel=\"noopener noreferrer\"",

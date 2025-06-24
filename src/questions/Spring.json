@@ -116,12 +116,12 @@
       "id": 10,
       "question": "Which method of the ApplicationContext is used to get a bean by type?",
       "options": [
-        "getBean(Class<T> requiredType)",
-        "findBean(Class<T> requiredType)",
-        "resolve(Class<T> requiredType)",
-        "create(Class<T> requiredType)"
+        "getBean(Class&lt;T&gt; requiredType)",
+        "findBean(Class&lt;T&gt; requiredType)",
+        "resolve(Class&lt;T&gt; requiredType)",
+        "create(Class&lt;T&gt; requiredType)"
       ],
-      "answer": "getBean(Class<T> requiredType)",
+      "answer": "getBean(Class&lt;T&gt; requiredType)",
       "difficulty": "moderate"
     },
     {

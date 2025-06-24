@@ -118,16 +118,16 @@
       "answer": "@Input()"
     },
     {
-  "id": 11,
-  "question": "What is the output of:\n &lt;div *ngIf=&quot;value &gt; 5 &amp;&amp; value &lt; 10&quot;&gt;\n\t\tVisible\n&lt;/div&gt; \nwhen value is 7?",
-  "options": [
-    "Error",
-    "Renders nothing",
-    "Visible",
-    "Throws undefined error"
-  ],
-  "answer": "Visible"
-},
+      "id": 11,
+      "question": "What is the output of:\n &lt;div *ngIf=&quot;value &gt; 5 &amp;&amp; value &lt; 10&quot;&gt;\n\t\tVisible\n&lt;/div&gt; \nwhen value is 7?",
+      "options": [
+        "Error",
+        "Renders nothing",
+        "Visible",
+        "Throws undefined error"
+      ],
+      "answer": "Visible"
+    },
     {
       "id": 12,
       "question": "You are using `RouterModule.forRoot(routes)` in a feature module and routes aren't working. Why?",
@@ -151,27 +151,27 @@
       "answer": "Hello Angular"
     },
     {
-  "id": 14,
-  "question": "What does this output: \n&lt;div *ngIf=&quot;false&quot;&gt;\n\t\tHidden\n&lt;/div&gt;",
-  "options": [
-    "Hidden",
-    "Renders empty &lt;div&gt;&lt;/div&gt;",
-    "Nothing is rendered",
-    "Error"
-  ],
-  "answer": "Nothing is rendered"
-},
+      "id": 14,
+      "question": "What does this output: \n&lt;div *ngIf=&quot;false&quot;&gt;\n\t\tHidden\n&lt;/div&gt;",
+      "options": [
+        "Hidden",
+        "Renders empty &lt;div&gt;&lt;/div&gt;",
+        "Nothing is rendered",
+        "Error"
+      ],
+      "answer": "Nothing is rendered"
+    },
     {
-  "id": 15,
-  "question": "What will be shown: \n&lt;div&gt;{{ null ?? 'Fallback' }}&lt;/div&gt;",
-  "options": [
-    "null",
-    "Fallback",
-    "undefined",
-    "Error"
-  ],
-  "answer": "Fallback"
-},
+      "id": 15,
+      "question": "What will be shown: \n&lt;div&gt;{{ null ?? 'Fallback' }}&lt;/div&gt;",
+      "options": [
+        "null",
+        "Fallback",
+        "undefined",
+        "Error"
+      ],
+      "answer": "Fallback"
+    },
     {
       "id": 16,
       "question": "What will be printed in console with setTimeout logging 'Inside timeout' after console.log('After timeout')?",
@@ -195,16 +195,16 @@
       "answer": "A new instance is created in the lazy-loaded module"
     },
     {
-  "id": 18,
-  "question": "What's the console output when parent sets &lt;app-test [name]=&quot;null&quot;&gt; and ngOnChanges logs this.name?",
-  "options": [
-    "\"Angular\"",
-    "null",
-    "undefined",
-    "Error"
-  ],
-  "answer": "null"
-},
+      "id": 18,
+      "question": "What's the console output when parent sets &lt;app-test [name]=&quot;null&quot;&gt; and ngOnChanges logs this.name?",
+      "options": [
+        "\"Angular\"",
+        "null",
+        "undefined",
+        "Error"
+      ],
+      "answer": "null"
+    },
     {
       "id": 19,
       "question": "What is the primary purpose of Angular's `NgZone` service?",
@@ -327,15 +327,15 @@
       "answer": "It speeds up rendering by identifying list items by a unique identifier"
     },
     {
-  "id": 30,
-  "question": "What's wrong with the following: @Component({ selector: 'app-hello', templateUrl: '&lt;h1&gt;Hello&lt;/h1&gt;' })?",
-  "options": [
-    "`templateUrl` should be a function",
-    "`templateUrl` should be a relative path to an HTML file",
-    "Missing `@NgModule`",
-    "`templateUrl` should be in a separate class"
-  ],
-  "answer": "`templateUrl` should be a relative path to an HTML file"
-}
+      "id": 30,
+      "question": "What's wrong with the following: @Component({ selector: 'app-hello', templateUrl: '&lt;h1&gt;Hello&lt;/h1&gt;' })?",
+      "options": [
+        "`templateUrl` should be a function",
+        "`templateUrl` should be a relative path to an HTML file",
+        "Missing `@NgModule`",
+        "`templateUrl` should be in a separate class"
+      ],
+      "answer": "`templateUrl` should be a relative path to an HTML file"
+    }
   ]
 }
