@@ -11,9 +11,9 @@
       "question": "What does this code exhibit?\n```int a = 5, b;\nb = a++ + ++a;\n```",
       "options": [
         "9",
-        "10",
+        "11",
         "Undefined behavior",
-        "7"
+        "12"
       ],
       "answer": "Undefined behavior"
     },
@@ -312,7 +312,7 @@
         "Pointer→char*",
         "Pointer→uintptr_t"
       ],
-      "answer": "Pointer→uintptr_t"
+      "answer": "Pointer→void*"
     },
     {
       "id": 29,
@@ -334,7 +334,7 @@
         "Undefined",
         "Depends"
       ],
-      "answer": "Depends"
+      "answer": "Undefined"
     }
   ]
 }

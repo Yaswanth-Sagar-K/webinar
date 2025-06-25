@@ -39,7 +39,7 @@
         "Session",
         "Connection"
       ],
-      "answer": "Session",
+      "answer":"SessionFactory",
       "difficulty": "easy"
     },
     {
@@ -94,12 +94,12 @@
       "id": 8,
       "question": "What annotation enables caching of entities in second-level cache?",
       "options": [
-        "@Cacheable",
+        "@Cache",
         "@EnableCache",
         "@CacheEntity",
         "@SecondLevelCache"
       ],
-      "answer": "@Cacheable",
+      "answer": "@Cache",
       "difficulty": "moderate"
     },
     {
@@ -214,12 +214,12 @@
       "id": 18,
       "question": "Which API allows you to build criteria queries in Hibernate?",
       "options": [
-        "Criteria API",
+        "CriteriaBuilder",
         "HQL",
         "Native SQL",
         "JPQL"
       ],
-      "answer": "Criteria API",
+      "answer": "CriteriaBuilder",
       "difficulty": "moderate"
     },
     {

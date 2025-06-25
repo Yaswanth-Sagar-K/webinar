@@ -308,12 +308,12 @@
       "id": 28,
       "question": "You are manually testing a responsive web app and encounter rendering issues only in portrait mode on tablets. What type of testing is this?",
       "options": [
-        "Compatibility testing",
+        "responsive testing",
         "Accessibility testing",
         "Usability testing",
         "UI regression testing"
       ],
-      "answer": "Compatibility testing"
+      "answer": "responsive testing"
     },
     {
       "id": 29,

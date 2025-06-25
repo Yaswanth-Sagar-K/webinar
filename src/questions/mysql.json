@@ -92,18 +92,18 @@
                 "SHOW CREATE TABLE",
                 "SELECT * FROM INFORMATION_SCHEMA"
             ],
-            "answer": "mysqldump --no-data"
+            "answer": "SHOW CREATE TABLE"
         },
         {
             "id": 9,
-            "question": "Which tool is used for backing up and restoring MySQL databases?",
+            "question": "Which SQL statement is used to make all changes performed within the current transaction permanent in MySQL?",
             "options": [
-                "mysqldump",
-                "mysqlbackup",
-                "mysqladmin",
-                "All of the above"
+                "COMMIT;",
+                "SAVEPOINT;",
+                "ROLLBACK;",
+                "END TRANSACTION;"
             ],
-            "answer": "All of the above"
+            "answer": "COMMIT;"
         },
         {
             "id": 10,
@@ -305,14 +305,14 @@
         },
         {
             "id": 28,
-            "question": "Which command sets a global MySQL variable temporarily?",
+            "question": "Which clause is used in MySQL to prevent duplicate rows during an insert operation?",
             "options": [
-                "SET GLOBAL var_name = value;",
-                "SET var_name = value;",
-                "SET TEMPORARY var;",
-                "CONFIGURE var_name;"
+                "INSERT IGNORE",
+                "INSERT UNIQUE",
+                "INSERT DISTINCT",
+                "INSERT ONLY"
             ],
-            "answer": "SET GLOBAL var_name = value;"
+            "answer": "INSERT IGNORE"
         },
         {
             "id": 29,

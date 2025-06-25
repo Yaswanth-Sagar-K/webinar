@@ -42,9 +42,9 @@
         ".exe",
         ".dll",
         ".net",
-        ".msi"
+        "Both .dll and .exe"
       ],
-      "answer": ".dll",
+      "answer": "Both .dll and .exe",
       "difficulty": "easy"
     },
     {

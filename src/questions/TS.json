@@ -236,7 +236,7 @@
     "function first&lt;T&gt;(arr: Array&lt;T&gt;): T { return arr[0]; }",
     "Both A and C are valid"
   ],
-  "answer": "function first&lt;T&gt;(arr: T[]): T { return arr[0]; }"
+  "answer": "Both A and C are valid"
 }
 ,
     {

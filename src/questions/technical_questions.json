@@ -235,7 +235,7 @@
         "Hash Table",
         "Heap"
       ],
-      "answer": "Sparse Table"
+      "answer": "Segment Tree"
     },
     {
       "id": 22,

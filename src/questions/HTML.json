@@ -296,7 +296,7 @@
         "autocomplete=\"name\"",
         "autofocus"
       ],
-      "answer": "autocomplete=\"name\""
+      "answer": "value"
     },
     {
   "id": 28,
@@ -327,9 +327,9 @@
         "target=\"_blank\"",
         "rel=\"noopener noreferrer\"",
         "href",
-        "download"
+        "Both rel=\"noopener noreferrer\" and target=\"_blank\""
       ],
-      "answer": "rel=\"noopener noreferrer\""
+      "answer": "Both rel=\"noopener noreferrer\" and target=\"_blank\""
     }
   ]
 }

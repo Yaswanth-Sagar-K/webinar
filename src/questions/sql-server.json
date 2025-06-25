@@ -14,9 +14,9 @@
                 "GETDATE()",
                 "NOW()",
                 "CURRENT_TIMESTAMP",
-                "SYSDATE()"
+                "Both GETDATE() and CURRENT_TIMESTAMP"
             ],
-            "answer": "GETDATE()"
+            "answer": "Both GETDATE() and CURRENT_TIMESTAMP"
         },
         {
             "id": 2,
@@ -135,9 +135,9 @@
                 "SEQUENCE",
                 "IDENTITY",
                 "AUTO_INCREMENT",
-                "SERIAL"
+                "Both SEQUENCE and IDENTITY"
             ],
-            "answer": "SEQUENCE"
+            "answer": "Both SEQUENCE and IDENTITY"
         },
         {
             "id": 13,
@@ -212,9 +212,9 @@
                 "TOP",
                 "OFFSET FETCH",
                 "ROWNUM",
-                "LIMIT"
+                "Both TOP and OFFSET FETCH"
             ],
-            "answer": "OFFSET FETCH"
+            "answer": "Both TOP and OFFSET FETCH"
         },
         {
             "id": 20,

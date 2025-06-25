@@ -73,21 +73,21 @@
       "options": [
         "useShared",
         "useEffect",
-        "useContext (with custom hooks)",
+        "custom hooks",
         "useState"
       ],
-      "answer": "useContext (with custom hooks)"
+      "answer": "custom hooks"
     },
-    {
+     {
       "id": 7,
-      "question": "What will be the console output of this code?\n\n```const [count, setCount] = useState(0);\nsetCount(prev => prev + 1);\nsetCount(prev => prev + 1);\n```",
+      "question": "What is the concept of 'lifting state up' in React?",
       "options": [
-        "2",
-        "1",
-        "0",
-        "Error"
+        "Moving state from a child component to its nearest common ancestor component",
+        "Moving state from the parent to a child component",
+        "Storing state in a global variable",
+        "Using `useRef` to manage state"
       ],
-      "answer": "2"
+      "answer": "Moving state from a child component to its nearest common ancestor component"
     },
     {
       "id": 8,
@@ -245,14 +245,14 @@
     },
     {
       "id": 22,
-      "question": "Which lifecycle phase cannot be mimicked with a hook?",
+      "question": "How would you handle global application state without using a third-party library like Redux?",
       "options": [
-        "componentDidMount",
-        "componentDidUpdate",
-        "componentWillUnmount",
-        "componentWillReceiveProps"
+        "Passing props down through every component (prop drilling)",
+        "Using React's Context API",
+        "Storing data in local storage only",
+        "Creating many individual `useState` hooks in the root component"
       ],
-      "answer": "componentWillReceiveProps"
+      "answer": "Using React's Context API"
     },
     {
       "id": 23,

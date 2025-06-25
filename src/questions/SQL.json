@@ -257,7 +257,7 @@
         "FULL JOIN",
         "RIGHT JOIN"
       ],
-      "answer": "INNER JOIN"
+      "answer": "FULL JOIN"
     },
     {
       "id": 24,

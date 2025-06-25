@@ -48,7 +48,7 @@
         "Array.isArray(arr)",
         "Both 2 & 3"
       ],
-      "answer": "Both 2 & 3"
+      "answer": "Array.isArray(arr)"
     },
     {
       "id": 5,

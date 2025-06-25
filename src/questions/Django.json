@@ -173,12 +173,12 @@
       "id": 16,
       "question": "How can you enable timezone support in Django?",
       "options": [
-        "USE_TIMEZONE = True",
+        "USE_TZ = True",
         "TIME_ZONE_ENABLED = True",
         "TIMEZONE = True",
         "DATETIME_USE_TZ = True"
       ],
-      "answer": "USE_TIMEZONE = True"
+      "answer": "USE_TZ = True"
     },
     {
       "id": 17,
@@ -288,7 +288,7 @@
         "Admin interface display",
         "Both model and form validation"
       ],
-      "answer": "Form validation only"
+      "answer": "Both model and form validation"
     },
     {
       "id": 27,
