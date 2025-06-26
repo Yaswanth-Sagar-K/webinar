@@ -1,0 +1,340 @@
+{
+  "testName": "C",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "C Programming"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does this code exhibit?\n```int a = 5, b;\nb = a++ + ++a;\n```",
+      "options": [
+        "9",
+        "11",
+        "Undefined behavior",
+        "12"
+      ],
+      "answer": "Undefined behavior"
+    },
+    {
+      "id": 2,
+      "question": "Which of these correctly expresses strict aliasing rules violation?",
+      "options": [
+        "*(int*)&f = 0;",
+        "int *p = &i;",
+        "char *p = (char*)&i;",
+        "float f;"
+      ],
+      "answer": "*(int*)&f = 0;"
+    },
+    {
+      "id": 3,
+      "question": "What’s the result of:\n```volatile int x;\nint y = x + x;\n```",
+      "options": [
+        "Read x twice",
+        "Read x once",
+        "Undefined",
+        "Compile fails"
+      ],
+      "answer": "Read x twice"
+    },
+    {
+      "id": 4,
+      "question": "Which expression is a valid integer constant in C?",
+      "options": [
+        "0123",
+        "0x1G",
+        "123u",
+        "123ULF"
+      ],
+      "answer": "123u"
+    },
+    {
+      "id": 5,
+      "question": "How many bytes does this struct occupy?\n```struct { double d; char c; int i; };\n```",
+      "options": [
+        "16",
+        "24",
+        "32",
+        "Depends on implementation"
+      ],
+      "answer": "Depends on implementation"
+    },
+    {
+      "id": 6,
+      "question": "Which guarantees atomic read/write of int? (C11)",
+      "options": [
+        "_Atomic int",
+        "volatile int",
+        "const int",
+        "regular int"
+      ],
+      "answer": "_Atomic int"
+    },
+    {
+      "id": 7,
+      "question": "What does this pointer do?\n```char *p = malloc(10);\nfree(p);\np[0] = 'A';\n```",
+      "options": [
+        "Stores 'A'",
+        "Undefined behavior",
+        "Compiler error",
+        "Silently ignored"
+      ],
+      "answer": "Undefined behavior"
+    },
+    {
+      "id": 8,
+      "question": "Which is true about flexible array members?",
+      "options": [
+        "Must be last member",
+        "Can have size >0",
+        "Can be anywhere",
+        "Not part of standard"
+      ],
+      "answer": "Must be last member"
+    },
+    {
+      "id": 9,
+      "question": "What does this do?\n```#include \n&lt;assert.h&gt;assert(2 + 2 == 5);```",
+      "options": [
+        "Compilation fails",
+        "Runtime abort",
+        "Optimization error",
+        "Continues silently"
+      ],
+      "answer": "Runtime abort"
+    },
+    {
+      "id": 10,
+      "question": "What’s printed?\n```enum E { A = 1, B, C = A + B };\nprintf(\"%d\", C);\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "Undefined"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 11,
+      "question": "What is value of ptr – arr?\n```int arr[5];\nint *ptr = &arr[3];\n```",
+      "options": [
+        "3",
+        "12",
+        "Address difference",
+        "Undefined"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 12,
+      "question": "Which safely null‑terminates a 10‑char buffer?",
+      "options": [
+        "strncpy(buf, s, 9); buf[9]=0;",
+        "strncpy(buf,s,10);",
+        "memcpy(buf,s,10);",
+        "strcpy(buf,s);"
+      ],
+      "answer": "strncpy(buf, s, 9); buf[9]=0;"
+    },
+    {
+      "id": 13,
+      "question": "In C, what’s type of string literal?",
+      "options": [
+        "char *",
+        "const char *",
+        "char[]",
+        "const char[]"
+      ],
+      "answer": "char[]"
+    },
+    {
+      "id": 14,
+      "question": "Behavior of:\n```int a;\nprintf(\"%d\", a);\n```",
+      "options": [
+        "0",
+        "Garbage",
+        "Compilation error",
+        "Undefined"
+      ],
+      "answer": "Undefined"
+    },
+    {
+      "id": 15,
+      "question": "Correct incremental atomicity in C11?",
+      "options": [
+        "atomic_fetch_add",
+        "++ on _Atomic",
+        "volatile int",
+        "lock and inc"
+      ],
+      "answer": "atomic_fetch_add"
+    },
+    {
+      "id": 16,
+      "question": "Valid realloc usage on NULL ptr returns?",
+      "options": [
+        "malloc behavior",
+        "free behavior",
+        "NULL",
+        "Undefined"
+      ],
+      "answer": "malloc behavior"
+    },
+    {
+      "id": 17,
+      "question": "What size is alignment of double on typical x86-64?",
+      "options": [
+        "8",
+        "4",
+        "16",
+        "Depends"
+      ],
+      "answer": "8"
+    },
+    {
+      "id": 18,
+      "question": "Does C guarantee order of evaluation of arguments in `f(a++, a++)`?",
+      "options": [
+        "Yes, left-to-right",
+        "Yes, right-to-left",
+        "Undefined",
+        "Sequential"
+      ],
+      "answer": "Undefined"
+    },
+    {
+      "id": 19,
+      "question": "Turning off asserts: define NDEBUG before?",
+      "options": [
+        "Including &lt;assert.h&gt;",
+        "main()",
+        "stdio.h",
+        "compiler flag"
+      ],
+      "answer": "Including &lt;assert.h&gt;"
+    },
+    {
+      "id": 20,
+      "question": "Meaning of `'extern const int x;'` in header?",
+      "options": [
+        "Declaration only",
+        "Definition",
+        "Linking error",
+        "Allocate storage"
+      ],
+      "answer": "Declaration only"
+    },
+    {
+      "id": 21,
+      "question": "What ensures `intptr_t` exists?",
+      "options": [
+        "stdint.h",
+        "stddef.h",
+        "inttypes.h",
+        "stdlib.h"
+      ],
+      "answer": "stdint.h"
+    },
+    {
+      "id": 22,
+      "question": "Minimal guarantee for pointer conversion?",
+      "options": [
+        "void*",
+        "uintptr_t*",
+        "int*",
+        "char*"
+      ],
+      "answer": "void*"
+    },
+    {
+      "id": 23,
+      "question": "Use of `offsetof(struct S, member)` yields?",
+      "options": [
+        "Offset bytes",
+        "Size",
+        "Alignment",
+        "Undefined"
+      ],
+      "answer": "Offset bytes"
+    },
+    {
+      "id": 24,
+      "question": "Conforming behavior of `strcpy(dst, dst+2)`?",
+      "options": [
+        "Undefined",
+        "Works",
+        "Compile error",
+        "Depends"
+      ],
+      "answer": "Undefined"
+    },
+    {
+      "id": 25,
+      "question": "Behavior of sign-extension on right-shift signed negative in C?",
+      "options": [
+        "Implementation-defined",
+        "Always zero-fill",
+        "Always sign-fill",
+        "Undefined"
+      ],
+      "answer": "Implementation-defined"
+    },
+    {
+      "id": 26,
+      "question": "Return type of `main()` should be?",
+      "options": [
+        "int",
+        "void",
+        "unsigned",
+        "Depends"
+      ],
+      "answer": "int"
+    },
+    {
+      "id": 27,
+      "question": "Variable length array limit defined by?",
+      "options": [
+        "Stack",
+        "Heap",
+        "Static",
+        "ROM"
+      ],
+      "answer": "Stack"
+    },
+    {
+      "id": 28,
+      "question": "Which conversion does not change representation?",
+      "options": [
+        "Pointer→void*",
+        "Pointer→int",
+        "Pointer→char*",
+        "Pointer→uintptr_t"
+      ],
+      "answer": "Pointer→void*"
+    },
+    {
+      "id": 29,
+      "question": "Consequence of division by zero in integer context?",
+      "options": [
+        "Undefined",
+        "Raise signal",
+        "Return MAX",
+        "Platform-defined"
+      ],
+      "answer": "Undefined"
+    },
+    {
+      "id": 30,
+      "question": "Is accessing padding bytes in struct allowed?",
+      "options": [
+        "Yes",
+        "No",
+        "Undefined",
+        "Depends"
+      ],
+      "answer": "Undefined"
+    }
+  ]
+}

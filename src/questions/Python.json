@@ -1,0 +1,341 @@
+{
+  "testName": "Python",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "Python",
+    "Advanced Programming"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "What’s the difference between 'is' and '==' in Python?",
+      "options": [
+        "'is' checks identity, '==' checks value",
+        "'is' checks value, '==' checks identity",
+        "They’re the same",
+        "'is' only for ints"
+      ],
+      "answer": "'is' checks identity, '==' checks value"
+    },
+    {
+      "id": 2,
+      "question": "What does 'nonlocal' achieve inside nested functions?",
+      "options": [
+        "Declares global",
+        "References nearest enclosing non-global scope",
+        "Creates local var",
+        "Prevents cross-function access"
+      ],
+      "answer": "References nearest enclosing non-global scope"
+    },
+    {
+      "id": 3,
+      "question": "How are arguments passed in Python?",
+      "options": [
+        "By reference",
+        "By value",
+        "By object-reference-by-value",
+        "By pointer"
+      ],
+      "answer": "By object-reference-by-value"
+    },
+    {
+      "id": 4,
+      "question": "Which statement about CPython’s GIL is true?",
+      "options": [
+        "Allows true parallel threads",
+        "Prevents memory leaks",
+        "Restricts true multithreading",
+        "Boosts multiprocessing"
+      ],
+      "answer": "Restricts true multithreading"
+    },
+    {
+  "id": 5,
+  "question": "Which of the following statements correctly checks if a variable `x` is a string in Python?",
+  "options": [
+    "type(x) == 'str'",
+    "x is str",
+    "isinstance(x, str)",
+    "type(x) == str(x)"
+  ],
+  "answer": "isinstance(x, str)"
+},
+    {
+      "id": 6,
+      "question": "What does hash(x) return for equal ints?",
+      "options": [
+        "Always different",
+        "Same value",
+        "Depends on version",
+        "Error"
+      ],
+      "answer": "Same value"
+    },
+    {
+      "id": 7,
+      "question": "To iterate list with index, which do you use?",
+      "options": [
+        "range(len(list))",
+        "for index in list",
+        "enumerate(list)",
+        "zip(list)"
+      ],
+      "answer": "enumerate(list)"
+    },
+    {
+      "id": 8,
+      "question": "What’s best to process large files lazily?",
+      "options": [
+        "list(file)",
+        "file.read()",
+        "for line in file",
+        "file.readlines()"
+      ],
+      "answer": "for line in file"
+    },
+    {
+      "id": 9,
+      "question": "Merge two dicts immutably in Python 3.9+",
+      "options": [
+        "dict1 + dict2",
+        "dict1.update()",
+        "{**dict1,**dict2}",
+        "dict1 | dict2"
+      ],
+      "answer": "dict1 | dict2"
+    },
+    {
+      "id": 10,
+      "question": "How to define a read‑only attribute in a class?",
+      "options": [
+        "normal var",
+        "@staticmethod",
+        "@property with no setter",
+        "__init__()"
+      ],
+      "answer": "@property with no setter"
+    },
+    {
+      "id": 11,
+      "question": "To make class iterable (usable in for‑loop), you need:",
+      "options": [
+        "__call__",
+        "__getitem__",
+        "__iter__ & __next__",
+        "__next__ only"
+      ],
+      "answer": "__iter__ & __next__"
+    },
+    {
+      "id": 12,
+      "question": "Best way to manage setup/cleanup code that always runs?",
+      "options": [
+        "try/except",
+        "if/else",
+        "contextlib.contextmanager",
+        "assert"
+      ],
+      "answer": "contextlib.contextmanager"
+    },
+    {
+      "id": 13,
+      "question": "What is printed?\n\n``` x=[1,2,3]\ny=x[:]\ny.append(4)\nprint(x)\n```",
+      "options": [
+        "[1,2,3]",
+        "[1,2,3,4]",
+        "[4]",
+        "Error"
+      ],
+      "answer": "[1,2,3]"
+    },
+    {
+  "id": 14,
+  "question": "Which of these is true about Python function default arguments?",
+  "options": [
+    "They are re-evaluated every time the function is called.",
+    "They are evaluated only once when the function is defined.",
+    "They cannot be mutable types.",
+    "They are always passed by value."
+  ],
+  "answer": "They are evaluated only once when the function is defined."
+},
+    {
+      "id": 15,
+      "question": "Output of:\n\n``` a = [[0]*3]*3\na[0][0]=1\nprint(a)\n```",
+      "options": [
+        "[[1,0,0],[0,0,0],[0,0,0]]",
+        "[[1,0,0],[1,0,0],[1,0,0]]",
+        "[1,0,0]",
+        "Error"
+      ],
+      "answer": "[[1,0,0],[1,0,0],[1,0,0]]"
+    },
+    {
+      "id": 16,
+      "question": "Output of:\n\n``` x='Python'\nprint(x[::-2])\n```",
+      "options": [
+        "'nhy'",
+        "'Pto'",
+        "'nohtyP'",
+        "Error"
+      ],
+      "answer": "'nhy'"
+    },
+    {
+  "id": 17,
+  "question": "Which of these features allows a function to maintain state across multiple calls?",
+  "options": [
+    "Generator",
+    "Lambda",
+    "Decorator",
+    "Closure"
+  ],
+  "answer": "Closure"
+},
+    {
+      "id": 18,
+      "question": "Output of:\n\n``` x=[i*i for i in range(3)]\ny=(i*i for i in range(3))\nprint(sum(x)==sum(y))\n```",
+      "options": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 19,
+      "question": "Only one thread runs Python bytecode at a time due to?",
+      "options": [
+        "True parallel threads",
+        "GIL",
+        "Auto process threads",
+        "Memory safety"
+      ],
+      "answer": "GIL"
+    },
+    {
+      "id": 20,
+      "question": "Difference between @staticmethod and @classmethod?",
+      "options": [
+        "staticmethod takes cls",
+        "classmethod can't access class vars",
+        "staticmethod can't access class/instance",
+        "classmethod isn't inherited"
+      ],
+      "answer": "staticmethod can't access class/instance"
+    },
+    {
+      "id": 21,
+      "question": "How do generators differ from normal functions?",
+      "options": [
+        "No return",
+        "Faster",
+        "Pause and resume statefully",
+        "Batch return data"
+      ],
+      "answer": "Pause and resume statefully"
+    },
+    {
+      "id": 22,
+      "question": "Why use __slots__ in a class?",
+      "options": [
+        "Prevents inheritance",
+        "Makes vars private",
+        "Reduce memory by fixed attributes",
+        "Enable op overloading"
+      ],
+      "answer": "Reduce memory by fixed attributes"
+    },
+    {
+      "id": 23,
+      "question": "Mutable default argument caveat is because:",
+      "options": [
+        "Evaluated each call",
+        "Re‑initialized each call",
+        "Evaluated once at defn",
+        "Bug in interpreter"
+      ],
+      "answer": "Evaluated once at defn"
+    },
+    {
+      "id": 24,
+      "question": "Best module for introspecting function arguments at runtime?",
+      "options": [
+        "traceback",
+        "inspect",
+        "pickle",
+        "ctypes"
+      ],
+      "answer": "inspect"
+    },
+    {
+      "id": 25,
+      "question": "For handling many client connections in Python 3.7+, use:",
+      "options": [
+        "threading.Thread",
+        "multiprocessing.Pool",
+        "asyncio with await",
+        "time.sleep"
+      ],
+      "answer": "asyncio with await"
+    },
+    {
+      "id": 26,
+      "question": "Guess Output:\n\n``` import itertools\nnums = [1,2,3]\ncycled = itertools.cycle(nums)\nprint(next(cycled), next(cycled), next(cycled), next(cycled), next(cycled))\n```",
+      "options": [
+        "1 2 3 1 2",
+        "1 2 3 3 2",
+        "1 2 3 1 1",
+        "Error"
+      ],
+      "answer": "1 2 3 1 2"
+    },
+    {
+      "id": 27,
+      "question": "Guess Output:\n\n``` def f(a, b=[]):\n    b.append(a)\n    return b\nprint(f(1))\nprint(f(2, []))\nprint(f(3))\n```",
+      "options": [
+        "[1], [2], [3]",
+        "[1], [2], [1,2]",
+        "[1], [2], [1,3]",
+        "[1], [2], [1,1]"
+      ],
+      "answer": "[1], [2], [1,3]"
+    },
+    {
+      "id": 28,
+      "question": "Guess Output:\n\n``` class A:\n    def __init__(self): self.x=1\ndef f(obj):\n    obj.x+=10\na=A(); f(a); print(a.x)\n```",
+      "options": [
+        "1",
+        "11",
+        "Error",
+        "None"
+      ],
+      "answer": "11"
+    },
+    {
+  "id": 29,
+  "question": "Which data structure provides O(1) average-case time complexity for lookup in Python?",
+  "options": [
+    "list",
+    "set",
+    "tuple",
+    "deque"
+  ],
+  "answer": "set"
+},
+    {
+      "id": 30,
+      "question": "Guess Output:\n\n``` import functools\n@functools.lru_cache(maxsize=2)\ndef fib(n):\n    if n<2: return n\n    return fib(n-1)+fib(n-2)\nprint(fib(5))\n```",
+      "options": [
+        "5",
+        "8",
+        "15",
+        "Error"
+      ],
+      "answer": "5"
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "testName": "Regression Testing",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "Regression Testing"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the main goal of regression testing?",
+      "options": [
+        "To test new features",
+        "To verify that bug fixes have resolved the issue",
+        "To ensure that existing functionality works after changes",
+        "To identify system performance bottlenecks"
+      ],
+      "answer": "To ensure that existing functionality works after changes"
+    },
+    {
+      "id": 2,
+      "question": "When is regression testing usually performed in the software development lifecycle?",
+      "options": [
+        "Before system testing",
+        "After deploying to production",
+        "After code changes or bug fixes",
+        "Only during unit testing"
+      ],
+      "answer": "After code changes or bug fixes"
+    },
+    {
+      "id": 3,
+      "question": "Which type of testing is regression testing classified under?",
+      "options": [
+        "White-box testing",
+        "Exploratory testing",
+        "Maintenance testing",
+        "Performance testing"
+      ],
+      "answer": "Maintenance testing"
+    },
+    {
+      "id": 4,
+      "question": "A developer fixed a bug related to the login functionality. What kind of regression testing should be done?",
+      "options": [
+        "Only the login functionality",
+        "Login and all related authentication features",
+        "Only new features unrelated to login",
+        "Only logout functionality"
+      ],
+      "answer": "Login and all related authentication features"
+    },
+    {
+      "id": 5,
+      "question": "You updated a function used across multiple modules. What should you do as part of regression testing?",
+      "options": [
+        "Test only the updated function",
+        "Test only the UI",
+        "Retest all modules that use the function",
+        "Skip testing since only one function changed"
+      ],
+      "answer": "Retest all modules that use the function"
+    },
+    {
+      "id": 6,
+      "question": "In Agile, frequent changes are made to the codebase. What approach is best for regression testing in such an environment?",
+      "options": [
+        "Manual regression testing",
+        "Skip regression testing in sprints",
+        "Use automated regression test suites",
+        "Perform regression testing only at the end of the project"
+      ],
+      "answer": "Use automated regression test suites"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is a key goal of regression testing?",
+      "options": [
+        "Find UI alignment issues",
+        "Validate performance benchmarks",
+        "Ensure recent changes haven't broken existing functionality",
+        "Compare application versions visually"
+      ],
+      "answer": "Ensure recent changes haven't broken existing functionality"
+    },
+    {
+      "id": 8,
+      "question": "Which test cases are typically included in a regression suite?",
+      "options": [
+        "Only failed tests from previous runs",
+        "Random test cases",
+        "Frequently used and critical functionality tests",
+        "Only front-end tests"
+      ],
+      "answer": "Frequently used and critical functionality tests"
+    },
+    {
+      "id": 9,
+      "question": "What is one major drawback of manual regression testing?",
+      "options": [
+        "It cannot be done by developers",
+        "It requires no documentation",
+        "It is time-consuming and repetitive",
+        "It only works on web applications"
+      ],
+      "answer": "It is time-consuming and repetitive"
+    },
+    {
+      "id": 10,
+      "question": "How can automation help in regression testing?",
+      "options": [
+        "By skipping tests based on browser type",
+        "By reducing the need for test cases",
+        "By quickly re-executing test scripts for unchanged functionality",
+        "By automatically writing new test cases"
+      ],
+      "answer": "By quickly re-executing test scripts for unchanged functionality"
+    },
+    {
+      "id": 11,
+      "question": "Your team added a new payment option. What is the best approach to ensure existing payment flows aren't broken?",
+      "options": [
+        "Run a smoke test only",
+        "Test the new feature only",
+        "Perform regression testing on all payment-related functionality",
+        "Test on production only"
+      ],
+      "answer": "Perform regression testing on all payment-related functionality"
+    },
+    {
+      "id": 12,
+      "question": "After upgrading the backend API, the frontend stopped displaying user data. What might this indicate?",
+      "options": [
+        "Good performance",
+        "A missed regression case",
+        "A design flaw",
+        "Successful deployment"
+      ],
+      "answer": "A missed regression case"
+    },
+    {
+      "id": 13,
+      "question": "You're automating regression tests for a banking app. Which tools would be most suitable?",
+      "options": [
+        "Excel and Notepad",
+        "Git and SVN",
+        "Selenium and TestNG",
+        "PowerPoint and Paint"
+      ],
+      "answer": "Selenium and TestNG"
+    },
+    {
+      "id": 14,
+      "question": "Which of the following best describes a \"selective regression testing\" strategy?",
+      "options": [
+        "Testing all test cases from the beginning",
+        "Executing only those tests affected by recent code changes",
+        "Running performance tests in every cycle",
+        "Running only unit tests"
+      ],
+      "answer": "Executing only those tests affected by recent code changes"
+    },
+    {
+      "id": 15,
+      "question": "In which phase of software development is regression testing most frequently applied?",
+      "options": [
+        "Requirements gathering",
+        "Design",
+        "Maintenance",
+        "Installation"
+      ],
+      "answer": "Maintenance"
+    },
+    {
+      "id": 16,
+      "question": "Why is regression testing often automated?",
+      "options": [
+        "Because it's too complex for manual testing",
+        "Because automated tools are more reliable in exploratory testing",
+        "Because regression tests are repetitive and time-consuming",
+        "Because manual testing is deprecated"
+      ],
+      "answer": "Because regression tests are repetitive and time-consuming"
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is NOT a good candidate for regression testing automation?",
+      "options": [
+        "Critical business functionality",
+        "Frequently reused workflows",
+        "Rare one-time user flows",
+        "Stable modules"
+      ],
+      "answer": "Rare one-time user flows"
+    },
+    {
+      "id": 18,
+      "question": "A developer fixes a bug in the payment module. What should the tester do to ensure this fix doesn't break the cart functionality?",
+      "options": [
+        "Run only unit tests",
+        "Run performance tests",
+        "Execute regression tests on related modules",
+        "Ignore testing unrelated modules"
+      ],
+      "answer": "Execute regression tests on related modules"
+    },
+    {
+      "id": 19,
+      "question": "After a major update, your regression suite contains over 1,000 test cases, but your deadline allows only 3 hours of execution. What is the best approach?",
+      "options": [
+        "Run all tests in parallel manually",
+        "Randomly execute any 300 test cases",
+        "Prioritize and execute high-risk and frequently used functionality first",
+        "Run only tests related to new features"
+      ],
+      "answer": "Prioritize and execute high-risk and frequently used functionality first"
+    },
+    {
+      "id": 20,
+      "question": "Your team observes that bugs often reappear in older modules after deploying new changes. What should be improved?",
+      "options": [
+        "Increase exploratory testing",
+        "Introduce more security testing",
+        "Expand and automate the regression test suite",
+        "Only test new features more thoroughly"
+      ],
+      "answer": "Expand and automate the regression test suite"
+    },
+    {
+      "id": 21,
+      "question": "During regression testing, a test that previously passed now fails. What's the first step a tester should take?",
+      "options": [
+        "Delete the test",
+        "Escalate the issue to the product owner",
+        "Investigate if the failure is due to recent code changes",
+        "Roll back the build"
+      ],
+      "answer": "Investigate if the failure is due to recent code changes"
+    },
+    {
+      "id": 22,
+      "question": "A team automates their regression suite but continues facing inconsistent failures. What is a likely root cause?",
+      "options": [
+        "Too many assertions",
+        "Network issues",
+        "Flaky or unstable test cases",
+        "Low test coverage"
+      ],
+      "answer": "Flaky or unstable test cases"
+    },
+    {
+      "id": 23,
+      "question": "Which scenario best justifies a full regression test over a partial one?",
+      "options": [
+        "Minor UI color update",
+        "Text update in a legal disclaimer",
+        "Core logic refactor impacting multiple modules",
+        "Localization for a new region"
+      ],
+      "answer": "Core logic refactor impacting multiple modules"
+    },
+    {
+      "id": 24,
+      "question": "What is the primary benefit of maintaining a regression test suite?",
+      "options": [
+        "It eliminates the need for manual testing",
+        "It helps quickly verify system stability after changes",
+        "It reduces the number of test cases needed",
+        "It makes exploratory testing unnecessary"
+      ],
+      "answer": "It helps quickly verify system stability after changes"
+    },
+    {
+      "id": 25,
+      "question": "In continuous integration environments, when should regression tests ideally be run?",
+      "options": [
+        "Only before major releases",
+        "After every code commit",
+        "Once per sprint",
+        "Only during nightly builds"
+      ],
+      "answer": "After every code commit"
+    },
+    {
+      "id": 26,
+      "question": "What is the main difference between retesting and regression testing?",
+      "options": [
+        "Retesting verifies fixes while regression checks for side effects",
+        "Regression testing is always automated",
+        "Retesting is only done by developers",
+        "Regression testing only checks new features"
+      ],
+      "answer": "Retesting verifies fixes while regression checks for side effects"
+    },
+    {
+      "id": 27,
+      "question": "Which factor is most important when prioritizing test cases for regression testing?",
+      "options": [
+        "Test case execution time",
+        "Business criticality of the feature",
+        "When the test was last updated",
+        "Who wrote the test case"
+      ],
+      "answer": "Business criticality of the feature"
+    },
+    {
+      "id": 28,
+      "question": "What is the main challenge of maintaining an automated regression suite?",
+      "options": [
+        "Keeping tests updated with application changes",
+        "Making tests run slower",
+        "Reducing test coverage",
+        "Eliminating all manual testing"
+      ],
+      "answer": "Keeping tests updated with application changes"
+    },
+    {
+      "id": 29,
+      "question": "In risk-based regression testing, what determines which tests to run?",
+      "options": [
+        "The likelihood and impact of potential failures",
+        "The alphabetical order of test names",
+        "The order tests were created",
+        "Random selection"
+      ],
+      "answer": "The likelihood and impact of potential failures"
+    },
+    {
+      "id": 30,
+      "question": "What is the primary advantage of modular test design for regression suites?",
+      "options": [
+        "Makes tests harder to maintain",
+        "Allows easier updates when application changes",
+        "Reduces the need for documentation",
+        "Eliminates the need for test data"
+      ],
+      "answer": "Allows easier updates when application changes"
+    }
+  ]
+}

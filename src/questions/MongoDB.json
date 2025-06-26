@@ -1,0 +1,370 @@
+{
+  "testName": "Mongo DB",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "MongoDB"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which type of database is MongoDB?",
+      "options": [
+        "Document‑oriented",
+        "Relational",
+        "Graph",
+        "Key‑value"
+      ],
+      "answer": "Document‑oriented",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Which command shows all databases on the server?",
+      "options": [
+        "show databases",
+        "db.show()",
+        "db.list()",
+        "listDatabases()"
+      ],
+      "answer": "show databases",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Inserting a document without specifying _id does what?",
+      "options": [
+        "Throws error",
+        "Auto‑generates ObjectId",
+        "Sets _id to null",
+        "Creates default numeric id"
+      ],
+      "answer": "Auto‑generates ObjectId",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Which method returns a cursor not an array?",
+      "options": [
+        "find()",
+        "findOne()",
+        "toArray()",
+        "list()"
+      ],
+      "answer": "find()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "How do you create an index on field 'age'?",
+      "options": [
+        "db.users.createIndex({ age: 1 })",
+        "db.users.index(age)",
+        "db.users.addIndex(age)",
+        "db.users.ensureIndex(age)"
+      ],
+      "answer": "db.users.createIndex({ age: 1 })",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 6,
+      "question": "Which ensures a unique value in the 'email' field?",
+      "options": [
+        "createIndex with unique:true",
+        "set unique in schema",
+        "db.setUnique()",
+        "applyUnique(email)"
+      ],
+      "answer": "createIndex with unique:true",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 7,
+      "question": "Which operator retrieves documents with age ≤ 30?",
+      "options": [
+        "{ age: { $lte: 30 } }",
+        "{ age: <= 30 }",
+        "{ age: { $le: 30 } }",
+        "{ age: [..30] }"
+      ],
+      "answer": "{ age: { $lte: 30 } }",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 8,
+      "question": "To remove all documents from 'users', use:",
+      "options": [
+        "db.users.deleteMany({})",
+        "db.users.removeAll()",
+        "db.users.clear()",
+        "db.users.truncate()"
+      ],
+      "answer": "db.users.deleteMany({})",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 9,
+      "question": "What does db.users.updateOne({x}, {$set:{y}}) do?",
+      "options": [
+        "Updates single matching doc",
+        "Updates all",
+        "Replaces entire doc",
+        "Inserts new if none exist"
+      ],
+      "answer": "Updates single matching doc",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 10,
+      "question": "Which pipeline stage filters early in aggregation?",
+      "options": [
+        "$match",
+        "$project",
+        "$group",
+        "$sort"
+      ],
+      "answer": "$match",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 11,
+      "question": "What stage deconstructs array into documents?",
+      "options": [
+        "$unwind",
+        "$group",
+        "$lookup",
+        "$split"
+      ],
+      "answer": "$unwind",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 12,
+      "question": "To do a left‑outer join with another collection use:",
+      "options": [
+        "$lookup",
+        "$join",
+        "$merge",
+        "$lookupDocs"
+      ],
+      "answer": "$lookup",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 13,
+      "question": "Which stores aggregation results into a collection?",
+      "options": [
+        "$merge",
+        "$out",
+        "$into",
+        "$store"
+      ],
+      "answer": "$out",
+      "difficulty": "hard"
+    },
+    {
+      "id": 14,
+      "question": "What’s the default write concern for a standalone server?",
+      "options": [
+        "w:1",
+        "w:0",
+        "w:majority",
+        "w:all"
+      ],
+      "answer": "w:1",
+      "difficulty": "hard"
+    },
+    {
+      "id": 15,
+      "question": "Which option returns explain execution info?",
+      "options": [
+        "cursor.explain()",
+        "db.collection.explain()",
+        "query.explain()",
+        "db.explain()"
+      ],
+      "answer": "db.collection.explain()",
+      "difficulty": "hard"
+    },
+    {
+      "id": 16,
+      "question": "To distribute your data across shards, you should:",
+      "options": [
+        "Enable sharding and create shard key",
+        "Duplicate data manually",
+        "Set database to replicated",
+        "Use MapReduce"
+      ],
+      "answer": "Enable sharding and create shard key",
+      "difficulty": "hard"
+    },
+    {
+      "id": 17,
+      "question": "Which lock type is used for read operations in WiredTiger?",
+      "options": [
+        "Document‑level",
+        "Collection‑level",
+        "Database‑level",
+        "Global"
+      ],
+      "answer": "Document‑level",
+      "difficulty": "hard"
+    },
+    {
+      "id": 18,
+      "question": "To enforce JSON schema validation use:",
+      "options": [
+        "validator in createCollection",
+        "$jsonSchema",
+        "Both $jsonSchema and validator in createCollection",
+        "schema: { } option"
+      ],
+      "answer": "Both $jsonSchema and validator in createCollection",
+      "difficulty": "hard"
+    },
+    {
+  "id": 19,
+  "question": "What does the write concern option `w:majority` ensure in MongoDB?",
+  "options": [
+    "The primary acknowledges the write only after a majority of replica set members confirm it",
+    "The client writes directly to all replica set members",
+    "The write is acknowledged after it reaches one secondary",
+    "Writes are distributed evenly across all nodes"
+  ],
+  "answer": "The primary acknowledges the write only after a majority of replica set members confirm it",
+  "difficulty": "hard"
+},
+    {
+      "id": 20,
+      "question": "Which aggregation stage transforms values of a field?",
+      "options": [
+        "$project",
+        "$replaceRoot",
+        "$addFields",
+        "Both $addFields and $project"
+      ],
+      "answer": "Both $addFields and $project",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 21,
+      "question": "What command lists current replica set members?",
+      "options": [
+        "rs.status()",
+        "db.replList()",
+        "replSetGetStatus()",
+        "rs.list()"
+      ],
+      "answer": "rs.status()",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 22,
+      "question": "Which method swaps out old oplog entries after reaching size limit?",
+      "options": [
+        "Capped collection behavior",
+        "TTL monitor",
+        "Oplog never cleans",
+        "Manual purge"
+      ],
+      "answer": "Capped collection behavior",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "What type of index supports geo‑near queries?",
+      "options": [
+        "2dsphere",
+        "2d",
+        "geo",
+        "hash"
+      ],
+      "answer": "2dsphere",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "To find text in multiple fields, you must:",
+      "options": [
+        "Create a text index",
+        "Use regex on each field",
+        "Apply full‑text plugin",
+        "Use map‑reduce"
+      ],
+      "answer": "Create a text index",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 25,
+      "question": "Which pipeline stage sorts aggregated results?",
+      "options": [
+        "$sort",
+        "$order",
+        "$rank",
+        "$group"
+      ],
+      "answer": "$sort",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 26,
+      "question": "What is the result of db.coll.find({x: {$in: []}})?",
+      "options": [
+        "No documents",
+        "All documents",
+        "Error",
+        "Only docs with x=array"
+      ],
+      "answer": "No documents",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "Which value type supports 64‑bit integers?",
+      "options": [
+        "NumberLong",
+        "NumberInt",
+        "Number",
+        "Double"
+      ],
+      "answer": "NumberLong",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 28,
+      "question": "What does MongoDB use to generate ObjectId timestamps?",
+      "options": [
+        "Client clock",
+        "Server clock",
+        "Random UUID",
+        "None"
+      ],
+      "answer": "Server clock",
+      "difficulty": "hard"
+    },
+    {
+  "id": 29,
+  "question": "Which command removes all documents in a collection but keeps the indexes?",
+  "options": [
+    "db.collection.deleteMany({})",
+    "db.collection.drop()",
+    "db.collection.removeIndex()",
+    "db.collection.clear()"
+  ],
+  "answer": "db.collection.deleteMany({})",
+  "difficulty": "moderate"
+},
+    {
+  "id": 30,
+  "question": "Which MongoDB shell command selects a specific database named 'sales'?",
+  "options": [
+    "use sales",
+    "select sales",
+    "db.sales()",
+    "switch sales"
+  ],
+  "answer": "use sales",
+  "difficulty": "easy"
+}
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "testName": "JSP",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "JSP"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which object in JSP allows access to the servlet's output stream?",
+      "options": [
+        "response",
+        "request",
+        "out",
+        "application"
+      ],
+      "answer": "out",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 2,
+      "question": "Which JSP tag is used to declare variables or methods that get inserted into the servlet class?",
+      "options": [
+        "<%! %>",
+        "<%= %>",
+        "<% %>",
+        "<%@ %>"
+      ],
+      "answer": "<%! %>",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 3,
+      "question": "Which of these is not an implicit object in JSP?",
+      "options": [
+        "config",
+        "exception",
+        "context",
+        "out"
+      ],
+      "answer": "context",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 4,
+      "question": "What is the default scope of a JavaBean in JSP when not specified?",
+      "options": [
+        "page",
+        "session",
+        "application",
+        "request"
+      ],
+      "answer": "page",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is used to access initialization parameters for a JSP page?",
+      "options": [
+        "config.getInitParameter()",
+        "application.getInitParameter()",
+        "session.getInitParameter()",
+        "request.getInitParameter()"
+      ],
+      "answer": "config.getInitParameter()",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 6,
+      "question": "What happens if a `jspInit()` method is defined in a JSP?",
+      "options": [
+        "It is called once when the JSP is initialized.",
+        "It is called every time the page is requested.",
+        "It overrides the servlet’s `doGet()` method.",
+        "It is used to clean up resources."
+      ],
+      "answer": "It is called once when the JSP is initialized.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 7,
+      "question": "Which lifecycle method is called when a JSP page is removed from memory?",
+      "options": [
+        "jspDestroy()",
+        "destroy()",
+        "doDelete()",
+        "end()"
+      ],
+      "answer": "jspDestroy()",
+      "difficulty": "moderate"
+    },
+    {
+  "id": 8,
+  "question": "What is the correct syntax to output a value in JSP?",
+  "options": [
+    "&lt;%= variable %&gt;",
+    "&lt;% out.print(variable); %&gt;",
+    "&lt;%! variable %&gt;",
+    "&lt;jsp:output&gt;"
+  ],
+  "answer": "&lt;%= variable %&gt;",
+  "difficulty": "moderate"
+},
+    {
+  "id": 9,
+  "question": "Which JSP directive is used to define error handling for a page?",
+  "options": [
+    "&lt;%@ page errorPage=\"error.jsp\" %&gt;",
+    "&lt;%@ error page=\"error.jsp\" %&gt;",
+    "&lt;%@ page handler=\"error.jsp\" %&gt;",
+    "&lt;jsp:error page=\"error.jsp\" /&gt;"
+  ],
+  "answer": "&lt;%@ page errorPage=\"error.jsp\" %&gt;",
+  "difficulty": "moderate"
+},
+    {
+      "id": 10,
+      "question": "Which attribute in `jsp:useBean` tag is mandatory?",
+      "options": [
+        "id",
+        "scope",
+        "class",
+        "type"
+      ],
+      "answer": "id",
+      "difficulty": "moderate"
+    },
+    {
+  "id": 11,
+  "question": "How can you retrieve a bean property in JSP?",
+  "options": [
+    "&lt;jsp:getProperty name=\"bean\" property=\"value\" /&gt;",
+    "&lt;jsp:get name=\"bean\" property=\"value\" /&gt;",
+    "&lt;jsp:bean name=\"bean\" property=\"value\" /&gt;",
+    "&lt;jsp:fetchProperty /&gt;"
+  ],
+  "answer": "&lt;jsp:getProperty name=\"bean\" property=\"value\" /&gt;",
+  "difficulty": "moderate"
+},
+    {
+      "id": 12,
+      "question": "Which method of `HttpServletRequest` is used to retrieve form values?",
+      "options": [
+        "getParameter()",
+        "getAttribute()",
+        "getValue()",
+        "getFormField()"
+      ],
+      "answer": "getParameter()",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "question": "How do you prevent a JSP page from being directly accessed?",
+      "options": [
+        "Place it inside WEB-INF",
+        "Use `isErrorPage=false`",
+        "Use `hidden=true`",
+        "Use `<%@ hidden %>`"
+      ],
+      "answer": "Place it inside WEB-INF",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 14,
+      "question": "Which implicit object refers to the servlet context in JSP?",
+      "options": [
+        "application",
+        "context",
+        "config",
+        "init"
+      ],
+      "answer": "application",
+      "difficulty": "moderate"
+    },
+    {
+  "id": 15,
+  "question": "Which tag is used to set a bean property?",
+  "options": [
+    "&lt;jsp:setProperty /&gt;",
+    "&lt;jsp:propertySet /&gt;",
+    "&lt;jsp:assign /&gt;",
+    "&lt;jsp:valueSet /&gt;"
+  ],
+  "answer": "&lt;jsp:setProperty /&gt;",
+  "difficulty": "moderate"
+},
+    {
+      "id": 16,
+      "question": "Which scope allows sharing data across the entire application?",
+      "options": [
+        "application",
+        "session",
+        "page",
+        "request"
+      ],
+      "answer": "application",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is true about scripting elements in JSP?",
+      "options": [
+        "They are inserted into the servlet as-is.",
+        "They are ignored during compilation.",
+        "They are always executed after page rendering.",
+        "They can only be used in beans."
+      ],
+      "answer": "They are inserted into the servlet as-is.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 18,
+      "question": "How many times is the `jspInit()` method called in JSP lifecycle?",
+      "options": [
+        "Only once",
+        "Once per request",
+        "Each time the page is loaded",
+        "Never"
+      ],
+      "answer": "Only once",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 19,
+      "question": "Which object gives access to servlet-level initialization parameters?",
+      "options": [
+        "application",
+        "config",
+        "session",
+        "pageContext"
+      ],
+      "answer": "config",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 20,
+      "question": "Which tag is used to insert dynamic content into a JSP page?",
+      "options": [
+        "<%= %>",
+        "<%! %>",
+        "<%@ %>",
+        "<%# %>"
+      ],
+      "answer": "<%= %>",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "question": "How is a JSP converted into a servlet?",
+      "options": [
+        "By the JSP engine at runtime",
+        "Manually by the developer",
+        "By Java compiler",
+        "Using JSTL"
+      ],
+      "answer": "By the JSP engine at runtime",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 22,
+      "question": "Which object is used for reading cookies in JSP?",
+      "options": [
+        "request.getCookies()",
+        "session.getCookies()",
+        "config.getCookies()",
+        "cookie.get()"
+      ],
+      "answer": "request.getCookies()",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 23,
+      "question": "What does the EL expression `${user.name}` return?",
+      "options": [
+        "Value of `name` property in `user` object",
+        "JavaScript variable",
+        "Servlet method",
+        "JSTL tag output"
+      ],
+      "answer": "Value of `name` property in `user` object",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 24,
+      "question": "What is the role of the `buffer` attribute in `<%@ page %>` directive?",
+      "options": [
+        "To specify the size of the output buffer",
+        "To flush the stream",
+        "To restrict form data",
+        "To define variable scope"
+      ],
+      "answer": "To specify the size of the output buffer",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 25,
+      "question": "Which JSP tag allows accessing JavaBeans properties using EL?",
+      "options": [
+        "JSTL tags",
+        "Scriptlet",
+        "Java code",
+        "Servlet API"
+      ],
+      "answer": "JSTL tags",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 26,
+      "question": "Which of these can be used to apply business logic in a JSP page cleanly?",
+      "options": [
+        "JavaBeans",
+        "Scriptlets",
+        "Directives",
+        "Tag libraries"
+      ],
+      "answer": "JavaBeans",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 27,
+      "question": "What happens if a bean with the same id already exists in the specified scope?",
+      "options": [
+        "No new bean is created",
+        "A new bean overwrites it",
+        "An exception is thrown",
+        "The page fails to compile"
+      ],
+      "answer": "No new bean is created",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "What is the result of setting `autoFlush=\"false\"` in page directive?",
+      "options": [
+        "Disables automatic flushing of buffer",
+        "Flushes content automatically",
+        "Throws compile error",
+        "Causes server restart"
+      ],
+      "answer": "Disables automatic flushing of buffer",
+      "difficulty": "hard"
+    },
+    {
+  "id": 29,
+  "question": "What is the use of the &lt;c:forEach&gt; tag in JSP?",
+  "options": [
+    "Loop over a collection or range",
+    "Include another JSP",
+    "Set a bean property",
+    "Handle exceptions"
+  ],
+  "answer": "Loop over a collection or range",
+  "difficulty": "moderate"
+},
+    {
+      "id": 30,
+      "question": "Which file is used to define custom tag libraries in JSP?",
+      "options": [
+        ".tld file",
+        ".jsp file",
+        "web.xml",
+        ".tag file"
+      ],
+      "answer": ".tld file",
+      "difficulty": "moderate"
+    }
+  ]
+}

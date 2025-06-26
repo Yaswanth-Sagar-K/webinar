@@ -1,0 +1,335 @@
+{
+  "testName": "HTML",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "HTML"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the purpose of the &lt;meta charset=\"UTF-8\"&gt; tag in an HTML document?",
+      "options": [
+        "To define the layout of the webpage",
+        "To include external metadata",
+        "To specify the character encoding used in the document",
+        "To load fonts from external sources"
+      ],
+      "answer": "To specify the character encoding used in the document"
+    },
+    {
+      "id": 2,
+      "question": "Which tag is used to group block-level elements in HTML?",
+      "options": ["&lt;span&gt;", "&lt;div&gt;", "&lt;section&gt;", "&lt;group&gt;"],
+      "answer": "&lt;div&gt;"
+    },
+   {
+  "id": 3,
+  "question": "What is the correct way to make a numbered list in HTML?",
+  "options": [
+    "&lt;ul&gt;",
+    "&lt;ol&gt;",
+    "&lt;li&gt;",
+    "&lt;dl&gt;"
+  ],
+  "answer": "&lt;ol&gt;"
+},
+    {
+  "id": 4,
+  "question": "You want to create a form that allows users to upload a file. Which input type should you use?",
+  "options": [
+    "&lt;input type=&quot;text&quot;&gt;",
+    "&lt;input type=&quot;submit&quot;&gt;",
+    "&lt;input type=&quot;file&quot;&gt;",
+    "&lt;input type=&quot;checkbox&quot;&gt;"
+  ],
+  "answer": "&lt;input type=&quot;file&quot;&gt;"
+},
+    {
+  "id": 5,
+  "question": "A developer wants to display an image that links to another page when clicked. Which combination of tags should they use?",
+  "options": [
+    "&lt;img&gt; inside &lt;a&gt;",
+    "&lt;a&gt; inside &lt;img&gt;",
+    "&lt;div&gt; inside &lt;a&gt;",
+    "&lt;button&gt; around &lt;img&gt;"
+  ],
+  "answer": "&lt;img&gt; inside &lt;a&gt;"
+},
+    {
+      "id": 6,
+      "question": "You need to add a tooltip to a piece of text that shows more information on hover. Which HTML attribute should be used?",
+      "options": [
+        "alt",
+        "href",
+        "tooltip",
+        "title"
+      ],
+      "answer": "title"
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of the &lt;!DOCTYPE html&gt; declaration in an HTML document?",
+      "options": [
+        "To define the CSS version used",
+        "To specify the JavaScript engine",
+        "To inform the browser of the HTML version used",
+        "To start the HTML comment section"
+      ],
+      "answer": "To inform the browser of the HTML version used"
+    },
+    {
+  "id": 8,
+  "question": "Which tag is used to define an independent piece of content in HTML5?",
+  "options": [
+    "&lt;div&gt;",
+    "&lt;section&gt;",
+    "&lt;article&gt;",
+    "&lt;aside&gt;"
+  ],
+  "answer": "&lt;article&gt;"
+},
+    {
+      "id": 9,
+      "question": "Which attribute is required in an &lt;img&gt; tag for accessibility?",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answer": "alt"
+    },
+    {
+  "id": 10,
+  "question": "What is the main difference between &lt;section&gt; and &lt;div&gt;?",
+  "options": [
+    "&lt;section&gt; is used for styling only",
+    "&lt;div&gt; is semantic, &lt;section&gt; is not",
+    "&lt;section&gt; adds structure and meaning, &lt;div&gt; does not",
+    "Both are used interchangeably for text formatting"
+  ],
+  "answer": "&lt;section&gt; adds structure and meaning, &lt;div&gt; does not"
+},
+    {
+      "id": 11,
+      "question": "What does the defer attribute do in the &lt;script&gt; tag?",
+      "options": [
+        "Prevents the script from executing",
+        "Loads the script synchronously",
+        "Executes the script immediately",
+        "Delays script execution until after the HTML is parsed"
+      ],
+      "answer": "Delays script execution until after the HTML is parsed"
+    },
+    {
+  "id": 12,
+  "question": "What is the correct use of the &lt;meta&gt; tag for character encoding in HTML5?",
+  "options": [
+    "&lt;meta charset=&quot;utf-8&quot;&gt;",
+    "&lt;meta encoding=&quot;utf-8&quot;&gt;",
+    "&lt;meta type=&quot;charset=utf-8&quot;&gt;",
+    "&lt;meta content=&quot;utf-8&quot;&gt;"
+  ],
+  "answer": "&lt;meta charset=&quot;utf-8&quot;&gt;"
+},
+{
+  "id": 13,
+  "question": "You want to group related navigation links together in a semantic way. Which tag should you use?",
+  "options": [
+    "&lt;nav&gt;",
+    "&lt;div&gt;",
+    "&lt;header&gt;",
+    "&lt;footer&gt;"
+  ],
+  "answer": "&lt;nav&gt;"
+},
+    {
+      "id": 14,
+      "question": "You’re creating a form and want to ensure the user doesn't leave the \"email\" field blank. Which attribute should you use?",
+      "options": [
+        "disabled",
+        "required",
+        "autofocus",
+        "readonly"
+      ],
+      "answer": "required"
+    },
+    {
+  "id": 15,
+  "question": "You’re embedding a YouTube video into your site. Which tag should you use?",
+  "options": [
+    "&lt;video&gt;",
+    "&lt;object&gt;",
+    "&lt;embed&gt;",
+    "&lt;iframe&gt;"
+  ],
+  "answer": "&lt;iframe&gt;"
+},
+    {
+  "id": 16,
+  "question": "You have a large table of data and want to provide a heading that repeats on each printed page. Which tag should you use?",
+  "options": [
+    "&lt;thead&gt;",
+    "&lt;header&gt;",
+    "&lt;th&gt;",
+    "&lt;h1&gt;"
+  ],
+  "answer": "&lt;thead&gt;"
+},
+    {
+      "id": 17,
+      "question": "You want to link to a downloadable PDF file. Which attribute ensures the file is downloaded instead of opened in the browser?",
+      "options": [
+        "download",
+        "href",
+        "target=\"_blank\"",
+        "rel=\"external\""
+      ],
+      "answer": "download"
+    },
+    {
+  "id": 18,
+  "question": "You're designing a layout and want to mark the content for the sidebar. Which HTML5 element is most appropriate?",
+  "options": [
+    "&lt;aside&gt;",
+    "&lt;article&gt;",
+    "&lt;nav&gt;",
+    "&lt;main&gt;"
+  ],
+  "answer": "&lt;aside&gt;"
+},
+    {
+      "id": 19,
+      "question": "Which HTML attribute is used to ensure that a script runs asynchronously with the HTML parsing process?",
+      "options": [
+        "defer",
+        "async",
+        "type=\"module\"",
+        "loading"
+      ],
+      "answer": "async"
+    },
+    {
+  "id": 20,
+  "question": "Which HTML element is designed to represent machine-readable data, such as dates, times, or durations?",
+  "options": [
+    "&lt;data&gt;",
+    "&lt;meta&gt;",
+    "&lt;var&gt;",
+    "&lt;time&gt;"
+  ],
+  "answer": "&lt;time&gt;"
+},
+    {
+      "id": 21,
+      "question": "What does the contenteditable attribute do in HTML?",
+      "options": [
+        "Allows content to be styled with CSS",
+        "Enables JavaScript editing of content",
+        "Makes the element's content editable by the user",
+        "Prevents user interaction with an element"
+      ],
+      "answer": "Makes the element's content editable by the user"
+    },
+    {
+      "id": 22,
+      "question": "Why would you use the hidden attribute in an HTML element?",
+      "options": [
+        "To display an element only on mobile",
+        "To completely hide the element from rendering and accessibility tools",
+        "To remove the element from the DOM",
+        "To enable lazy loading"
+      ],
+      "answer": "To completely hide the element from rendering and accessibility tools"
+    },
+    {
+  "id": 23,
+  "question": "What is the difference between &lt;b&gt; and &lt;strong&gt; in HTML5?",
+  "options": [
+    "&lt;b&gt; is deprecated; &lt;strong&gt; is not",
+    "&lt;b&gt; is used for bold text with semantic meaning",
+    "&lt;strong&gt; conveys importance; &lt;b&gt; only styles text",
+    "There is no difference"
+  ],
+  "answer": "&lt;strong&gt; conveys importance; &lt;b&gt; only styles text"
+},
+    {
+      "id": 24,
+      "question": "You are designing a form that includes credit card input. Which HTML5 input type is most appropriate?",
+      "options": [
+        "text",
+        "password",
+        "tel",
+        "number"
+      ],
+      "answer": "tel"
+    },
+    {
+  "id": 25,
+  "question": "You want to include a fallback message for a &lt;video&gt; tag that may not be supported in some browsers. Where should you put the message?",
+  "options": [
+    "As an attribute in &lt;video&gt;",
+    "Inside a &lt;script&gt; tag",
+    "Inside the &lt;video&gt; element",
+    "Below the &lt;video&gt; tag with &lt;p&gt;"
+  ],
+  "answer": "Inside the &lt;video&gt; element"
+},
+    {
+  "id": 26,
+  "question": "You’re creating an FAQ page where each question expands/collapses on click. Which HTML element should be used for semantic structure?",
+  "options": [
+    "&lt;div&gt;",
+    "&lt;details&gt; and &lt;summary&gt;",
+    "&lt;p&gt; and &lt;span&gt;",
+    "&lt;section&gt; and &lt;h3&gt;"
+  ],
+  "answer": "&lt;details&gt; and &lt;summary&gt;"
+},
+    {
+      "id": 27,
+      "question": "You want a text input to be pre-filled with the user's name after authentication. Which attribute is best for this?",
+      "options": [
+        "value",
+        "placeholder",
+        "autocomplete=\"name\"",
+        "autofocus"
+      ],
+      "answer": "value"
+    },
+    {
+  "id": 28,
+  "question": "You are building a multilingual site. Which tag helps specify the language of part of your content?",
+  "options": [
+    "&lt;meta charset&gt;",
+    "lang attribute",
+    "&lt;code&gt; tag",
+    "translate attribute"
+  ],
+  "answer": "lang attribute"
+},
+   {
+  "id": 29,
+  "question": "You’re building a complex SVG-based graphic inline within HTML. What tag should wrap it to make it accessible and semantic?",
+  "options": [
+    "&lt;object&gt;",
+    "&lt;section&gt;",
+    "&lt;figure&gt;",
+    "&lt;canvas&gt;"
+  ],
+  "answer": "&lt;figure&gt;"
+},
+    {
+      "id": 30,
+      "question": "What attribute should be used on an &lt;a&gt; tag to open the linked page in a new browser tab while ensuring security best practices?",
+      "options": [
+        "target=\"_blank\"",
+        "rel=\"noopener noreferrer\"",
+        "href",
+        "Both rel=\"noopener noreferrer\" and target=\"_blank\""
+      ],
+      "answer": "Both rel=\"noopener noreferrer\" and target=\"_blank\""
+    }
+  ]
+}

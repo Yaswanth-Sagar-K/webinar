@@ -1,0 +1,341 @@
+{
+  "testName": "Angular",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "Angular",
+    "Frontend Development"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary role of Angular's `NgModule`?",
+      "options": [
+        "To define routes",
+        "To register global styles",
+        "To declare components, pipes, and services for compilation",
+        "To bind data to templates"
+      ],
+      "answer": "To declare components, pipes, and services for compilation"
+    },
+    {
+      "id": 2,
+      "question": "What is the purpose of Angular's `zone.js`?",
+      "options": [
+        "Polyfill for RxJS operators",
+        "Routing enhancer",
+        "To detect and manage asynchronous operations for change detection",
+        "To sandbox JavaScript code"
+      ],
+      "answer": "To detect and manage asynchronous operations for change detection"
+    },
+    {
+      "id": 3,
+      "question": "Which directive is used for conditional rendering in Angular templates?",
+      "options": [
+        "*ngRender",
+        "*ngSwitch",
+        "*ngIf",
+        "*ngVisible"
+      ],
+      "answer": "*ngIf"
+    },
+    {
+      "id": 4,
+      "question": "What is `ContentChild` used for in Angular?",
+      "options": [
+        "Injecting services into directives",
+        "Accessing DOM directly in templates",
+        "Accessing projected content from the component's content DOM",
+        "Creating content for lazy loading"
+      ],
+      "answer": "Accessing projected content from the component's content DOM"
+    },
+    {
+      "id": 5,
+      "question": "What is the default change detection strategy in Angular?",
+      "options": [
+        "Manual",
+        "OnPush",
+        "Default",
+        "Reactive"
+      ],
+      "answer": "Default"
+    },
+    {
+      "id": 6,
+      "question": "What does Angular's `async` pipe do?",
+      "options": [
+        "Converts observables into arrays",
+        "Automatically subscribes and unsubscribes from observables",
+        "Waits for a `Promise` to be resolved then calls `ngOnInit`",
+        "Suspends change detection"
+      ],
+      "answer": "Automatically subscribes and unsubscribes from observables"
+    },
+    {
+      "id": 7,
+      "question": "You're using a form input but it doesn't update the model. What is most likely missing?",
+      "options": [
+        "[(ngModel)] binding",
+        "*ngIf directive",
+        "readonly attribute",
+        "A form group"
+      ],
+      "answer": "[(ngModel)] binding"
+    },
+    {
+      "id": 8,
+      "question": "You created a service but `HttpClient` inside it is `undefined`. What's most likely the cause?",
+      "options": [
+        "The service has no `constructor()`",
+        "You didn't import `HttpClientModule` in the app module",
+        "You forgot to install RxJS",
+        "`HttpClient` can't be used in services"
+      ],
+      "answer": "You didn't import `HttpClientModule` in the app module"
+    },
+    {
+      "id": 9,
+      "question": "You want a component to run some logic only once when initialized. Which lifecycle hook should you use?",
+      "options": [
+        "ngAfterViewChecked()",
+        "ngOnInit()",
+        "ngOnDestroy()",
+        "ngDoCheck()"
+      ],
+      "answer": "ngOnInit()"
+    },
+    {
+      "id": 10,
+      "question": "You want to pass data from a parent component to a child. What do you use?",
+      "options": [
+        "@ViewChild()",
+        "@Output()",
+        "@Input()",
+        "ngModel"
+      ],
+      "answer": "@Input()"
+    },
+    {
+      "id": 11,
+      "question": "What is the output of:\n &lt;div *ngIf=&quot;value &gt; 5 &amp;&amp; value &lt; 10&quot;&gt;\n\t\tVisible\n&lt;/div&gt; \nwhen value is 7?",
+      "options": [
+        "Error",
+        "Renders nothing",
+        "Visible",
+        "Throws undefined error"
+      ],
+      "answer": "Visible"
+    },
+    {
+      "id": 12,
+      "question": "You are using `RouterModule.forRoot(routes)` in a feature module and routes aren't working. Why?",
+      "options": [
+        "You should use `forChild()` instead",
+        "Routes must be exported",
+        "You missed `RouterLink` in the component",
+        "You need `ActivatedRoute` service"
+      ],
+      "answer": "You should use `forChild()` instead"
+    },
+    {
+      "id": 13,
+      "question": "What will be the result of this component code: {{ title }} with title = 'Angular' and constructor setting title = 'Hello ' + this.title?",
+      "options": [
+        "Angular",
+        "Hello Angular",
+        "undefined",
+        "Hello undefined"
+      ],
+      "answer": "Hello Angular"
+    },
+    {
+      "id": 14,
+      "question": "What does this output: \n&lt;div *ngIf=&quot;false&quot;&gt;\n\t\tHidden\n&lt;/div&gt;",
+      "options": [
+        "Hidden",
+        "Renders empty &lt;div&gt;&lt;/div&gt;",
+        "Nothing is rendered",
+        "Error"
+      ],
+      "answer": "Nothing is rendered"
+    },
+    {
+      "id": 15,
+      "question": "What will be shown: \n&lt;div&gt;{{ null ?? 'Fallback' }}&lt;/div&gt;",
+      "options": [
+        "null",
+        "Fallback",
+        "undefined",
+        "Error"
+      ],
+      "answer": "Fallback"
+    },
+    {
+      "id": 16,
+      "question": "What will be printed in console with setTimeout logging 'Inside timeout' after console.log('After timeout')?",
+      "options": [
+        "Inside timeout After timeout",
+        "After timeout Inside timeout",
+        "Timeout error",
+        "Only After timeout"
+      ],
+      "answer": "After timeout Inside timeout"
+    },
+    {
+      "id": 17,
+      "question": "What happens if a service is provided in both `AppModule` and a lazy-loaded module?",
+      "options": [
+        "Angular throws an error",
+        "The lazy-loaded module uses the AppModule instance",
+        "A new instance is created in the lazy-loaded module",
+        "The service is ignored in the lazy-loaded module"
+      ],
+      "answer": "A new instance is created in the lazy-loaded module"
+    },
+    {
+      "id": 18,
+      "question": "What's the console output when parent sets &lt;app-test [name]=&quot;null&quot;&gt; and ngOnChanges logs this.name?",
+      "options": [
+        "\"Angular\"",
+        "null",
+        "undefined",
+        "Error"
+      ],
+      "answer": "null"
+    },
+    {
+      "id": 19,
+      "question": "What is the primary purpose of Angular's `NgZone` service?",
+      "options": [
+        "To isolate routing paths",
+        "To improve CSS encapsulation",
+        "To detect and trigger change detection outside Angular's context",
+        "To create isolated modules"
+      ],
+      "answer": "To detect and trigger change detection outside Angular's context"
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is true about directive input binding?",
+      "options": [
+        "Inputs must be defined in a component only",
+        "Directives can accept input values via @Input bindings",
+        "Only built-in directives can use bindings",
+        "Directive input values must be constants"
+      ],
+      "answer": "Directives can accept input values via @Input bindings"
+    },
+    {
+      "id": 21,
+      "question": "What is the key difference between `@Injectable({ providedIn: 'root' })` and `@NgModule.providers`?",
+      "options": [
+        "The former requires lazy loading",
+        "The latter provides singleton services globally",
+        "The former allows tree-shakable global service registration",
+        "They are exactly the same in behavior"
+      ],
+      "answer": "The former allows tree-shakable global service registration"
+    },
+    {
+      "id": 22,
+      "question": "What does Angular's AOT (Ahead-of-Time) compiler do at build time?",
+      "options": [
+        "Only compiles TypeScript into JavaScript",
+        "Transpiles JavaScript templates into HTML",
+        "Compiles HTML templates and TypeScript into efficient JavaScript before browser download",
+        "Binds component styles to host elements"
+      ],
+      "answer": "Compiles HTML templates and TypeScript into efficient JavaScript before browser download"
+    },
+    {
+      "id": 23,
+      "question": "You have a component that displays data from an API. The component loads, but the view doesn't update even after data is fetched. What is a likely cause?",
+      "options": [
+        "HTTP request used `GET` instead of `POST`",
+        "API returned a plain object",
+        "Data fetch ran outside Angular's zone and change detection didn't trigger",
+        "`ngOnInit` was not defined"
+      ],
+      "answer": "Data fetch ran outside Angular's zone and change detection didn't trigger"
+    },
+    {
+      "id": 24,
+      "question": "What is the difference between `ngAfterViewInit` and `ngOnInit`?",
+      "options": [
+        "`ngOnInit` runs after view and content children are initialized",
+        "`ngAfterViewInit` runs before bindings are evaluated",
+        "`ngAfterViewInit` runs after view and child components are initialized",
+        "They both run at the same time"
+      ],
+      "answer": "`ngAfterViewInit` runs after view and child components are initialized"
+    },
+    {
+      "id": 25,
+      "question": "You want to manually trigger view updates. What service should you use?",
+      "options": [
+        "Renderer2",
+        "NgZone",
+        "ChangeDetectorRef",
+        "ViewContainerRef"
+      ],
+      "answer": "ChangeDetectorRef"
+    },
+    {
+      "id": 26,
+      "question": "You want to intercept all HTTP requests to add an auth token. What should you do?",
+      "options": [
+        "Use a custom directive",
+        "Extend the `HttpClient` class",
+        "Create an `HttpInterceptor` and provide it in `HTTP_INTERCEPTORS`",
+        "Inject the token directly into services"
+      ],
+      "answer": "Create an `HttpInterceptor` and provide it in `HTTP_INTERCEPTORS`"
+    },
+    {
+      "id": 27,
+      "question": "What will this template expression output:\n{{ undefinedVar ?? 'Default' }}",
+      "options": [
+        "Runtime error",
+        "undefined",
+        "null",
+        "Default"
+      ],
+      "answer": "Default"
+    },
+    {
+      "id": 28,
+      "question": "What happens if you forget to add a component to the `declarations` array in the module?",
+      "options": [
+        "The app still works",
+        "Compile-time error: Component not found",
+        "Runtime error: Component is undefined",
+        "HTML renders without the component"
+      ],
+      "answer": "Compile-time error: Component not found"
+    },
+    {
+      "id": 29,
+      "question": "What is the purpose of `trackBy` in `*ngFor`?",
+      "options": [
+        "It disables change detection",
+        "It speeds up rendering by identifying list items by a unique identifier",
+        "It loops asynchronously",
+        "It binds ngModel automatically"
+      ],
+      "answer": "It speeds up rendering by identifying list items by a unique identifier"
+    },
+    {
+      "id": 30,
+      "question": "What's wrong with the following: @Component({ selector: 'app-hello', templateUrl: '&lt;h1&gt;Hello&lt;/h1&gt;' })?",
+      "options": [
+        "`templateUrl` should be a function",
+        "`templateUrl` should be a relative path to an HTML file",
+        "Missing `@NgModule`",
+        "`templateUrl` should be in a separate class"
+      ],
+      "answer": "`templateUrl` should be a relative path to an HTML file"
+    }
+  ]
+}

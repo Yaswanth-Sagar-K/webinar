@@ -1,0 +1,343 @@
+{
+  "testName": "C Sharp",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "C#",
+    "Syntax",
+    "Output",
+    "Conceptual"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following keywords is used to create an object in C#?",
+      "options": [
+        "new",
+        "create",
+        "object",
+        "instanceof"
+      ],
+      "answer": "new"
+    },
+    {
+      "id": 2,
+      "question": "Which operator is used for string concatenation in C#?",
+      "options": [
+        "&",
+        "+",
+        "*",
+        "&&"
+      ],
+      "answer": "+"
+    },
+    {
+      "id": 3,
+      "question": "Which method is used to read a line of input from the console?",
+      "options": [
+        "Console.Read()",
+        "Console.ReadKey()",
+        "Console.ReadLine()",
+        "Console.Input()"
+      ],
+      "answer": "Console.ReadLine()"
+    },
+    {
+      "id": 4,
+      "question": "What is the output of: \n```int x = 5; Console.WriteLine(++x);```",
+      "options": [
+        "5",
+        "6",
+        "Error",
+        "0"
+      ],
+      "answer": "6"
+    },
+    {
+      "id": 5,
+      "question": "Which data type is used to store true/false values in C#?",
+      "options": [
+        "int",
+        "bool",
+        "bit",
+        "char"
+      ],
+      "answer": "bool"
+    },
+    {
+      "id": 6,
+      "question": "What is the default value of a `bool` field in a C# class?",
+      "options": [
+        "true",
+        "false",
+        "null",
+        "undefined"
+      ],
+      "answer": "false"
+    },
+    {
+      "id": 7,
+      "question": "What is the output of the following code?\n```string s = null;\nConsole.WriteLine(s ?? \"Default\");```",
+      "options": [
+        "null",
+        "Default",
+        "Error",
+        "s"
+      ],
+      "answer": "Default"
+    },
+    {
+      "id": 8,
+      "question": "What is the output?\n```int[] arr = {1, 2, 3};\nConsole.WriteLine(arr[1]);```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "IndexOutOfRangeException"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": 9,
+      "question": "What does the following code print?\n```int x = 10;\nif (x is int) Console.Write(\"Yes\");```",
+      "options": [
+        "Yes",
+        "No",
+        "Error",
+        "10"
+      ],
+      "answer": "Yes"
+    },
+    {
+      "id": 10,
+      "question": "What does the `var` keyword signify in C#?",
+      "options": [
+        "It creates a dynamic type",
+        "It creates an anonymous variable",
+        "The type is inferred at compile time",
+        "It is evaluated at runtime"
+      ],
+      "answer": "The type is inferred at compile time"
+    },
+    {
+      "id": 11,
+      "question": "What does this code output?\n```int? val = null;\nConsole.WriteLine(val ?? 100);```",
+      "options": [
+        "0",
+        "null",
+        "100",
+        "Error"
+      ],
+      "answer": "100"
+    },
+    {
+      "id": 12,
+      "question": "Which of the following interfaces enables iteration with `foreach`?",
+      "options": [
+        "IEnumerable",
+        "IEnumerator",
+        "ICollection",
+        "IDisposable"
+      ],
+      "answer": "IEnumerable"
+    },
+    {
+      "id": 13,
+      "question": "What is the output?\n```int a = 10;\nint b = a;\nb = 20;\nConsole.WriteLine(a);```",
+      "options": [
+        "10",
+        "20",
+        "0",
+        "Error"
+      ],
+      "answer": "10"
+    },
+    {
+      "id": 14,
+      "question": "Which LINQ clause is used to filter results?",
+      "options": [
+        "from",
+        "where",
+        "select",
+        "order by"
+      ],
+      "answer": "where"
+    },
+    {
+      "id": 15,
+      "question": "Which of the following can cause a runtime error?\n```object o = null;\nConsole.WriteLine(o.ToString());```",
+      "options": [
+        "true",
+        "false",
+        "Depends on CLR",
+        "Only in debug mode"
+      ],
+      "answer": "true"
+    },
+    {
+      "id": 16,
+      "question": "What is the difference between `ref` and `out` parameters in C#?",
+      "options": [
+        "out must be assigned before return; ref must be assigned before passing",
+        "Both are the same",
+        "ref does not change the original variable",
+        "ref returns a new variable"
+      ],
+      "answer": "out must be assigned before return; ref must be assigned before passing"
+    },
+    {
+      "id": 17,
+      "question": "What does the `checked` keyword do?",
+      "options": [
+        "Forces overflow checking for integral operations",
+        "Ignores overflow exceptions",
+        "Makes code thread-safe",
+        "Checks type safety at runtime"
+      ],
+      "answer": "Forces overflow checking for integral operations"
+    },
+    {
+      "id": 18,
+      "question": "What is the output?\n```List&lt;int&gt; l = new List&lt;int&gt;(){1,2,3};\nConsole.WriteLine(l.Find(x => x > 1));```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "null"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": 19,
+      "question": "What is the result of `default(string)`?",
+      "options": [
+        "Empty string",
+        "null",
+        "undefined",
+        "\"default\""
+      ],
+      "answer": "null"
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of `async`/`await` in C#?",
+      "options": [
+        "To block the calling thread",
+        "To implement threading manually",
+        "To simplify asynchronous code",
+        "To execute code synchronously"
+      ],
+      "answer": "To simplify asynchronous code"
+    },
+    {
+      "id": 21,
+      "question": "What happens if you pass an uninitialized variable to a method expecting `in` parameter?",
+      "options": [
+        "Compile-time error",
+        "Runtime error",
+        "It’s allowed",
+        "NullReferenceException"
+      ],
+      "answer": "Compile-time error"
+    },
+    {
+      "id": 22,
+      "question": "Which of these types cannot be boxed in C#?",
+      "options": [
+        "int",
+        "enum",
+        "bool",
+        "Span&lt;int&gt;"
+      ],
+      "answer": "Span&lt;int&gt;"
+    },
+    {
+      "id": 23,
+      "question": "What is the output of this?\n```var t = (name: \"John\", age: 25);\nConsole.WriteLine(t.name);```",
+      "options": [
+        "John",
+        "name",
+        "Error",
+        "null"
+      ],
+      "answer": "John"
+    },
+    {
+      "id": 24,
+      "question": "What is true about `IDisposable` pattern?",
+      "options": [
+        "Used for releasing unmanaged resources",
+        "Used only in async methods",
+        "Used for memory allocation",
+        "Used in garbage collection"
+      ],
+      "answer": "Used for releasing unmanaged resources"
+    },
+    {
+      "id": 25,
+      "question": "What does this print?\n```var list = new List&lt;int&gt; { 10, 20 };\nConsole.WriteLine(list.Contains(10));```",
+      "options": [
+        "true",
+        "false",
+        "0",
+        "Exception"
+      ],
+      "answer": "true"
+    },
+    {
+      "id": 26,
+      "question": "What does the `lock` keyword ensure in multithreading?",
+      "options": [
+        "Only one thread can access a block of code at a time",
+        "All threads run in parallel",
+        "Memory is garbage collected",
+        "Deadlocks are prevented"
+      ],
+      "answer": "Only one thread can access a block of code at a time"
+    },
+    {
+      "id": 27,
+      "question": "What is the output?\n```int a = 5; object b = a;\nint c = (int)b;\nConsole.WriteLine(c);```",
+      "options": [
+        "5",
+        "0",
+        "Error",
+        "True"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": 28,
+      "question": "Which type is returned from an iterator method using `yield return`?",
+      "options": [
+        "IEnumerable",
+        "IEnumerator",
+        "List",
+        "void"
+      ],
+      "answer": "IEnumerable"
+    },
+    {
+      "id": 29,
+      "question": "What is the behavior of `readonly struct`?",
+      "options": [
+        "Immutable by design",
+        "Allocated only on heap",
+        "Can contain mutable fields",
+        "Not allowed in methods"
+      ],
+      "answer": "Immutable by design"
+    },
+    {
+      "id": 30,
+      "question": "What happens if you call `Dispose` twice on an object implementing `IDisposable`?",
+      "options": [
+        "Second call should not throw if implemented correctly",
+        "Always throws exception",
+        "Silently fails",
+        "Compiler error"
+      ],
+      "answer": "Second call should not throw if implemented correctly"
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+    "testName": "SQL-Server",
+    "duration": "30 mins",
+    "numberOfQuestions": 30,
+    "topicsCovered": [
+        "SQL Server",
+        "T-SQL"
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which function returns the current date and time in SQL Server?",
+            "options": [
+                "GETDATE()",
+                "NOW()",
+                "CURRENT_TIMESTAMP",
+                "Both GETDATE() and CURRENT_TIMESTAMP"
+            ],
+            "answer": "Both GETDATE() and CURRENT_TIMESTAMP"
+        },
+        {
+            "id": 2,
+            "question": "Which T-SQL keyword is used to limit the number of rows returned?",
+            "options": [
+                "TOP",
+                "LIMIT",
+                "ROWNUM",
+                "FETCH"
+            ],
+            "answer": "TOP"
+        },
+        {
+            "id": 3,
+            "question": "What is the default port number for SQL Server?",
+            "options": [
+                "1433",
+                "1521",
+                "3306",
+                "8080"
+            ],
+            "answer": "1433"
+        },
+        {
+            "id": 4,
+            "question": "Which T-SQL command is used to create a stored procedure?",
+            "options": [
+                "CREATE PROCEDURE",
+                "MAKE PROCEDURE",
+                "NEW PROC",
+                "DEFINE PROCEDURE"
+            ],
+            "answer": "CREATE PROCEDURE"
+        },
+        {
+            "id": 5,
+            "question": "What does the TRY...CATCH block do in T-SQL?",
+            "options": [
+                "Handles exceptions in SQL Server",
+                "Tests for NULL values",
+                "Replaces IF statements",
+                "Creates a loop"
+            ],
+            "answer": "Handles exceptions in SQL Server"
+        },
+        {
+            "id": 6,
+            "question": "Which function is used to return a new uniqueidentifier in SQL Server?",
+            "options": [
+                "NEWID()",
+                "UUID()",
+                "GUID()",
+                "UNIQUEID()"
+            ],
+            "answer": "NEWID()"
+        },
+        {
+            "id": 7,
+            "question": "Which system view lists all tables in a SQL Server database?",
+            "options": [
+                "INFORMATION_SCHEMA.TABLES",
+                "SYSOBJECTS",
+                "SHOW TABLES",
+                "DATABASE_TABLES"
+            ],
+            "answer": "INFORMATION_SCHEMA.TABLES"
+        },
+        {
+            "id": 8,
+            "question": "Which keyword is used to declare a variable in T-SQL?",
+            "options": [
+                "DECLARE",
+                "SET",
+                "LET",
+                "VAR"
+            ],
+            "answer": "DECLARE"
+        },
+        {
+            "id": 9,
+            "question": "How do you assign a value to a variable in T-SQL?",
+            "options": [
+                "SET @var = value;",
+                "LET @var = value;",
+                "ASSIGN @var TO value;",
+                "DECLARE @var AS value;"
+            ],
+            "answer": "SET @var = value;"
+        },
+        {
+            "id": 10,
+            "question": "Which built-in function returns the length of a string in SQL Server?",
+            "options": [
+                "LEN()",
+                "LENGTH()",
+                "STRLEN()",
+                "SIZE()"
+            ],
+            "answer": "LEN()"
+        },
+        {
+            "id": 11,
+            "question": "Which SQL Server function returns the number of affected rows from the last command?",
+            "options": [
+                "@@ROWCOUNT",
+                "@@AFFECTEDROWS",
+                "GETROWCOUNT()",
+                "COUNT()"
+            ],
+            "answer": "@@ROWCOUNT"
+        },
+        {
+            "id": 12,
+            "question": "Which SQL Server keyword is used to generate a sequence of numbers?",
+            "options": [
+                "SEQUENCE",
+                "IDENTITY",
+                "AUTO_INCREMENT",
+                "Both SEQUENCE and IDENTITY"
+            ],
+            "answer": "Both SEQUENCE and IDENTITY"
+        },
+        {
+            "id": 13,
+            "question": "What is the maximum number of columns in a SQL Server table?",
+            "options": [
+                "1024",
+                "4096",
+                "1600",
+                "8000"
+            ],
+            "answer": "1024"
+        },
+        {
+            "id": 14,
+            "question": "Which function is used to convert data from one type to another in T-SQL?",
+            "options": [
+                "CAST()",
+                "CONVERT()",
+                "TRY_CAST()",
+                "All of the above"
+            ],
+            "answer": "All of the above"
+        },
+        {
+            "id": 15,
+            "question": "Which function is used to find the current user's name in SQL Server?",
+            "options": [
+                "SYSTEM_USER",
+                "CURRENT_USER",
+                "USER()",
+                "GETUSER()"
+            ],
+            "answer": "SYSTEM_USER"
+        },
+        {
+            "id": 16,
+            "question": "Which function is used to generate a checksum in SQL Server?",
+            "options": [
+                "CHECKSUM()",
+                "MD5()",
+                "HASH()",
+                "DIGEST()"
+            ],
+            "answer": "CHECKSUM()"
+        },
+        {
+            "id": 17,
+            "question": "Which function returns the current database name in SQL Server?",
+            "options": [
+                "DB_NAME()",
+                "DATABASE()",
+                "GET_DB()",
+                "CURRENT_DATABASE()"
+            ],
+            "answer": "DB_NAME()"
+        },
+        {
+            "id": 18,
+            "question": "Which view shows information about columns in SQL Server?",
+            "options": [
+                "INFORMATION_SCHEMA.COLUMNS",
+                "SYS.COLUMNS",
+                "DB.COLUMNS",
+                "SHOW COLUMNS"
+            ],
+            "answer": "INFORMATION_SCHEMA.COLUMNS"
+        },
+        {
+            "id": 19,
+            "question": "What is the SQL Server equivalent of MySQL's LIMIT clause?",
+            "options": [
+                "TOP",
+                "OFFSET FETCH",
+                "ROWNUM",
+                "Both TOP and OFFSET FETCH"
+            ],
+            "answer": "Both TOP and OFFSET FETCH"
+        },
+        {
+            "id": 20,
+            "question": "Which T-SQL command is used to delete a table permanently?",
+            "options": [
+                "DROP TABLE",
+                "DELETE TABLE",
+                "REMOVE TABLE",
+                "ERASE TABLE"
+            ],
+            "answer": "DROP TABLE"
+        },
+        {
+            "id": 21,
+            "question": "What command is used to rename a column in SQL Server?",
+            "options": [
+                "sp_rename 'table.old_column', 'new_column', 'COLUMN'",
+                "ALTER TABLE CHANGE COLUMN",
+                "MODIFY COLUMN",
+                "RENAME COLUMN"
+            ],
+            "answer": "sp_rename 'table.old_column', 'new_column', 'COLUMN'"
+        },
+        {
+            "id": 22,
+            "question": "Which datatype in SQL Server is used to store XML data?",
+            "options": [
+                "XML",
+                "TEXT",
+                "VARCHAR(MAX)",
+                "NXML"
+            ],
+            "answer": "XML"
+        },
+        {
+            "id": 23,
+            "question": "Which built-in function is used to find the difference in days between two dates?",
+            "options": [
+                "DATEDIFF()",
+                "DATEDELTA()",
+                "DATEGAP()",
+                "DAYS_BETWEEN()"
+            ],
+            "answer": "DATEDIFF()"
+        },
+        {
+            "id": 24,
+            "question": "Which command rolls back a transaction in SQL Server?",
+            "options": [
+                "ROLLBACK",
+                "UNDO",
+                "CANCEL",
+                "REVERSE"
+            ],
+            "answer": "ROLLBACK"
+        },
+        {
+            "id": 25,
+            "question": "What is the default isolation level in SQL Server?",
+            "options": [
+                "READ COMMITTED",
+                "READ UNCOMMITTED",
+                "REPEATABLE READ",
+                "SERIALIZABLE"
+            ],
+            "answer": "READ COMMITTED"
+        },
+        {
+            "id": 26,
+            "question": "Which of the following is a table-valued function in SQL Server?",
+            "options": [
+                "STRING_SPLIT()",
+                "GETDATE()",
+                "ISNULL()",
+                "CAST()"
+            ],
+            "answer": "STRING_SPLIT()"
+        },
+        {
+            "id": 27,
+            "question": "Which operator is used in SQL Server for full-text search?",
+            "options": [
+                "CONTAINS",
+                "LIKE",
+                "MATCH",
+                "HAS"
+            ],
+            "answer": "CONTAINS"
+        },
+        {
+            "id": 28,
+            "question": "Which SQL Server feature allows automatically generated values for a column?",
+            "options": [
+                "IDENTITY",
+                "SEQUENCE",
+                "DEFAULT",
+                "AUTO_INCREMENT"
+            ],
+            "answer": "IDENTITY"
+        },
+        {
+            "id": 29,
+            "question": "Which command returns the current version of SQL Server?",
+            "options": [
+                "SELECT @@VERSION;",
+                "SELECT VERSION();",
+                "GET_VERSION();",
+                "SHOW VERSION;"
+            ],
+            "answer": "SELECT @@VERSION;"
+        },
+        {
+            "id": 30,
+            "question": "What does the `WITH (NOLOCK)` table hint do?",
+            "options": [
+                "Reads data without acquiring shared locks",
+                "Prevents updates",
+                "Improves join performance",
+                "Disables foreign key checks"
+            ],
+            "answer": "Reads data without acquiring shared locks"
+        }
+    ]
+}

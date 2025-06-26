@@ -1,0 +1,375 @@
+{
+  "testName": ".NET",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    ".NET Framework",
+    ".NET Core",
+    "ASP.NET",
+    "Entity Framework",
+    "CLR",
+    "Runtime Libraries"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary component of the .NET Framework responsible for managing code execution?",
+      "options": [
+        "CLR",
+        "CTS",
+        "CLS",
+        "FCL"
+      ],
+      "answer": "CLR",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Which component of .NET provides a large set of pre-built libraries for common programming tasks?",
+      "options": [
+        "FCL",
+        "CLR",
+        "CTS",
+        "JIT"
+      ],
+      "answer": "FCL",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Which file extension typically represents a .NET assembly?",
+      "options": [
+        ".exe",
+        ".dll",
+        ".net",
+        "Both .dll and .exe"
+      ],
+      "answer": "Both .dll and .exe",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "What does the Common Type System (CTS) ensure in .NET?",
+      "options": [
+        "That data types are consistent across .NET languages",
+        "That exceptions are logged",
+        "That memory is garbage collected",
+        "That SQL types are used in .NET"
+      ],
+      "answer": "That data types are consistent across .NET languages",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is a cross-platform successor to the .NET Framework?",
+      "options": [
+        ".NET Core",
+        ".NET Standard",
+        ".NET Native",
+        "Mono"
+      ],
+      "answer": ".NET Core",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is true about managed code in .NET?",
+      "options": [
+        "It runs under the control of CLR",
+        "It is written only in VB.NET",
+        "It requires manual memory management",
+        "It cannot use third-party libraries"
+      ],
+      "answer": "It runs under the control of CLR",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Which feature allows .NET applications to interoperate with native code?",
+      "options": [
+        "P/Invoke",
+        "JIT",
+        "CLR",
+        "MSIL"
+      ],
+      "answer": "P/Invoke",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 8,
+      "question": "What is the role of the Just-In-Time (JIT) compiler in .NET?",
+      "options": [
+        "It compiles MSIL to native machine code at runtime",
+        "It translates SQL queries into .NET code",
+        "It optimizes memory usage",
+        "It schedules threads"
+      ],
+      "answer": "It compiles MSIL to native machine code at runtime",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 9,
+      "question": "Which configuration file is used for ASP.NET web application settings?",
+      "options": [
+        "web.config",
+        "machine.config",
+        "appsettings.json",
+        "aspnet.config"
+      ],
+      "answer": "web.config",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 10,
+      "question": "What is the purpose of Global.asax in an ASP.NET application?",
+      "options": [
+        "To handle application-level events",
+        "To define routing rules",
+        "To configure database settings",
+        "To define server-side styles"
+      ],
+      "answer": "To handle application-level events",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 11,
+      "question": "What is the role of appsettings.json in .NET Core applications?",
+      "options": [
+        "To store configuration values",
+        "To manage CSS and JS resources",
+        "To define class libraries",
+        "To register middleware"
+      ],
+      "answer": "To store configuration values",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 12,
+      "question": "Which .NET standard defines APIs that must be implemented for code sharing?",
+      "options": [
+        ".NET Standard",
+        ".NET Framework",
+        ".NET Core",
+        "XAML"
+      ],
+      "answer": ".NET Standard",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 13,
+      "question": "In .NET, what is the main benefit of using middleware in ASP.NET Core?",
+      "options": [
+        "To process HTTP requests through a pipeline",
+        "To connect to databases",
+        "To create desktop applications",
+        "To define Web APIs"
+      ],
+      "answer": "To process HTTP requests through a pipeline",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 14,
+      "question": "Which component in Entity Framework is responsible for querying the database?",
+      "options": [
+        "DbContext",
+        "ModelBuilder",
+        "Startup",
+        "Middleware"
+      ],
+      "answer": "DbContext",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 15,
+      "question": "What is IL (Intermediate Language) in .NET?",
+      "options": [
+        "The low-level language compiled from source code before JIT",
+        "A markup language for UI",
+        "A file format for configuration",
+        "An XML-based config system"
+      ],
+      "answer": "The low-level language compiled from source code before JIT",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 16,
+      "question": "Which configuration file affects all ASP.NET applications on a server?",
+      "options": [
+        "machine.config",
+        "web.config",
+        "global.json",
+        "server.config"
+      ],
+      "answer": "machine.config",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 17,
+      "question": "How does .NET handle memory management?",
+      "options": [
+        "Through garbage collection in the CLR",
+        "Via manual allocation and deallocation",
+        "By using pointers",
+        "Through OS-level scripts"
+      ],
+      "answer": "Through garbage collection in the CLR",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of the .NET CLI (Command Line Interface)?",
+      "options": [
+        "To create, build, run, and publish .NET apps from the terminal",
+        "To deploy JavaScript applications",
+        "To manage SQL databases",
+        "To configure IIS servers"
+      ],
+      "answer": "To create, build, run, and publish .NET apps from the terminal",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 19,
+      "question": "Which .NET Core file is used to manage project dependencies?",
+      "options": [
+        ".csproj",
+        "project.json",
+        "package.config",
+        "deps.json"
+      ],
+      "answer": ".csproj",
+      "difficulty": "hard"
+    },
+    {
+      "id": 20,
+      "question": "What is the function of runtimeconfig.json in .NET Core?",
+      "options": [
+        "It configures runtime behavior like framework version",
+        "It stores logging configuration",
+        "It defines Razor page layouts",
+        "It sets up environment variables"
+      ],
+      "answer": "It configures runtime behavior like framework version",
+      "difficulty": "hard"
+    },
+    {
+      "id": 21,
+      "question": "What is Kestrel in ASP.NET Core?",
+      "options": [
+        "A cross-platform web server",
+        "A database access layer",
+        "An authorization provider",
+        "A templating engine"
+      ],
+      "answer": "A cross-platform web server",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "How does .NET support microservices architecture?",
+      "options": [
+        "With modular, container-friendly runtimes and APIs",
+        "By enforcing monolithic design",
+        "By restricting HTTP protocols",
+        "By requiring IIS hosting only"
+      ],
+      "answer": "With modular, container-friendly runtimes and APIs",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "What is the role of HostBuilder in .NET Core apps?",
+      "options": [
+        "It sets up dependencies, configuration, and logging for the app",
+        "It handles database migrations",
+        "It compiles Razor views",
+        "It defines Web API routes"
+      ],
+      "answer": "It sets up dependencies, configuration, and logging for the app",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "Which .NET feature allows platform-independent development and deployment?",
+      "options": [
+        ".NET Core",
+        ".NET Framework",
+        "WPF",
+        "XAML"
+      ],
+      "answer": ".NET Core",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "What is the role of the GC heap in .NET?",
+      "options": [
+        "To store and manage managed objects during runtime",
+        "To manage native DLL files",
+        "To cache SQL queries",
+        "To hold session data for ASP.NET"
+      ],
+      "answer": "To store and manage managed objects during runtime",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "How does Entity Framework Core support database migrations?",
+      "options": [
+        "Via command-line tools that apply schema changes incrementally",
+        "By editing SQL Server configuration",
+        "Through manual DDL scripts",
+        "By modifying the runtimeconfig.json"
+      ],
+      "answer": "Via command-line tools that apply schema changes incrementally",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "What is the role of the IServiceCollection in .NET Core?",
+      "options": [
+        "It is used to register services for dependency injection",
+        "It creates API controllers",
+        "It maps endpoints to Razor views",
+        "It compiles and runs the middleware pipeline"
+      ],
+      "answer": "It is used to register services for dependency injection",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "Which logging providers are supported out-of-the-box in ASP.NET Core?",
+      "options": [
+        "Console, Debug, EventSource, and EventLog",
+        "MongoDB and Elasticsearch",
+        "Log4Net only",
+        "Only Console"
+      ],
+      "answer": "Console, Debug, EventSource, and EventLog",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "What is .NET MAUI?",
+      "options": [
+        "A framework for building cross-platform native apps using .NET",
+        "A SQL Server plugin for .NET",
+        "A dependency injection container",
+        "An Entity Framework ORM wrapper"
+      ],
+      "answer": "A framework for building cross-platform native apps using .NET",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "What is the purpose of Blazor in the .NET ecosystem?",
+      "options": [
+        "To allow web development using .NET in the browser via WebAssembly",
+        "To compile .NET to Python",
+        "To host Web APIs in IIS only",
+        "To deploy ASP.NET Core apps to Azure Functions"
+      ],
+      "answer": "To allow web development using .NET in the browser via WebAssembly",
+      "difficulty": "hard"
+    }
+  ]
+}

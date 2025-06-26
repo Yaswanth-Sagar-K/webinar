@@ -1,0 +1,340 @@
+{
+  "testName": "Spring Boot",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "Spring Boot"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which Spring Boot annotation disables a specific auto-configuration class?",
+      "options": [
+        "@EnableAutoConfiguration(exclude = ...)",
+        "@SpringBootApplication(exclude = ...)",
+        "@DisableAutoConfiguration",
+        "@ExcludeAutoConfig"
+      ],
+      "answer": "@SpringBootApplication(exclude = ...)"
+    },
+    {
+      "id": 2,
+      "question": "Which property sets the port number for a Spring Boot application?",
+      "options": [
+        "server.port",
+        "spring.server.port",
+        "serverConfig.port",
+        "server.http.port"
+      ],
+      "answer": "server.port"
+    },
+    {
+      "id": 3,
+      "question": "Which annotation combines @Configuration, @EnableAutoConfiguration, and @ComponentScan?",
+      "options": [
+        "@SpringBootApplication",
+        "@SpringApplication",
+        "@BootConfiguration",
+        "@AutoScan"
+      ],
+      "answer": "@SpringBootApplication"
+    },
+    {
+      "id": 4,
+      "question": "What does @ResponseStatus(HttpStatus.NOT_FOUND) do in a controller method?",
+      "options": [
+        "Sends a 404 status code to the client",
+        "Throws an exception if the resource is not found",
+        "Redirects to a 404 page",
+        "Stops request processing"
+      ],
+      "answer": "Sends a 404 status code to the client"
+    },
+    {
+      "id": 5,
+      "question": "What is the default context path of a Spring Boot application?",
+      "options": [
+        "/",
+        "/app",
+        "/home",
+        "/context"
+      ],
+      "answer": "/"
+    },
+    {
+      "id": 6,
+      "question": "Which annotation would you use to load values from application.properties into a Java bean?",
+      "options": [
+        "@ConfigurationProperties",
+        "@Value",
+        "@PropertySource",
+        "@Autowired"
+      ],
+      "answer": "@ConfigurationProperties"
+    },
+    {
+      "id": 7,
+      "question": "Which command creates a new Spring Boot project using Spring CLI?",
+      "options": [
+        "spring init",
+        "spring new",
+        "spring start",
+        "spring boot:create"
+      ],
+      "answer": "spring init"
+    },
+    {
+      "id": 8,
+      "question": "Which actuator endpoint shows environment properties?",
+      "options": [
+        "/actuator/env",
+        "/actuator/properties",
+        "/actuator/config",
+        "/actuator/settings"
+      ],
+      "answer": "/actuator/env"
+    },
+    {
+      "id": 9,
+      "question": "What does @ConditionalOnMissingBean do?",
+      "options": [
+        "Loads a bean only if it’s not already defined",
+        "Skips bean creation altogether",
+        "Creates a required bean",
+        "Ignores bean validation"
+      ],
+      "answer": "Loads a bean only if it’s not already defined"
+    },
+    {
+      "id": 10,
+      "question": "Which annotation enables scheduling in a Spring Boot application?",
+      "options": [
+        "@EnableScheduling",
+        "@Scheduled",
+        "@EnableTimer",
+        "@ScheduleTask"
+      ],
+      "answer": "@EnableScheduling"
+    },
+    {
+      "id": 11,
+      "question": "Which file format is supported for external configuration in Spring Boot?",
+      "options": [
+        "properties",
+        "yml",
+        "yaml",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "id": 12,
+      "question": "How can you enable caching in Spring Boot?",
+      "options": [
+        "@EnableCaching",
+        "@EnableCache",
+        "@EnableSpringCaching",
+        "@SpringCaching"
+      ],
+      "answer": "@EnableCaching"
+    },
+    {
+      "id": 13,
+      "question": "Which class is used to bootstrap a Spring Boot application?",
+      "options": [
+        "SpringApplication",
+        "SpringContext",
+        "BootApp",
+        "ApplicationContext"
+      ],
+      "answer": "SpringApplication"
+    },
+    {
+      "id": 14,
+      "question": "How can you define multiple profiles for a property in Spring Boot?",
+      "options": [
+        "Use `---` separator in YAML with `spring.profiles`",
+        "Use multiple `.properties` files",
+        "Use `spring.profile.multi`",
+        "Use JSON for profiles"
+      ],
+      "answer": "Use `---` separator in YAML with `spring.profiles`"
+    },
+    {
+      "id": 15,
+      "question": "Which annotation is used to test a controller without loading the entire context?",
+      "options": [
+        "@WebMvcTest",
+        "@SpringBootTest",
+        "@DataJpaTest",
+        "@ControllerTest"
+      ],
+      "answer": "@WebMvcTest"
+    },
+    {
+      "id": 16,
+      "question": "Which Spring Boot starter should you use for testing?",
+      "options": [
+        "spring-boot-starter-test",
+        "spring-boot-starter-mock",
+        "spring-test-starter",
+        "spring-boot-devtools"
+      ],
+      "answer": "spring-boot-starter-test"
+    },
+    {
+      "id": 17,
+      "question": "Which annotation is used to define custom exception handling across all controllers?",
+      "options": [
+        "@ControllerAdvice",
+        "@ExceptionAdvice",
+        "@GlobalExceptionHandler",
+        "@RestControllerAdvice"
+      ],
+      "answer": "@ControllerAdvice"
+    },
+    {
+      "id": 18,
+      "question": "What will `@Value(\"${my.prop}\")` do?",
+      "options": [
+        "Inject the property `my.prop` from application.properties",
+        "Inject a system environment variable",
+        "Inject a constant value",
+        "Bind to a Spring profile"
+      ],
+      "answer": "Inject the property `my.prop` from application.properties"
+    },
+    {
+      "id": 19,
+      "question": "How can you enable a specific profile from the command line?",
+      "options": [
+        "--spring.profiles.active=dev",
+        "--spring.profile=dev",
+        "--profile.active=dev",
+        "--profile=dev"
+      ],
+      "answer": "--spring.profiles.active=dev"
+    },
+    {
+      "id": 20,
+      "question": "Which annotation is used to run code after the Spring context is initialized?",
+      "options": [
+        "@PostConstruct",
+        "@Bean",
+        "@AfterInit",
+        "@InitMethod"
+      ],
+      "answer": "@PostConstruct"
+    },
+    {
+      "id": 21,
+      "question": "What does the `spring.datasource.url` property specify?",
+      "options": [
+        "The JDBC URL of the database",
+        "The username for the database",
+        "The path to an in-memory DB",
+        "The driver class"
+      ],
+      "answer": "The JDBC URL of the database"
+    },
+    {
+      "id": 22,
+      "question": "Which of these is a valid Spring Boot logging level?",
+      "options": [
+        "TRACE",
+        "INFO",
+        "DEBUG",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "id": 23,
+      "question": "Which tool is often used alongside Spring Boot for database migrations?",
+      "options": [
+        "Flyway",
+        "Liquibase",
+        "Both",
+        "None"
+      ],
+      "answer": "Both"
+    },
+    {
+      "id": 24,
+      "question": "What is the use of `@EntityScan` annotation?",
+      "options": [
+        "To define the packages to scan for JPA entities",
+        "To scan for Spring components",
+        "To configure Spring security",
+        "To scan for Actuator endpoints"
+      ],
+      "answer": "To define the packages to scan for JPA entities"
+    },
+    {
+      "id": 25,
+      "question": "How do you return a JSON response from a REST controller method?",
+      "options": [
+        "Return an object with @RestController or @ResponseBody",
+        "Return an HTML string",
+        "Use @ModelAttribute",
+        "Use ResponseEntity with XML"
+      ],
+      "answer": "Return an object with @RestController or @ResponseBody"
+    },
+    {
+      "id": 26,
+      "question": "Which annotation in Spring Boot is used to define a configuration class?",
+      "options": [
+        "@Configuration",
+        "@ConfigClass",
+        "@SpringBootConfig",
+        "@BootConfig"
+      ],
+      "answer": "@Configuration"
+    },
+    {
+      "id": 27,
+      "question": "Which annotation allows scheduling methods with cron expressions?",
+      "options": [
+        "@Scheduled(cron = ...)",
+        "@CronTask",
+        "@EnableScheduling",
+        "@Timer"
+      ],
+      "answer": "@Scheduled(cron = ...)"
+    },
+    {
+      "id": 28,
+      "question": "Which property disables the Spring Boot banner in the console?",
+      "options": [
+        "spring.main.banner-mode=off",
+        "spring.banner.enabled=false",
+        "banner.enabled=false",
+        "spring.boot.banner=false"
+      ],
+      "answer": "spring.main.banner-mode=off"
+    },
+    {
+      "id": 29,
+      "question": "What does `spring.jpa.show-sql=true` do?",
+      "options": [
+        "Logs SQL queries to the console",
+        "Optimizes SQL queries",
+        "Executes queries on startup",
+        "Creates tables automatically"
+      ],
+      "answer": "Logs SQL queries to the console"
+    },
+    {
+      "id": 30,
+      "question": "What does the `@RequestBody` annotation do?",
+      "options": [
+        "Binds the request body to a method parameter",
+        "Binds a query parameter",
+        "Maps the request URI",
+        "Sets response status"
+      ],
+      "answer": "Binds the request body to a method parameter"
+    }
+  ]
+}

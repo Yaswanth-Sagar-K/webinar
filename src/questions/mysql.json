@@ -1,0 +1,340 @@
+{
+    "testName": "MySQL",
+    "duration": "30 mins",
+    "numberOfQuestions": 30,
+    "topicsCovered": [
+        "MySQL"
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which storage engine is the default in MySQL 8.0?",
+            "options": [
+                "InnoDB",
+                "MyISAM",
+                "MEMORY",
+                "NDB"
+            ],
+            "answer": "InnoDB"
+        },
+        {
+            "id": 2,
+            "question": "Which MySQL function returns the current date and time?",
+            "options": [
+                "NOW()",
+                "SYSDATE()",
+                "CURRENT_TIMESTAMP()",
+                "All of the above"
+            ],
+            "answer": "All of the above"
+        },
+        {
+            "id": 3,
+            "question": "Which keyword is used in MySQL to auto-increment a primary key?",
+            "options": [
+                "AUTO_INCREMENT",
+                "SERIAL",
+                "IDENTITY",
+                "INCREMENT"
+            ],
+            "answer": "AUTO_INCREMENT"
+        },
+        {
+            "id": 4,
+            "question": "Which SQL mode in MySQL makes it behave more like a traditional SQL server?",
+            "options": [
+                "STRICT_TRANS_TABLES",
+                "ANSI",
+                "TRADITIONAL",
+                "NO_ZERO_IN_DATE"
+            ],
+            "answer": "TRADITIONAL"
+        },
+        {
+            "id": 5,
+            "question": "What is the command to list all databases in MySQL?",
+            "options": [
+                "SHOW DATABASES;",
+                "LIST DATABASES;",
+                "SELECT DATABASES;",
+                "SHOW ALL;"
+            ],
+            "answer": "SHOW DATABASES;"
+        },
+        {
+            "id": 6,
+            "question": "Which function in MySQL is used to generate a random number?",
+            "options": [
+                "RAND()",
+                "RANDOM()",
+                "GEN_RANDOM()",
+                "GET_RANDOM()"
+            ],
+            "answer": "RAND()"
+        },
+        {
+            "id": 7,
+            "question": "Which MySQL function is used to find the length of a string in bytes?",
+            "options": [
+                "LENGTH()",
+                "CHAR_LENGTH()",
+                "STRLEN()",
+                "BYTELEN()"
+            ],
+            "answer": "LENGTH()"
+        },
+        {
+            "id": 8,
+            "question": "Which MySQL clause is used to export table structure only (no data)?",
+            "options": [
+                "mysqldump --no-data",
+                "EXPORT TABLE ONLY",
+                "SHOW CREATE TABLE",
+                "SELECT * FROM INFORMATION_SCHEMA"
+            ],
+            "answer": "SHOW CREATE TABLE"
+        },
+        {
+            "id": 9,
+            "question": "Which SQL statement is used to make all changes performed within the current transaction permanent in MySQL?",
+            "options": [
+                "COMMIT;",
+                "SAVEPOINT;",
+                "ROLLBACK;",
+                "END TRANSACTION;"
+            ],
+            "answer": "COMMIT;"
+        },
+        {
+            "id": 10,
+            "question": "How can you change a column name in MySQL?",
+            "options": [
+                "ALTER TABLE table_name CHANGE old_name new_name data_type;",
+                "MODIFY COLUMN old_name new_name;",
+                "RENAME COLUMN old_name TO new_name;",
+                "SET COLUMN old_name TO new_name;"
+            ],
+            "answer": "ALTER TABLE table_name CHANGE old_name new_name data_type;"
+        },
+        {
+            "id": 11,
+            "question": "What is the maximum number of columns allowed in a MySQL table?",
+            "options": [
+                "4096",
+                "1024",
+                "512",
+                "1536"
+            ],
+            "answer": "4096"
+        },
+        {
+            "id": 12,
+            "question": "Which MySQL function returns the current database name?",
+            "options": [
+                "DATABASE()",
+                "CURRENT_DATABASE()",
+                "GET_DATABASE()",
+                "SHOW DATABASE"
+            ],
+            "answer": "DATABASE()"
+        },
+        {
+            "id": 13,
+            "question": "Which statement is used to view the structure of a table in MySQL?",
+            "options": [
+                "DESCRIBE table_name;",
+                "SHOW TABLE table_name;",
+                "LIST COLUMNS;",
+                "STRUCTURE table_name;"
+            ],
+            "answer": "DESCRIBE table_name;"
+        },
+        {
+            "id": 14,
+            "question": "Which command lists all the tables in a MySQL database?",
+            "options": [
+                "SHOW TABLES;",
+                "SELECT TABLES;",
+                "LIST TABLES;",
+                "TABLE SHOW;"
+            ],
+            "answer": "SHOW TABLES;"
+        },
+        {
+            "id": 15,
+            "question": "What does the MySQL command `FLUSH PRIVILEGES;` do?",
+            "options": [
+                "Reloads user privileges from the grant tables",
+                "Clears the query cache",
+                "Restarts MySQL server",
+                "Deletes all users"
+            ],
+            "answer": "Reloads user privileges from the grant tables"
+        },
+        {
+            "id": 16,
+            "question": "Which index type is best for full-text search in MySQL?",
+            "options": [
+                "FULLTEXT",
+                "BTREE",
+                "HASH",
+                "SPATIAL"
+            ],
+            "answer": "FULLTEXT"
+        },
+        {
+            "id": 17,
+            "question": "Which command is used to switch to a different database in MySQL?",
+            "options": [
+                "USE database_name;",
+                "SWITCH TO database_name;",
+                "CHANGE DATABASE;",
+                "SET DATABASE = name;"
+            ],
+            "answer": "USE database_name;"
+        },
+        {
+            "id": 18,
+            "question": "Which MySQL data type allows you to store JSON data?",
+            "options": [
+                "JSON",
+                "TEXT",
+                "VARCHAR",
+                "CLOB"
+            ],
+            "answer": "JSON"
+        },
+        {
+            "id": 19,
+            "question": "What will `SELECT 1 + '1';` return in MySQL?",
+            "options": [
+                "2",
+                "11",
+                "Error",
+                "NULL"
+            ],
+            "answer": "2"
+        },
+        {
+            "id": 20,
+            "question": "Which MySQL function can you use to extract the year from a date?",
+            "options": [
+                "YEAR()",
+                "EXTRACT(YEAR FROM ...)",
+                "DATE_FORMAT(..., '%Y')",
+                "All of the above"
+            ],
+            "answer": "All of the above"
+        },
+        {
+            "id": 21,
+            "question": "Which statement will create a new user in MySQL?",
+            "options": [
+                "CREATE USER 'user'@'host' IDENTIFIED BY 'password';",
+                "ADD USER 'user';",
+                "NEW USER 'user';",
+                "INSERT INTO USERS ...;"
+            ],
+            "answer": "CREATE USER 'user'@'host' IDENTIFIED BY 'password';"
+        },
+        {
+            "id": 22,
+            "question": "Which MySQL user privilege allows modifying data in a table?",
+            "options": [
+                "UPDATE",
+                "SELECT",
+                "EXECUTE",
+                "SHOW"
+            ],
+            "answer": "UPDATE"
+        },
+        {
+            "id": 23,
+            "question": "How does MySQL handle case sensitivity in table names on Linux?",
+            "options": [
+                "Case-sensitive",
+                "Case-insensitive",
+                "Depends on MySQL version",
+                "Always uppercase"
+            ],
+            "answer": "Case-sensitive"
+        },
+        {
+            "id": 24,
+            "question": "What is the default port used by MySQL server?",
+            "options": [
+                "3306",
+                "5432",
+                "1521",
+                "1433"
+            ],
+            "answer": "3306"
+        },
+        {
+            "id": 25,
+            "question": "Which log file records all SQL statements that update data in MySQL?",
+            "options": [
+                "Binary log",
+                "Slow log",
+                "General log",
+                "Error log"
+            ],
+            "answer": "Binary log"
+        },
+        {
+            "id": 26,
+            "question": "Which of the following can improve MySQL query performance?",
+            "options": [
+                "Indexing",
+                "Partitioning",
+                "Query caching",
+                "All of the above"
+            ],
+            "answer": "All of the above"
+        },
+        {
+            "id": 27,
+            "question": "Which MySQL storage engine supports transactions?",
+            "options": [
+                "InnoDB",
+                "MyISAM",
+                "ARCHIVE",
+                "CSV"
+            ],
+            "answer": "InnoDB"
+        },
+        {
+            "id": 28,
+            "question": "Which clause is used in MySQL to prevent duplicate rows during an insert operation?",
+            "options": [
+                "INSERT IGNORE",
+                "INSERT UNIQUE",
+                "INSERT DISTINCT",
+                "INSERT ONLY"
+            ],
+            "answer": "INSERT IGNORE"
+        },
+        {
+            "id": 29,
+            "question": "What does `SHOW PROCESSLIST;` display?",
+            "options": [
+                "Current running queries",
+                "Error logs",
+                "Database schemas",
+                "All users"
+            ],
+            "answer": "Current running queries"
+        },
+        {
+            "id": 30,
+            "question": "Which MySQL command displays the currently selected database?",
+            "options": [
+                "SELECT DATABASE();",
+                "SHOW DATABASE;",
+                "CURRENT_DB();",
+                "GET DATABASE;"
+            ],
+            "answer": "SELECT DATABASE();"
+        }
+    ]
+}

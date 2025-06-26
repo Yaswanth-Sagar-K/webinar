@@ -1,0 +1,338 @@
+{
+  "testName": "Django",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": ["Django"],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which file tells Django that a directory is a Python package?",
+      "options": [
+        "__init__.py",  
+        "settings.py",
+        "apps.py",
+        "urls.py"
+      ],
+      "answer": "__init__.py"
+    },
+    {
+      "id": 2,
+      "question": "Which command is used to apply migrations in Django?",
+      "options": [
+        "python manage.py applymigrations",
+        "python manage.py runmigrations",
+        "python manage.py migrate",
+        "python manage.py makemigrations"
+      ],
+      "answer": "python manage.py migrate"
+    },
+    {
+      "id": 3,
+      "question": "What is the default primary key field created by Django in models?",
+      "options": [
+        "AutoKeyField",
+        "AutoField",
+        "PrimaryKeyField",
+        "IntegerKey"
+      ],
+      "answer": "AutoField"
+    },
+    {
+      "id": 4,
+      "question": "In Django, what does the `null=True` argument do in a model field?",
+      "options": [
+        "Allows NULL in forms",
+        "Allows NULL in the database column",
+        "Ignores the field",
+        "Makes the field primary key"
+      ],
+      "answer": "Allows NULL in the database column"
+    },
+    {
+      "id": 5,
+      "question": "Which file in a Django project defines the project-level settings?",
+      "options": [
+        "apps.py",
+        "urls.py",
+        "wsgi.py",
+        "settings.py"
+      ],
+      "answer": "settings.py"
+    },
+    {
+      "id": 6,
+      "question": "Which function is used to return a JSON response in Django?",
+      "options": [
+        "HttpResponse",
+        "JsonResponse",
+        "render",
+        "redirect"
+      ],
+      "answer": "JsonResponse"
+    },
+    {
+      "id": 7,
+      "question": "Which command is used to create a new Django app?",
+      "options": [
+        "django-admin startapp appname",
+        "python manage.py startapp appname",
+        "django-admin createapp appname",
+        "python manage.py createapp appname"
+      ],
+      "answer": "python manage.py startapp appname"
+    },
+    {
+      "id": 8,
+      "question": "Which Django feature prevents Cross-Site Request Forgery?",
+      "options": [
+        "AuthenticationMiddleware",
+        "SessionMiddleware",
+        "csrf_token",
+        "messages"
+      ],
+      "answer": "csrf_token"
+    },
+    {
+      "id": 9,
+      "question": "Which of these can be used to paginate results in Django?",
+      "options": [
+        "Paginator",
+        "PaginationMixin",
+        "QueryPager",
+        "PageManager"
+      ],
+      "answer": "Paginator"
+    },
+    {
+      "id": 10,
+      "question": "Where do you define custom template filters in Django?",
+      "options": [
+        "models.py",
+        "views.py",
+        "templatetags module",
+        "admin.py"
+      ],
+      "answer": "templatetags module"
+    },
+    {
+      "id": 11,
+      "question": "Which method is used to define custom permissions on a Django model?",
+      "options": [
+        "def permissions():",
+        "Meta.permissions",
+        "custom_permissions",
+        "model_permissions"
+      ],
+      "answer": "Meta.permissions"
+    },
+    {
+      "id": 12,
+      "question": "What is the role of `AUTH_USER_MODEL` in Django settings?",
+      "options": [
+        "To disable user authentication",
+        "To define a custom user model",
+        "To enable permissions",
+        "To allow login via API"
+      ],
+      "answer": "To define a custom user model"
+    },
+    {
+      "id": 13,
+      "question": "How can you access URL parameters in a Django view?",
+      "options": [
+        "Using request.body",
+        "Using request.params",
+        "Using kwargs or args",
+        "Using request.POST"
+      ],
+      "answer": "Using kwargs or args"
+    },
+    {
+      "id": 14,
+      "question": "Which class is used to define a form from a Django model?",
+      "options": [
+        "FormModel",
+        "ModelForm",
+        "BaseForm",
+        "AutoForm"
+      ],
+      "answer": "ModelForm"
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is a valid way to register a model in the admin?",
+      "options": [
+        "admin.add_model()",
+        "admin.site.register(ModelName)",
+        "site.admin.register(ModelName)",
+        "admin.register(ModelName)"
+      ],
+      "answer": "admin.site.register(ModelName)"
+    },
+    {
+      "id": 16,
+      "question": "How can you enable timezone support in Django?",
+      "options": [
+        "USE_TZ = True",
+        "TIME_ZONE_ENABLED = True",
+        "TIMEZONE = True",
+        "DATETIME_USE_TZ = True"
+      ],
+      "answer": "USE_TZ = True"
+    },
+    {
+      "id": 17,
+      "question": "Which method is called when a form is submitted via POST in a Django CBV?",
+      "options": [
+        "get()",
+        "post()",
+        "form_valid()",
+        "dispatch()"
+      ],
+      "answer": "post()"
+    },
+    {
+      "id": 18,
+      "question": "Which middleware must be enabled to use Django's authentication system?",
+      "options": [
+        "SessionMiddleware",
+        "AuthenticationMiddleware",
+        "MessageMiddleware",
+        "SecurityMiddleware"
+      ],
+      "answer": "AuthenticationMiddleware"
+    },
+    {
+      "id": 19,
+      "question": "What does `reverse_lazy()` do in Django?",
+      "options": [
+        "Reverses a URL immediately",
+        "Delays URL resolution until runtime",
+        "Reverses string order",
+        "Redirects to a lazy-loaded page"
+      ],
+      "answer": "Delays URL resolution until runtime"
+    },
+    {
+      "id": 20,
+      "question": "What does `get_object_or_404()` do?",
+      "options": [
+        "Raises a 500 error if object not found",
+        "Returns None if object not found",
+        "Redirects to homepage if object not found",
+        "Raises 404 if object not found"
+      ],
+      "answer": "Raises 404 if object not found"
+    },
+    {
+      "id": 21,
+      "question": "What command clears all compiled `.pyc` files in a Django project?",
+      "options": [
+        "python manage.py cleanpyc",
+        "python manage.py clearcache",
+        "find . -name \"*.pyc\" -delete",
+        "python manage.py flush"
+      ],
+      "answer": "find . -name \"*.pyc\" -delete"
+    },
+    {
+      "id": 22,
+      "question": "Which Django management command removes all data from the database?",
+      "options": [
+        "python manage.py deleteall",
+        "python manage.py flush",
+        "python manage.py migrate --reset",
+        "python manage.py clear"
+      ],
+      "answer": "python manage.py flush"
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is used to define URL patterns in Django 4+?",
+      "options": [
+        "re_path()",
+        "url()",
+        "path()",
+        "route()"
+      ],
+      "answer": "path()"
+    },
+    {
+      "id": 24,
+      "question": "Which of the following is not a valid `Meta` option in Django models?",
+      "options": [
+        "ordering",
+        "db_table",
+        "unique_together",
+        "context_object_name"
+      ],
+      "answer": "context_object_name"
+    },
+    {
+      "id": 25,
+      "question": "Which of the following signals is emitted when a model is saved?",
+      "options": [
+        "post_create",
+        "pre_save",
+        "model_saved",
+        "after_commit"
+      ],
+      "answer": "pre_save"
+    },
+    {
+      "id": 26,
+      "question": "In Django, what does the `blank` argument affect?",
+      "options": [
+        "Form validation only",
+        "Database storage only",
+        "Admin interface display",
+        "Both model and form validation"
+      ],
+      "answer": "Both model and form validation"
+    },
+    {
+      "id": 27,
+      "question": "Which exception is raised when `get()` returns no result?",
+      "options": [
+        "DoesNotExist",
+        "ObjectNotFound",
+        "EmptyResult",
+        "QuerysetEmpty"
+      ],
+      "answer": "DoesNotExist"
+    },
+    {
+      "id": 28,
+      "question": "How can you define a custom error page for 404 in Django?",
+      "options": [
+        "Define a view named `not_found`",
+        "Set handler404 in urls.py",
+        "Use `render_404()`",
+        "Override `Http404`"
+      ],
+      "answer": "Set handler404 in urls.py"
+    },
+    {
+      "id": 29,
+      "question": "What is the use of the `@receiver` decorator in Django?",
+      "options": [
+        "It validates form data",
+        "It registers a signal handler function",
+        "It defines a custom middleware",
+        "It handles AJAX requests"
+      ],
+      "answer": "It registers a signal handler function"
+    },
+    {
+      "id": 30,
+      "question": "What is the default template engine used by Django?",
+      "options": [
+        "Jinja2",
+        "Mako",
+        "Django Templates",
+        "JSTL"
+      ],
+      "answer": "Django Templates"
+    }
+  ]
+}

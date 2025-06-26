@@ -1,0 +1,340 @@
+{
+  "testName": "SQL",
+  "duration": "30 mins",
+  "numberOfQuestions": 30,
+  "topicsCovered": [
+    "SQL (ANSI Standard)"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which SQL clause is used to filter records after aggregation?",
+      "options": [
+        "WHERE",
+        "HAVING",
+        "GROUP BY",
+        "ORDER BY"
+      ],
+      "answer": "HAVING"
+    },
+    {
+      "id": 2,
+      "question": "Which SQL function returns the total number of non-null values in a column?",
+      "options": [
+        "COUNT(column)",
+        "SUM()",
+        "COUNT(*)",
+        "AVG()"
+      ],
+      "answer": "COUNT(column)"
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of the `GROUP BY` clause in SQL?",
+      "options": [
+        "To group rows with identical values",
+        "To order the result",
+        "To remove duplicates",
+        "To filter rows"
+      ],
+      "answer": "To group rows with identical values"
+    },
+    {
+      "id": 4,
+      "question": "What type of result is returned by SQL aggregate functions like SUM() and COUNT()?",
+      "options": [
+        "Single value",
+        "Multiple rows",
+        "Boolean",
+        "String"
+      ],
+      "answer": "Single value"
+    },
+    {
+      "id": 5,
+      "question": "Which keyword is used to retrieve only unique values in a SELECT query?",
+      "options": [
+        "UNIQUE",
+        "ONLY",
+        "DISTINCT",
+        "SINGLE"
+      ],
+      "answer": "DISTINCT"
+    },
+    {
+      "id": 6,
+      "question": "What does the SQL `BETWEEN` operator do?",
+      "options": [
+        "Filters rows within a range",
+        "Compares two columns",
+        "Joins two tables",
+        "Assigns aliases"
+      ],
+      "answer": "Filters rows within a range"
+    },
+    {
+      "id": 7,
+      "question": "What does the `IS NULL` condition check for?",
+      "options": [
+        "Empty strings",
+        "Blank fields",
+        "Null values",
+        "Zero values"
+      ],
+      "answer": "Null values"
+    },
+    {
+      "id": 8,
+      "question": "Which clause is used to sort the result-set in SQL?",
+      "options": [
+        "SORT BY",
+        "ORDER BY",
+        "GROUP BY",
+        "ARRANGE BY"
+      ],
+      "answer": "ORDER BY"
+    },
+    {
+      "id": 9,
+      "question": "Which of these operators is used to check a condition across multiple values?",
+      "options": [
+        "IN",
+        "LIKE",
+        "BETWEEN",
+        "JOIN"
+      ],
+      "answer": "IN"
+    },
+    {
+      "id": 10,
+      "question": "What does the SQL keyword `LIKE` do?",
+      "options": [
+        "Matches a pattern",
+        "Joins tables",
+        "Filters nulls",
+        "Checks data type"
+      ],
+      "answer": "Matches a pattern"
+    },
+    {
+      "id": 11,
+      "question": "Which clause is used in SQL to combine rows that have the same values in specified columns?",
+      "options": [
+        "GROUP BY",
+        "ORDER BY",
+        "UNION",
+        "SELECT DISTINCT"
+      ],
+      "answer": "GROUP BY"
+    },
+    {
+      "id": 12,
+      "question": "Which SQL operator is used to compare values with a wildcard?",
+      "options": [
+        "LIKE",
+        "IN",
+        "ANY",
+        "EXISTS"
+      ],
+      "answer": "LIKE"
+    },
+    {
+      "id": 13,
+      "question": "Which SQL function returns the average value of a numeric column?",
+      "options": [
+        "SUM()",
+        "COUNT()",
+        "AVG()",
+        "MEDIAN()"
+      ],
+      "answer": "AVG()"
+    },
+    {
+      "id": 14,
+      "question": "Which SQL keyword is used to remove all records from a table, but not the table itself?",
+      "options": [
+        "TRUNCATE",
+        "DELETE",
+        "DROP",
+        "REMOVE"
+      ],
+      "answer": "TRUNCATE"
+    },
+    {
+      "id": 15,
+      "question": "What keyword is used to combine the results of two SELECT statements and remove duplicates?",
+      "options": [
+        "UNION",
+        "JOIN",
+        "MERGE",
+        "INTERSECT"
+      ],
+      "answer": "UNION"
+    },
+    {
+      "id": 16,
+      "question": "Which clause must be used with GROUP BY when filtering aggregate results?",
+      "options": [
+        "HAVING",
+        "WHERE",
+        "ORDER BY",
+        "LIMIT"
+      ],
+      "answer": "HAVING"
+    },
+    {
+      "id": 17,
+      "question": "What does the `ALL` keyword do in a SQL subquery comparison?",
+      "options": [
+        "Compares a value to all values returned by the subquery",
+        "Returns all results from the table",
+        "Filters duplicates",
+        "Creates an alias"
+      ],
+      "answer": "Compares a value to all values returned by the subquery"
+    },
+    {
+      "id": 18,
+      "question": "What is a correlated subquery?",
+      "options": [
+        "A subquery that depends on the outer query",
+        "A nested join query",
+        "A query with a CTE",
+        "A query that uses DISTINCT"
+      ],
+      "answer": "A subquery that depends on the outer query"
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of the `CASE` expression in SQL?",
+      "options": [
+        "Conditional logic",
+        "Looping",
+        "Schema creation",
+        "Foreign key definition"
+      ],
+      "answer": "Conditional logic"
+    },
+    {
+      "id": 20,
+      "question": "Which SQL keyword is used to create a new table?",
+      "options": [
+        "CREATE",
+        "MAKE",
+        "INIT",
+        "NEW"
+      ],
+      "answer": "CREATE"
+    },
+    {
+      "id": 21,
+      "question": "Which keyword is used to rename a table or column in the result set?",
+      "options": [
+        "AS",
+        "WITH",
+        "RENAME",
+        "BY"
+      ],
+      "answer": "AS"
+    },
+    {
+      "id": 22,
+      "question": "What does the `EXISTS` keyword check for?",
+      "options": [
+        "If a subquery returns any row",
+        "If a column is not null",
+        "If two values match",
+        "If a row is unique"
+      ],
+      "answer": "If a subquery returns any row"
+    },
+    {
+      "id": 23,
+      "question": "What type of join returns rows from both tables when there is a match?",
+      "options": [
+        "INNER JOIN",
+        "LEFT JOIN",
+        "FULL JOIN",
+        "RIGHT JOIN"
+      ],
+      "answer": "FULL JOIN"
+    },
+    {
+      "id": 24,
+      "question": "Which clause is used to filter rows before grouping?",
+      "options": [
+        "WHERE",
+        "HAVING",
+        "GROUP BY",
+        "ORDER BY"
+      ],
+      "answer": "WHERE"
+    },
+    {
+      "id": 25,
+      "question": "Which aggregate function returns the number of rows in a table?",
+      "options": [
+        "COUNT()",
+        "SUM()",
+        "TOTAL()",
+        "NUM()"
+      ],
+      "answer": "COUNT()"
+    },
+    {
+      "id": 26,
+      "question": "Which of these is not a valid SQL data type?",
+      "options": [
+        "INTEGER",
+        "DATE",
+        "TEXT",
+        "WORD"
+      ],
+      "answer": "WORD"
+    },
+    {
+      "id": 27,
+      "question": "Which keyword removes duplicate rows in a result set?",
+      "options": [
+        "DISTINCT",
+        "UNIQUE",
+        "FILTER",
+        "SORT"
+      ],
+      "answer": "DISTINCT"
+    },
+    {
+      "id": 28,
+      "question": "Which SQL clause is used to limit the number of rows returned?",
+      "options": [
+        "LIMIT",
+        "TOP",
+        "ROWNUM",
+        "RESTRICT"
+      ],
+      "answer": "LIMIT"
+    },
+    {
+      "id": 29,
+      "question": "What does the `UNION ALL` operator do?",
+      "options": [
+        "Combines results and keeps duplicates",
+        "Removes duplicates from a table",
+        "Joins tables",
+        "Returns all values excluding NULLs"
+      ],
+      "answer": "Combines results and keeps duplicates"
+    },
+    {
+      "id": 30,
+      "question": "Which of these clauses is evaluated first in an SQL query?",
+      "options": [
+        "FROM",
+        "SELECT",
+        "WHERE",
+        "ORDER BY"
+      ],
+      "answer": "FROM"
+    }
+  ]
+}
